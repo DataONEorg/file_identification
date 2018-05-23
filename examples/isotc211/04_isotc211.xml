@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://files.axds.co/isobio/gmi/gmi.xsd http://www.isotc211.org/2005/gmd http://files.axds.co/isobio/gmd/gmd.xsd">
+  <gmd:fileIdentifier gco:nilReason="missing"/>
+  <gmd:language>
+    <gco:CharacterString>eng;USA</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="UTF-8">UTF-8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>Axiom Data Science</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Metadata Specialist</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>1016 W 6th Ave, Ste 105</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Anchorage</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>AK</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>metadata@axiomdatascience.com</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp gco:nilReason="unknown">
+    <gco:Date xsi:nil="true"/>
+  </gmd:dateStamp>
+  <gmd:dataSetURI gco:nilReason="unknown"/>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Prince William Sound Marine Bird Surveys, July 2012 to 2016, Gulf Watch Alaska Pelagic Component</gco:CharacterString>
+          </gmd:title>
+          <gmd:date gco:nilReason="missing"/>
+          <gmd:identifier>
+            <gmd:RS_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>International DOI Foundation (IDF)</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date gco:nilReason="missing"/>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gco:CharacterString>https://doi.org/10.24431/rw1k113</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:identifier>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName gco:nilReason="template"/>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.gulfwatchalaska.org/</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:name>
+                        <gco:CharacterString>Gulf Watch Alaska</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Gulf Watch Alaska is the long-term ecosystem monitoring program of the Exxon Valdez Oil Spill Trustee Council for the marine ecosystem affected by the 1989 oil spill.</gco:CharacterString>
+                      </gmd:description>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role gco:nilReason="template"/>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName gco:nilReason="template"/>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.evostc.state.ak.us/index.cfm?FA=projects.home</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:name>
+                        <gco:CharacterString>Exxon Valdez Oil Spill Trustee Council</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>The webpage for the Exxon Valdez Oil Spill Trustee Council, which was formed to oversee restoration of the injured ecosystem through the use of the $900 million civil settlement, a part which funds Research, Monitoring, and Restoration programs in Prince William Sound and the Gulf of Alaska.</gco:CharacterString>
+                      </gmd:description>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role gco:nilReason="template"/>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Robert Kaler</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>(907) 786-3984</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>1011 East Tudor Road, MS 201</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Anchorage</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>99503</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>robert_kaler@fws.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>David Irons</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>USFWS</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Biologist</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>(907) 786-3376</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>1011 East Tudor Road</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Anchorage</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>AK</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>99503</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>david_irons@fws.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="tableDigital">tableDigital</gmd:CI_PresentationFormCode>
+          </gmd:presentationForm>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+          </gmd:presentationForm>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>These data are part of the Gulf Watch Alaska (GWA), Pelagic Component of the Exxon Valdez Oil Spill Trustee Council, project number 12120114-K, 14120114-K, and 16120114-K. Gulf Watch Alaska is the long-term ecosystem monitoring program of the Exxon Valdez Oil Spill Trustee Council for the marine ecosystem affected by the 1989 oil spill. In this study, small boat surveys were conducted to estimate marine bird and sea otter populations in Prince William Sound (PWS), Alaska during July (“summer”) 2012-2016, using methods developed in 1989-91 (Klosiewski and Laing 1994). These surveys were a continuation of surveys conducted to examine trends of marine birds in the oiled and unoiled areas of PWS during March ("winter") and July ("summer"), 1989 to 2010. Surveys were conducted in three strata every other year during the month of July. Three fiberglass boats traveling at low speeds (6-12 mph) were used to survey the area over a three-week period. Two observers and a boat operator recorded all marine birds and marine mammals within the transect “window”(100 m either side of the boat). The dataset is several comma separated files exported from the marine bird and mammal observation software dLOG (Ford 1999). The data contained in the files named Survey_Sighting are the observations of species, numbers, and behavior recorded by observers during surveys. The data contained in the files named Survey_Header are the weather and environmental observations that were made during surveys.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>The Gulf Watch Alaska program aims to provide information about the lingering oil and the recovery of species and resources injured by the spill, as well as other factors that may be affecting recovery, such as changing climate, oceanographic and ecosystem conditions. In particular for this dataset, the U. S. Fish and Wildlife Service, Migratory Bird Management conducted boat-based surveys in Prince William Sound prior to the Exxon Valdez oil spill in 1972-73 (J. Haddock et al., USFWS, unpubl. data) and 1984-85 (Irons et al. 1988, Prince William Sound Waterbird Distribution in Relation to Habitat Type; Irons et al. 1988, Prince William Sound Sea Otter Distribution in Relation to Population Growth and Habitat Type). After the spill, Natural Resource Damage Assessment Bird Study Number 2 (D. Burn 1994, Boat-based Population Surveys of Sea Otters (Enhydra lutris) in Prince William Sound, in Response to the Exxon Valdez Oil Spill; S. Klosiewski and K. Laing 1994, Marine Bird Populations of Prince William Sound, Alaska, Before and After the Exxon Valdez Oil Spill) documented damage from the spill on the marine bird and sea otter populations of Prince William Sound. Data from these surveys indicated that populations of sea otters (Burn 1994) and several marine bird species (Klosiewski and Laing 1994) had declined in the spill area. Thus, numerous restoration projects were initiated from 1989 to 2010 to continue monitoring marine bird and sea otter population abundance to assess recovery of injured species. Refer to Related Resources for project citations. Beginning with the Gulf Watch Program in 2012, marine bird monitoring during July in PWS continued, and maintained protocols of the historic dataset. In addition to these continued monitoring surveys, researchers intend to use the long-term data set to examine temporal changes in the marine bird community linked to habitat and climate change. These surveys are among the longest time series available for PWS and offer the most sensitive vehicle to track biological response to environmental change over time.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Robert Kaler</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>USFWS Migratory Bird Management</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Wildlife Biologist</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>(907) 786-3984</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>1011 East Tudor Road, MS 201</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Anchorage</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Alaska</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>99503</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>robert_kaler@fws.gov</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>Exxon Valdez Oil Spill Trustee Council</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>907 278 8012</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>4210 University Drive</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Anchorage</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>AK</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>99508</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>dfg.evos.restoration@alaska.gov</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="funder">funder</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Kathy Kuletz</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Migratory Bird Management, U.S. Fish and Wildlife Service</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>(907) 786-3453</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>1011 E. Tudor Rd</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Anchorage</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>AK</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>99503</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>US</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>kathy_kuletz@fws.gov</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principleInvestigator">principleInvestigator</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+          <gmd:contact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Robert Kaler</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>USFWS Migratory Bird Management</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Wildlife Biologist</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>(907) 786-3984</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>1011 East Tudor Road, MS 201</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Anchorage</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>99503</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>robert_kaler@fws.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:contact>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://workspace.nprb.org/files/1920370/PWS_A.tif</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>A general map of the area surveyed within Prince William Sound.</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://workspace.nprb.org/files/1913265/PWS_StudyArea.JPG</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>A map of the survey stratum and locations of individual shoreline, pelagic, and coastal transects within Prince Iwlliam Sound.</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Alcidae</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Auks, Guillemots, Murrelets, Puffins, guillemots, Murres</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Anatidae</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Ducks, Geese, Swans, canards, cygnes, oies</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Brachyramphus brevirostris</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Kittlitz's Murrelet, Guillemot de Kittlitz</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cepphus columba</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Pigeon Guillemot, Arao pichón, Guillemot colombin</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Histrionicus</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Harlequin Ducks</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Laridae</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Gulls, Terns, becs-en-ciseaux, goélands, labbes, mouettes, Skimmers</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Procellariidae</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Fulmars, Petrels, Shearwaters, fulmars, pétrels</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>ITIS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="template"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Exxon Valdez</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>oil spill</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Exxon Valdez Oil Spill Trustee Council</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EVOSTC</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EVOS Gulf Watch</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Prince William Sound</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>population trend</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>marine birds</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>seabirds</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword gco:nilReason="missing"/>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GCMD Science Keywords version 8.4.1</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>summer</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal">temporal</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; PACIFIC OCEAN &gt; NORTH PACIFIC OCEAN &gt; GULF OF ALASKA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; ALASKA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GCMD Locations Keywords version 8.4.1</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>This material is based upon work funded by multiple entities, including the Exxon Valdez Oil Spill Trustee Council. Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of funding entities. Standard scientific norms for attribution, credit, and potential co-authorship should be followed when using these data including to the Owners, Exxon Valdez Oil Spill Trustee Council and other sources of funding. Please let the Owner know when these data are used.</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>EVOSTC project number 93045: B. Agler et al. 1994, Marine Bird and Sea Otter Population Abundance of Prince William Sound, Alaska: Trends Following the T/V Exxon Valdez Oil Spill, 1989-1993</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="missing"/>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName gco:nilReason="template"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.evostc.state.ak.us/index.cfm?FA=projects.search</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="template"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier gco:nilReason="missing"/>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="study">study</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>EVOSTC project number 94159: B. Agler et al. 1995, Winter Marine Bird and Sea Otter Abundance of Prince William Sound, Alaska: Trends Following the T/V Exxon Valdez Oil Spill From 1990-1994</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="missing"/>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName gco:nilReason="template"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.evostc.state.ak.us/index.cfm?FA=projects.search</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="template"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier gco:nilReason="missing"/>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="study">study</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>EVOSTC project number 96159: B. Agler and S. Kendall 1997, Marine Bird and Mammal Population Abundance of Prince William Sound, Alaska: Trends Following the T/V Exxon Valdez Oil Spill, 1989-1996</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="missing"/>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName gco:nilReason="template"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.evostc.state.ak.us/index.cfm?FA=projects.search</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="template"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier gco:nilReason="missing"/>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="study">study</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>EVOSTC project number 98159: B. Lance et al. 1999, Marine Bird Population Abundance of Prince William Sound, Alaska: Trends Following the Exxon Valdez Oil Spill</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="missing"/>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName gco:nilReason="template"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.evostc.state.ak.us/index.cfm?FA=projects.search</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="template"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier gco:nilReason="missing"/>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="study">study</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>EVOSTC project number 00159: S. Stephensen et al. 2001, Marine Bird Population Abundance of Prince William Sound, Alaska: Trends Following the Exxon Valdez Oil Spill</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="missing"/>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName gco:nilReason="template"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.evostc.state.ak.us/index.cfm?FA=projects.search</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="template"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier gco:nilReason="missing"/>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="study">study</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>EVOSTC project number 040159: K. Sullivan et al. 2005, Marine bird and sea otter population abundance of Prince William Sound, Alaska: trends following the T/V Exxon Valdez oil spill, 1989-2004</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="missing"/>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName gco:nilReason="template"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.evostc.state.ak.us/index.cfm?FA=projects.search</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="template"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier gco:nilReason="missing"/>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="study">study</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>EVOSTC project number 050751: A. McKnight et al. 2006, Marine bird and sea otter population abundance of Prince William Sound, Alaska: trends following the T/V Exxon Valdez oil spill, 1989-2005</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="missing"/>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName gco:nilReason="template"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.evostc.state.ak.us/index.cfm?FA=projects.search</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="template"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier gco:nilReason="missing"/>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="study">study</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>EVOSTC project number 070751: D. Irons. Prince William Sound Marine Bird Surveys, Synthesis and Restoration, 2007-2011</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="missing"/>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName gco:nilReason="template"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.evostc.state.ak.us/index.cfm?FA=projects.search</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="template"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier gco:nilReason="missing"/>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="study">study</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Irons. 2016. Marine bird and sea otter population abundance of Prince William Sound, Alaska: trends following the T/V Exxon Valdez oil spill, 1989-2007. Gulf of Alaska Data Portal. df35r.7.27.</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>20160101</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName gco:nilReason="template"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>https://search.dataone.org/#view/df35r.7.27</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="template"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>Robert Kaler</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:organisationName>
+                    <gco:CharacterString>USFWS Migratory Bird Management</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:positionName>
+                    <gco:CharacterString>Wildlife Biologist</gco:CharacterString>
+                  </gmd:positionName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:phone>
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>(907) 786-3984</gco:CharacterString>
+                          </gmd:voice>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>1011 East Tudor Road, MS 201</gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>Anchorage</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>Alaska</gco:CharacterString>
+                          </gmd:administrativeArea>
+                          <gmd:postalCode>
+                            <gco:CharacterString>99503</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>robert_kaler@fws.gov</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>DataONE</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date gco:nilReason="missing"/>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gco:CharacterString>df35r.7.27</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="project">project</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Gulf Watch Alaska: Long-term Monitoring of Marine Conditions and Injured Resources in the Gulf of Alaska Exxon Valdez Oil Spill Affected Area</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>20170101</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName gco:nilReason="template"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.gulfwatchalaska.org/</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="template"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>Kris Holderied</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NOAA Kasitsna Bay Laboratory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:positionName>
+                    <gco:CharacterString>Director</gco:CharacterString>
+                  </gmd:positionName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:phone>
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>(907) 399-4412</gco:CharacterString>
+                          </gmd:voice>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>95 Sterling Highway</gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>Homer</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>AK</gco:CharacterString>
+                          </gmd:administrativeArea>
+                          <gmd:postalCode>
+                            <gco:CharacterString>99603</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:country>
+                            <gco:CharacterString>USA</gco:CharacterString>
+                          </gmd:country>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>kris.holderied@noaa.gov</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>Molly McCammon</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Alaska Ocean Observing System</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:positionName>
+                    <gco:CharacterString>Executive Director</gco:CharacterString>
+                  </gmd:positionName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:phone>
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>907-644-6703</gco:CharacterString>
+                          </gmd:voice>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>1007 West 3rd Avenue</gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>Anchorage</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>AK</gco:CharacterString>
+                          </gmd:administrativeArea>
+                          <gmd:postalCode>
+                            <gco:CharacterString>99501</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:country>
+                            <gco:CharacterString>USA</gco:CharacterString>
+                          </gmd:country>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>mccammon@aoos.org</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>Katrina Hoffman</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Prince William Sound Science Center</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:positionName>
+                    <gco:CharacterString>President</gco:CharacterString>
+                  </gmd:positionName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:phone>
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>(907) 424-5800 x225</gco:CharacterString>
+                          </gmd:voice>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>PO Box 705</gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>Cordova</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>AK</gco:CharacterString>
+                          </gmd:administrativeArea>
+                          <gmd:postalCode>
+                            <gco:CharacterString>99574</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:country>
+                            <gco:CharacterString>US</gco:CharacterString>
+                          </gmd:country>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>khoffman@pwssc.org</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>Exxon Valdez Oil Spill Trustee Council</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Exxon Valdez Oil Spill Trustee Council</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:phone>
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>907 278 8012</gco:CharacterString>
+                          </gmd:voice>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>4210 University Drive</gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>Anchorage</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>AK</gco:CharacterString>
+                          </gmd:administrativeArea>
+                          <gmd:postalCode>
+                            <gco:CharacterString>99508</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:country>
+                            <gco:CharacterString>USA</gco:CharacterString>
+                          </gmd:country>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>dfg.evos.restoration@alaska.gov</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="funder">funder</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:otherCitationDetails>
+                <gco:CharacterString>The Exxon Valdez Oil Spill (EVOS) Trustee Council (EVOSTC) initiated funding for the Gulf Watch Alaska (GWA) long-term monitoring (LTM) program in 2012. The GWA program is administrated by the EVOSTC under five-year contracts with the current anticipated duration to be twenty-years in length, concluding in 2032. The program is a consortium of 15 projects, ten of which started before 2012 and several with data sets extending prior to the EVOS. The overarching goal of the GWA program is to provide sound scientific data and products that inform management agencies and the public of changes in the environment and the impacts of these changes on injured resources such as marine birds and mammals. The organization of GWA includes three ecosystem monitoring components: Environmental Drivers, Pelagic, and Nearshore. A fourth component, Lingering Oil, was later incorporated in 2013. This monitoring has produced long-term datasets for oceanographic conditions, plankton, intertidal invertebrates and algae, fish, marine mammals, and birds in the Gulf of Alaska, including Prince William Sound, Resurrection Bay, the Gulf of Alaska Shelf, lower Cook Inlet, and Kachemak Bay.</gco:CharacterString>
+              </gmd:otherCitationDetails>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>https://doi.org/10.24431/axds/83479591-af7c-4f64-974f-febb843035b8</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="campaign">campaign</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:language>
+        <gco:CharacterString>eng;USA</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:environmentDescription>
+        <gco:CharacterString>The dataset was constructed in dLOG3 software for biological surveys (G. Ford 2009; dLOG3 Software for Biological Surveys: Data Entry and Real-time Mapping Program for Windows) and exported in csv format for data archive.</gco:CharacterString>
+      </gmd:environmentDescription>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>Prince William Sound, Alaska</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-148.516027</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-145.945612</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>59.975405</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>61.261070</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <gml:Polygon gml:id="gmlid_1">
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:coordinates decimal="-148.392333984375,59.94400716933027 -148.33740234375,60.166108948753305 -148.2769775390625,59.968758992382334 -148.2440185546875,59.92199002450385 -147.9583740234375,59.77022610242765 -147.15637207031247,60.33238607249709 -146.9970703125,60.343260013555195 -146.8707275390625,60.27251459483244 -146.7059326171875,60.25071594150479 -146.76635742187497,60.34869562531862 -146.6070556640625,60.4951151199491 -146.35986328124997,60.508639153551826 -146.0247802734375,60.58157148491742 -146.2884521484375,60.62201845271505 -146.22802734375,60.69469537287745 -146.3543701171875,60.70007232651617 -146.5081787109375,60.66510605284197 -146.66748046875,60.673178565817715 -146.744384765625,60.73500061556085 -146.6290283203125,60.75647607960709 -146.4093017578125,60.78330020628684 -146.2554931640625,60.823494332539646 -146.2774658203125,60.84491057364912 -146.6180419921875,60.810101896806756 -146.678466796875,60.83955785801797 -146.7388916015625,60.89037248051405 -146.76635742187497,60.941106295036136 -146.67297363281247,60.994423108456154 -146.634521484375,61.03701223240187 -146.8487548828125,60.973107109199404 -147.01904296875,60.930432202923335 -147.0355224609375,61.00507574751817 -147.0355224609375,61.04765058603108 -147.1234130859375,60.95444387929967 -147.3211669921875,60.88502737978396 -147.4310302734375,60.86363802100094 -147.54638671875,60.88235449361934 -147.5408935546875,61.03701223240187 -147.5738525390625,61.03701223240187 -147.5958251953125,60.8663124746226 -147.6507568359375,60.83955785801797 -147.7056884765625,60.88502737978396 -147.744140625,60.92776312080081 -147.7716064453125,60.88235449361934 -147.72216796875,60.810101896806756 -147.81005859374997,60.80206374467983 -147.886962890625,60.83152710386032 -147.9473876953125,60.78598138475315 -148.095703125,60.777937176256515 -148.16162109375,60.81813803084084 -148.095703125,60.91708455554494 -148.018798828125,60.98376689595989 -147.9473876953125,61.05296842431332 -147.98583984375,61.05296842431332 -148.062744140625,60.994423108456154 -148.1121826171875,61.03169171684717 -148.1396484375,61.079544234557304 -148.370361328125,61.02104800773813 -148.238525390625,61.04765058603108 -148.1671142578125,61.00773834903187 -148.260498046875,60.903731315281156 -148.326416015625,60.81278083236677 -148.33740234375,60.78330020628684 -148.5186767578125,60.810101896806756 -148.64501953125,60.78598138475315 -148.60107421875,60.70544838111038 -148.46923828125,60.76989094827323 -148.3648681640625,60.75379243245368 -148.3648681640625,60.71888458495197 -148.4088134765625,60.64087636639107 -148.2550048828125,60.75915950226991 -148.11767578125,60.7430555986765 -148.0792236328125,60.66241476534369 -148.1561279296875,60.60584574664425 -148.3209228515625,60.53026587299222 -148.49670410156247,60.56267888575776 -148.7054443359375,60.47617199159627 -148.6395263671875,60.470757636963015 -148.4527587890625,60.535670296892135 -148.304443359375,60.4788788301667 -148.1671142578125,60.54377524118842 -148.1011962890625,60.59505943854485 -147.9693603515625,60.503230217219034 -147.930908203125,60.42198777960337 -148.02978515625,60.378575303227215 -148.1890869140625,60.28340847828243 -148.3428955078125,60.23435742267943 -148.1561279296875,60.25071594150479 -148.0078125,60.17157405145976 -147.8924560546875,60.10045677618282 -147.7825927734375,60.031929699115615 -148.0242919921875,59.91923685371464 -148.392333984375,59.94400716933027"/>
+                    </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Polygon>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="gmlid_2">
+                  <gml:description>July 2012 survey range</gml:description>
+                  <gml:beginPosition>2012-07-04T00:00:00-09:00</gml:beginPosition>
+                  <gml:endPosition>2012-07-28T00:00:00-09:00</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="gmlid_3">
+                  <gml:description>July 2016 survey range</gml:description>
+                  <gml:beginPosition>2016-07-05T00:00:00-09:00</gml:beginPosition>
+                  <gml:endPosition>2016-07-22T00:00:00-09:00</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="gmlid_4">
+                  <gml:description>July 2014 survey range</gml:description>
+                  <gml:beginPosition>2014-07-04T00:00:00-09:00</gml:beginPosition>
+                  <gml:endPosition>2014-07-26T00:00:00-09:00</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Carol Janzen</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Alaska Ocean Observing System</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>(907) 644-6703</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>1007 W 3rd Ave # 100</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Anchorage</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>AK</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>99501</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>janzen@aoos.org</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributorFormat>
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>Data available for download in .csv format the Alaska Ocean Observing System (AOOS) Gulf of Alaska data portal.</gco:CharacterString>
+              </gmd:name>
+              <gmd:version gco:nilReason="missing"/>
+            </gmd:MD_Format>
+          </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://portal.aoos.org/gulf-of-alaska.php#metadata/6aac5903-f3af-4eb4-b4d7-11006e6ea497/project</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:description>
+                    <gco:CharacterString>Alaska Ocean Observing System (AOOS) Gulf of Alaska data portal</gco:CharacterString>
+                  </gmd:description>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_QuantitativeAttributeAccuracy>
+          <gmd:evaluationMethodDescription>
+            <gco:CharacterString>Refer to Processing Steps.</gco:CharacterString>
+          </gmd:evaluationMethodDescription>
+          <gmd:result gco:nilReason="missing"/>
+        </gmd:DQ_QuantitativeAttributeAccuracy>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_ConceptualConsistency>
+          <gmd:evaluationMethodDescription>
+            <gco:CharacterString>Refer to Processing Steps.</gco:CharacterString>
+          </gmd:evaluationMethodDescription>
+          <gmd:result gco:nilReason="missing"/>
+        </gmd:DQ_ConceptualConsistency>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>The USFWS Prince William Sound Marine Bird Survey study incorporated three or four strata, depending on the year and season. For additional information, see S. Klosiewski and K. Laing 1994, Marine Bird Populations of Prince William Sound, Alaska, Before and After the Exxon Valdez Oil Spill. Transects surveyed: The shoreline stratum was defined as the waters within 200m of the shore and land within 100m of the shoreline. This stratum was divided into 742 transects, following the transect layout of surveys conducted by Irons et al. in 1984 and 1985. Irons et al. surveyed Western PWS in 1984 and Eastern PWS in 1985. PWS waters &gt; 200m from shore were divided into 5’x5’ latitude-longitude blocks. Small areas isolated by complex shorelines were merged with adjacent blocks. Blocks including more than 1 nautical mile of shoreline were assigned to the “coastal-pelagic” stratum (N=206), and the remaining blocks were assigned to the “pelagic” stratum (N=86). Transects were systematically placed within blocks along the second and fourth of the five included minutes of longitude. As some blocks were merged with small adjacent blocks, these blocks included 3 transects if appropriate, following the same systematic pattern. Some smaller blocks included only 1 transect. The start and end waypoints for survey transects are contained within the files named EVOS_Survey_Coast-Pelagic WAYPOINTS.CSV for the “coastal-pelagic” stratum and EVOS_SURVEY_COAST-PELAGIC_WAYPOINTS.CSV for the “pelagic” stratum. July Surveys: In July 1989, 187 of the 742 shoreline transects were randomly selected for inclusion in the surveys. In 1990, and additional 25 shoreline transects were randomly selected for inclusion. These 25 were selected from the set of transects surveyed in 1984 (Western PWS). Thus, in July 1989 there was a single shoreline stratum. In all subsequent July surveys, there were two shoreline strata (West/Irons 84 and East/Irons 85), sampled at different intensities. However, if these 25 transects are excluded, then the shoreline can be treated as a single stratum. July surveys included 46 randomly selected coastal-pelagic blocks (89 transects) and 25 randomly selected pelagic blocks (50 transects). Field data collection: Transects were surveyed in ~ 11-20 working days over a three-week period; summer surveys (~ 2-27 July). Survey methodology and transects surveyed were identical in all years. Surveys were conducted concurrently by three 8 m fiberglass boats traveling at speeds of 10-20 km/hr. Two observers counted all birds and mammals detected in a sampling window 100 m on either side, 100 m ahead, and 100 m overhead of the vessel. When surveying shoreline transects, observers also recorded birds and mammals sighted on land within 100 m of shore. Observers scanned continuously and used binoculars to aid in species identification. Most transects were surveyed when wave height was &lt;30 cm, and no surveys were conducted when wave height was &gt;60 cm. We used Garmin handheld GPS units connected to laptop computers and used dLOG3 software for biological surveys (G. Ford 2009; dLOG3 Software for Biological Surveys: Data Entry and Real-time Mapping Program for Windows) to assign geographic coordinates for each record, so the accuracy of position data is standard for any data collected using handheld GPS devices. In addition, as the GPS device is located on the survey vessel, the position data reflect the position of the BOAT at the time that the record is entered. The actual position of the bird may be 100m to either side or ahead of the boat's position at the time the position data are recorded. Observations of species, numbers, and behavior are recorded directly into a computer, which also records location (latitude and longitude) and environmental conditions.</gco:CharacterString>
+          </gmd:statement>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>Prince William Sound Marine Birds Post-season data-processing steps 1) Paste all surveys into a single file 2) Use TRIM function to clean up invisible problems, like spaces, generated by dlog and excel - Generate new data, using TRIM() functions on all data fields. - Save as .csv. - Close file - Reopen file. Delete untrimmed data, keep trimmed data 3) Correct wind/direction column name error 4) Delete columns “DstMark”, “Ang”, “DstLand”, “Dp” 5) Search all fields for code errors, blanks, etc, and correct errors. MAMU on land? Probably a keystroke error. 6) Check all transect names. 7) Edit comments as needed for consistency and clarity 8) Add “OnEffort” column, with two categories, “ON” or “OFF” to indicate on or off tran. Manually go through data, and add “OFF” between pauses. If sightings were entered while paused, generate rows immediately after the “RESUME”, using the “RESUME” coordinates, and move the sightings to those rows. The OnEffort field allows the off-transect squiggles to be easily filtered out, while retaining the information. 9) Multiply Longitude by -1 so that it will correctly display in western hemisphere in GIS 10) Sort the file by 1) transect (HIGHEST TO LOWEST), and 2) record number (LOWEST TO HIGHEST). - The transect names must be sorted highest to lowest for ESRI GIS software. This way, the first entries are a pelagic transect, with an alphanumeric name. If instead the first entries are a shoreline transect, with a numeric name, the ESRI software will think the field should all be numeric, and will have problems with the alphanumeric coastal/pelagic transect names. 11) When satisfied everything looks good, import to ArcGIS. - Save as Excel file - In ArcMap 10: - File-&gt; add data -&gt; add XY data - In dialogue box, - Navigate to data file - Select Longitude and latitude fields - Click edit button for Coordinate System - Hit “Select” button - Open “Geographic Coordinate Systems” folder - Open “World” - Select “WGS 1984.prj” - Click “Apply”, then “OK” - Click “OK” - Next, convert the imported data to a shapefile. - Right-click the data in the Table of Contents - Go to “Data” - Select “Export Data” - Name and place the shapefile where you want it. - Click “Yes” when asked if you want to add the exported data to the map 12) Now inspect each transect. Check to see that all transects are named correctly (use the “identify” tool. Naming errors happen, but need to be corrected. 13) Inspect transect start and end points. Correct major errors, bearing in mind that the shoreline layer isn’t perfect. 14) See if major “pauses” seem to have been missed, and correct as needed. 15) If you see piles of points somewhere they don’t belong, they are likely the result of GPS errors. Figure out what happened. Change any erroneous lat/long coordinates to NA. 16) Inspect side 1 vs side 2 errors for Coastal and Pelagic transects. - Folks find the “call everything within 200m of shore side 2, otherwise call it side 1” protocol for coastal and pelagic transects confusing. Sometimes they get it backwards. - This is important to correct, because all “Side 2” observations in coastal and pelagic transects are removed during analysis, as they overlap the shoreline stratum. - I like to inspect this by coloring the side 2 sightings one color and the side 1 sightings a another color, and looking at each C or P transect for problems (again, bearing in mind that the shoreline layer has errors, the tide goes in and out, etc). - To colorize points, double click on the shapefile in the Table of Contents. - Go to “Symbology” - Go to “Categories” - Select “Side” - Click “Add all values” - Double click the points to change the color - Click “Apply”. Then “OK” 17) Also take a look at the environmental fields, using GIS. For continuous data, such as salinity, you can use “Quantities” rather than “Categories”. This can help find things that “don’t look right” such as a transect with incorrectly entered environmental data. 18) Rinse, repeat as needed to have clean, error free data, suitable for release to the public, collaborators, the funding agency, your biggest critics, etc.</gco:CharacterString>
+              </gmd:description>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+      </gmd:maintenanceAndUpdateFrequency>
+      <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>Axiom Data Science</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Metadata Specialist</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>1016 W 6th Ave, Ste 105</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Anchorage</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>AK</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>99501</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>metadata@axiomdatascience.com</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:contact>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

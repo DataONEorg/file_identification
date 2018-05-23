@@ -1,0 +1,166 @@
+<metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>Stephenson, William J.</origin>
+                <pubdate>2017</pubdate>
+                <title>Data for P- and S-wave Velocity Models Incorporating the Cascadia Subduction Zone for 3D Earthquake Ground Motion simulations- Update for Open-File Report 20017-1348</title>
+                <geoform>electronic</geoform>
+                <pubinfo>
+                    <pubplace>Reston, VA</pubplace>
+                    <publish>U.S. Geological Survey</publish>
+                </pubinfo>
+                <onlink>https://doi.org/10.5066/F7NS0SWM</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The data for this release is an ASCII file containing grid points of Cascadia P- and S-wave velocity models. The model volume was developed to include the Cascadia subduction zone for purposes of ground motion simulation. The description of the model and background of its development is provided in the associated Open-File Report. The grid points are given in Universal Transverse Mercator (UTM) Zone 10 North coordinates for East and North locations, and the grid point depths are given in meters below mean sea level. Grid point spacing is 500 meters in each ordinal direction. The model region extends approximately from 40.2&#176;N to 50&#176;N latitude, and approximately from 122&#176;W to 129&#176;W longitude.</abstract>
+            <purpose>The three-dimensional model volumes were developed with proprietary EarthVision modeling software. This dataset is extracted from the proprietary database for general distribution.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>2017</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>ground condition</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-180.0</westbc>
+                <eastbc>180.0</eastbc>
+                <northbc>90.0</northbc>
+                <southbc>-90.0</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>USGS Thesaurus</themekt>
+                <themekey>USGS</themekey>
+                <themekey>Geologic Hazards Science Center</themekey>
+                <themekey>GHSC</themekey>
+                <themekey>Earthquake Hazards Program</themekey>
+                <themekey>EHP</themekey>
+                <themekey>earth science</themekey>
+                <themekey>earthquake hazard</themekey>
+                <themekey>Cascadia subduction zone</themekey>
+                <themekey>ground motion simulation</themekey>
+                <themekey>P- and S-wave velocity models</themekey>
+            </theme>
+            <place>
+                <placekt>Geographic Names Information System (GNIS)</placekt>
+                <placekey>Cascadia Subduction Zone</placekey>
+            </place>
+        </keywords>
+        <accconst>none</accconst>
+        <useconst>none</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntperp>
+                    <cntper>William Stephenson</cntper>
+                    <cntorg>U.S. Geological Survey, Earthquake Hazards Program</cntorg>
+                </cntperp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1711 Illinois St MS 966</address>
+                    <city>Golden</city>
+                    <state>CO</state>
+                    <postal>80401</postal>
+                    <country>USA</country>
+                </cntaddr>
+                <cntvoice>303-273-8573</cntvoice>
+                <cntemail>wstephens@usgs.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+        </attracc>
+        <logic>No formal logical accuracy tests were conducted</logic>
+        <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>No formal positional accuracy tests were conducted</horizpar>
+            </horizpa>
+            <vertacc>
+                <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <procstep>
+                <procdesc>Refer to the associated publication: https://doi.org/10.5066/F7NS0SWM</procdesc>
+                <procdate>2017</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <eainfo>
+        <overview>
+            <eaover>Refer to the associated publication : P- and S-wave Velocity Models Incorporating the Cascadia Subduction Zone for 3D Earthquake Ground Motion simulations- Update for Open-File Report 20017-1348</eaover>
+            <eadetcit>https://doi.org/10.5066/F7NS0SWM</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Staff</cntper>
+                    <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+                </cntperp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+                    <city>Denver</city>
+                    <state>CO</state>
+                    <postal>80225</postal>
+                    <country>USA</country>
+                </cntaddr>
+                <cntvoice>1-888-275-8747</cntvoice>
+                <cntemail>sciencebase@usgs.gov</cntemail>
+            </cntinfo>
+        </distrib>
+        <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    </distinfo>
+    <metainfo>
+        <metd>20171026</metd>
+        <metc>
+            <cntinfo>
+                <cntperp>
+                    <cntper>GHSC Data Steward</cntper>
+                    <cntorg>U.S. Geological Survey, Geologic Hazards Science Center</cntorg>
+                </cntperp>
+                <cntpos>Open Data Policy coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1711 Illinois Street</address>
+                    <city>Golden</city>
+                    <state>Colorado</state>
+                    <postal>80401</postal>
+                    <country>USA</country>
+                </cntaddr>
+                <cntvoice>303-273-8500</cntvoice>
+                <cntemail>ghsc_metadata@usgs.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+    </metainfo>
+<about>
+    <files>
+        <url contentType="application/fgdc+xml" originalMetadata="true">https://www.sciencebase.gov/catalog/file/get/59f1e68be4b0220bbd9dd4b4?f=__disk__e4%2F53%2F50%2Fe45350a903ca9adec9371d7d8a5b2dc9235cc17c</url>
+        <url contentType="application/zip" originalMetadata="false">https://www.sciencebase.gov/catalog/file/get/59f1e68be4b0220bbd9dd4b4?f=__disk__d0%2F92%2F1e%2Fd0921ede9fd45123968777329957a06278813b24</url>
+    </files>
+    <data_owners>
+        <data_owner>Earthquake Hazards Program</data_owner>
+    </data_owners>
+    <keywords>
+        <keyword>Seismology</keyword>
+    </keywords>
+    <usgs_mission_areas>
+        <mission_area>Natural Hazards</mission_area>
+    </usgs_mission_areas>
+</about></metadata>

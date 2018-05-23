@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <Source>http://cmgds.marine.usgs.gov/metadata/pcmsc/mb16_mar_dems_metadata.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Andrew W. Stevens</origin>
+        <origin>Joshua B. Logan</origin>
+        <origin>Alexander G. Snyder</origin>
+        <origin>Daniel J. Hoover</origin>
+        <pubdate>2017</pubdate>
+        <title>Digital elevation models (DEMs) of northern Monterey Bay, California, March 2016</title>
+        <geoform>Esri ARC/INFO ASCII GRID</geoform>
+        <serinfo>
+          <sername>data release</sername>
+          <issue>DOI:10.5066/F76H4GCW</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Pacific Coastal and Marine Science Center, Santa Cruz, California</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/F76H4GCW</onlink>
+        <onlink>https://www.sciencebase.gov/catalog/file/get/59f10ea5e4b0220bbd9c6bdc</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Andrew W. Stevens</origin>
+            <origin>Joshua B. Logan</origin>
+            <origin>Alexander G. Snyder</origin>
+            <origin>Daniel J. Hoover</origin>
+            <origin>Patrick L. Barnard</origin>
+            <origin>Jonathan A. Warrick</origin>
+            <pubdate>2017</pubdate>
+            <title>Beach topography and nearshore bathymetry of northern Monterey Bay, California</title>
+            <serinfo>
+              <sername>data release</sername>
+              <issue>DOI:10.5066/F76H4GCW</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Santa Cruz, CA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.5066/F76H4GCW</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This part of the data release presents digital elevation models (DEMs) derived from bathymetry and topography data of northern Monterey Bay, California collected in March 2016. Bathymetry data were collected using two personal watercraft (PWCs), each equipped with single-beam echosounders and survey-grade global navigation satellite system (GNSS) receivers. Topography data were collected on foot with GNSS receivers mounted on backpacks and with an all-terrain vehicle (ATV) using a GNSS receiver mounted at a measured height above the ground. Additional topography data were collected with a terrestrial lidar scanner. DEM surfaces were produced from all available elevation data using linear interpolation.</abstract>
+      <purpose>Data were obtained to document changes in shoreline position and coastal morphology as they relate to episodic (storms), seasonal, interannual, and longer (for example, El Niño) processes. These data are intended for science researchers, students, policy makers, and the general public. These data can be used with geographic information systems or other software to identify topographic and shallow-water bathymetric features.</purpose>
+      <supplinf>Additional information about the field activities from which these data were derived are available online at:
+
+http://cmgds.marine.usgs.gov/fan_info.php?fan=2016-627-FA
+
+Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20160321</begdate>
+          <enddate>20160331</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition at time data were collected</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Not planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-122.025723</westbc>
+        <eastbc>-121.787918</eastbc>
+        <northbc>36.978828</northbc>
+        <southbc>36.806620</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>bathymetry</themekey>
+        <themekey>bathymetry measurement</themekey>
+        <themekey>topography</themekey>
+        <themekey>GPS measurement</themekey>
+        <themekey>LIDAR</themekey>
+        <themekey>digital elevation models</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>elevation</themekey>
+      </theme>
+      <theme>
+        <themekt>Data Categories for Marine Planning</themekt>
+        <themekey>Bathymetry and Elevation</themekey>
+      </theme>
+      <theme>
+        <themekt>Marine Realms Information Bank (MRIB) Keywords</themekt>
+        <themekey>single-beam echo sounder</themekey>
+        <themekey>topographic mapping</themekey>
+        <themekey>Global Positioning System (GPS) observations</themekey>
+        <themekey>coastal sediment budget</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Coastal and Marine Geology Program</themekey>
+        <themekey>CMGP</themekey>
+        <themekey>Pacific Coastal and Marine Science Center</themekey>
+        <themekey>PCMSC</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD)</themekt>
+        <themekey>Water Depth</themekey>
+        <themekey>GPS (Global Positioning System)</themekey>
+        <themekey>Echo Sounders</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Pacific Ocean</placekey>
+        <placekey>Monterey Bay</placekey>
+        <placekey>Monterey County</placekey>
+        <placekey>Santa Cruz County</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>USGS-authored or produced data and information are in the public domain from the U.S. Government and are freely redistributable with proper metadata and source attribution. Please recognize and acknowledge the U.S. Geological Survey as the originator(s) of the dataset and in products derived from these data. This information is not intended for navigational purposes.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Andrew W. Stevens</cntper>
+          <cntorg>U.S. Geological Survey, Pacific Coastal and Marine Science Center</cntorg>
+        </cntperp>
+        <cntpos>Oceanographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2885 Mission St.</address>
+          <city>Santa Cruz</city>
+          <state>CA</state>
+          <postal>95060</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>831-460-7424</cntvoice>
+        <cntemail>astevens@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://www.sciencebase.gov/catalog/file/get/59f10ea5e4b0220bbd9c6bdc?name=mb16_mar_dems_overall.png&amp;allowOpen=true</browsen>
+      <browsed>image map showing overview of digital elevation models (DEMs) of northern Monterey Bay, color-coded to show elevation</browsed>
+      <browset>PNG</browset>
+    </browse>
+    <browse>
+      <browsen>https://www.sciencebase.gov/catalog/file/get/59f10ea5e4b0220bbd9c6bdc?name=mb16_mar_dems_inset.png&amp;allowOpen=true</browsen>
+      <browsed>four zoomed-in image maps showing digital elevation models (DEMs) for (A) Santa Cruz, (B) Soquel Cove, (C) Manresa, and (D) Moss Landing areas of northern Monterey Bay, color-coded to show elevation</browsed>
+      <browset>PNG</browset>
+    </browse>
+    <native>Matlab version 9.2.0.556344 running on Microsoft Windows 7</native>
+    <crossref>
+      <citeinfo>
+        <origin>International Hydrographic Organization (IHO)</origin>
+        <pubdate>2008</pubdate>
+        <title>IHO standards for hydrographic surveys (5th ed.)</title>
+        <geoform>comma-delimited text</geoform>
+        <pubinfo>
+          <pubplace>Monaco</pubplace>
+          <publish>International Hydrographic Bureau Special Publication 44, 28p.</publish>
+        </pubinfo>
+        <onlink>https://www.iho.int/iho_pubs/standard/S-44_5E.pdf</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Repeatability tests were conducted across different survey platforms, but no comparisons to "true" values were conducted.</attraccr>
+    </attracc>
+    <logic>All data falls within expected ranges.</logic>
+    <complete>Dataset is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Digital elevation models (DEMs) are created by interpolating between elevation measurements as much as 500 meters apart, for this reason we cannot evaluate the accuracy of each point in a DEM, only the original data from which it is generated. The horizontal accuracy of the individual points was assessed based on the combined uncertainty of GNSS data points and terrestrial lidar data. Manufacturer-reported accuracy for the differentially corrected horizontal positions for the GNSS receivers used to collect the topographic and bathymetric measurements is 0.8 cm + 0.5 ppm. Baselines from the GNSS base station varied between 1.5 km and 29 km with a mean of 13 km, suggesting the average horizontal accuracy of survey platform positions to be about 1.5 cm. The average uncertainty in the horiontal coordinates of the terrestrial lidar data is esimated to be 7 cm.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Digital elevation models (DEMs) are created by interpolating between elevation measurements as much as 500 meters apart, for this reason we cannot evaluate the accuracy of each point in a DEM, only the original data from which it is generated. An average estimated vertical accuracy of 3 cm for the topographic GNSS backpack- and ATV-survey platforms was estimated by using the manufacturer reported vertical accuracy of 1.5 cm + 1 ppm for differentially corrected kinematic data. The vertical accuracy of the terrestrial lidar data was tested by comparing the final elevation values to concurrently collected topographic GNSS data. The RMS errors calculated for the vertical differences between these data and the point cloud data were typically found to be less than or equal to about 7 cm. Uncertainty in the bathymetry data is related the precision of the GNSS positioning and single-beam echosounders as well as unmeasured variability in the speed of sound used to compute depths from bathymetric soundings. Based on analysis of available speed of sound measurements, we estimate uncertainties in the final depth soundings to be no greater than 1 percent of the water depth. The total vertical uncertainty of the bathymetry data is calculated using the constant- and depth-dependent factors summed in quadrature (International Hydrographic Organization, 2008). The average vertical uncertainty in bathymetry data is estimated to be 9 cm.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Andrew W. Stevens</origin>
+            <origin>Alexander G. Snyder</origin>
+            <pubdate>2017</pubdate>
+            <title>Nearshore bathymetry data from northern Monterey Bay, California, March 2016</title>
+            <geoform>comma-delimited text</geoform>
+            <pubinfo>
+              <pubplace>online</pubplace>
+              <publish>U.S. Geological Survey, Pacific Coastal and Marine Science Center</publish>
+            </pubinfo>
+            <onlink>https://www.sciencebase.gov/catalog/file/get/59f10da4e4b0220bbd9c6bd1</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital dataset</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20160321</begdate>
+              <enddate>20160331</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition at time data were collected</srccurr>
+        </srctime>
+        <srccitea>bathymetry data</srccitea>
+        <srccontr>Bathymetry data were combined with topography data, and then interpolated into a gridded surface</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Andrew W. Stevens</origin>
+            <origin>Joshua B. Logan</origin>
+            <origin>Daniel J. Hoover</origin>
+            <origin>Alexander G. Snyder</origin>
+            <pubdate>2017</pubdate>
+            <title>Topography data from northern Monterey Bay, California, March 2016</title>
+            <geoform>comma-delimited text</geoform>
+            <pubinfo>
+              <pubplace>online</pubplace>
+              <publish>U.S. Geological Survey, Pacific Coastal and Marine Science Center</publish>
+            </pubinfo>
+            <onlink>https://www.sciencebase.gov/catalog/file/get/559f10e77e4b0220bbd9c6bda</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital dataset</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20160321</begdate>
+              <enddate>20160325</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition at time data were collected</srccurr>
+        </srctime>
+        <srccitea>topography data</srccitea>
+        <srccontr>Topography data were combined with bathymetry data, and then interpolated into a gridded surface</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Joshua B. Logan</origin>
+            <origin>Alexander G. Snyder</origin>
+            <pubdate>2017</pubdate>
+            <title>Terrestrial lidar data from northern Monterey Bay, California, March 2016</title>
+            <geoform>comma-delimited text</geoform>
+            <pubinfo>
+              <pubplace>online</pubplace>
+              <publish>U.S. Geological Survey, Pacific Coastal and Marine Science Center</publish>
+            </pubinfo>
+            <onlink>https://www.sciencebase.gov/catalog/file/get/59f10ebfe4b0220bbd9c6bdf</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital dataset</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20160321</begdate>
+              <enddate>20160322</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition at time data were collected</srccurr>
+        </srctime>
+        <srccitea>terrestrial lidar data</srccitea>
+        <srccontr>Topography data were combined with bathymetry data, and then interpolated into a gridded surface</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Quality control was applied to raw topography, terrestrial lidar, and bathymetry data. Comparisons were performed to ensure internal consistency between the survey platforms. DEMs were produced by linear interpolation of all available elevation point data with the computer program MATLAB. Data were exported in ESRI ARC ascii grid format for distribution.</procdesc>
+        <srcused>bathymetry data, topography data, terrestrial lidar data</srcused>
+        <procdate>20171106</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>10</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-123.0</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>2</absres>
+            <ordres>2</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83 (2011)</horizdn>
+        <ellips>GRS_1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altres>0.001</altres>
+        <altunits>meters</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Attribute Table</enttypl>
+        <enttypd>Table containing attribute information associated with the dataset</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Elevation (NAVD88)</attrlabl>
+        <attrdef>Elevation relative to the North American vertical datum of 1988 (NAVD88)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-23.520</rdommin>
+            <rdommax>12.810</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>U.S. Geological Survey - Science Base</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>DEM grids are available in Esri ARC/INFO ASCII GRID format (mb16_mar_dem_manresa.asc; mb16_mar_dem_mosslanding.asc; mb16_mar_dem_santacruz.asc; mb16_mar_dem_soquelcove.asc), along with low-resolution browse graphics showing the DEMs color-coded by elevation (mb16_mar_dems_overall.png; mb16_mar_dems_inset.png) and associated FGDC-compliant metadata.</resdesc>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>png</formname>
+          <formvern>Matlab 9.2.0.556344</formvern>
+          <formspec>PNG Image</formspec>
+          <formcont>PNG image showing individual digital elevation models of northern Monterey Bay in detail</formcont>
+          <filedec>none</filedec>
+          <transize>2.0</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/file/get/59f10ea5e4b0220bbd9c6bdc?name=mb16_mar_dems_inset.png</networkr>
+              </networka>
+            </computer>
+            <accinstr>Data can be downloaded via the Internet</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>png</formname>
+          <formvern>Matlab 9.2.0.556344</formvern>
+          <formspec>PNG Image</formspec>
+          <formcont>PNG image showing overview of digital elevation models of northern Monterey Bay</formcont>
+          <filedec>none</filedec>
+          <transize>1.4</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/file/get/59f10ea5e4b0220bbd9c6bdc?name=mb16_mar_dems_overall.png</networkr>
+              </networka>
+            </computer>
+            <accinstr>Data can be downloaded via the Internet</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>ASCII</formname>
+          <formvern>ArcGIS 10.1</formvern>
+          <formspec>Esri ARC/INFO ASCII GRID</formspec>
+          <formcont>Esri ASCII raster file containing digital elevation model of northern Monterey Bay, Manresa sub-area</formcont>
+          <filedec>none</filedec>
+          <transize>99.5</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/file/get/59f10ea5e4b0220bbd9c6bdc?name=mb16_mar_dem_manresa.asc</networkr>
+              </networka>
+            </computer>
+            <accinstr>Data can be downloaded via the Internet</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>ASCII</formname>
+          <formvern>ArcGIS 10.1</formvern>
+          <formspec>Esri ARC/INFO ASCII GRID</formspec>
+          <formcont>Esri ASCII raster file containing digital elevation model of northern Monterey Bay, Moss Landing sub-area</formcont>
+          <filedec>none</filedec>
+          <transize>115.9</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/file/get/59f10ea5e4b0220bbd9c6bdc?name=mb16_mar_dem_mosslanding.asc</networkr>
+              </networka>
+            </computer>
+            <accinstr>Data can be downloaded via the Internet</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>ASCII</formname>
+          <formvern>ArcGIS 10.1</formvern>
+          <formspec>Esri ARC/INFO ASCII GRID</formspec>
+          <formcont>Esri ASCII raster file containing digital elevation model of northern Monterey Bay, Santa Cruz sub-area</formcont>
+          <filedec>none</filedec>
+          <transize>17.6</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/file/get/59f10ea5e4b0220bbd9c6bdc?name=mb16_mar_dem_santacruz.asc</networkr>
+              </networka>
+            </computer>
+            <accinstr>Data can be downloaded via the Internet</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>ASCII</formname>
+          <formvern>ArcGIS 10.1</formvern>
+          <formspec>Esri ARC/INFO ASCII GRID</formspec>
+          <formcont>Esri ASCII raster file containing digital elevation model of northern Monterey Bay, Soquel Cove sub-area</formcont>
+          <filedec>none</filedec>
+          <transize>28.8</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/file/get/59f10ea5e4b0220bbd9c6bdc?name=mb16_mar_dem_soquelcove.asc</networkr>
+              </networka>
+            </computer>
+            <accinstr>Data can be downloaded via the Internet</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20171122</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Andrew W. Stevens</cntper>
+          <cntorg>U.S. Geological Survey, Pacific Coastal and Marine Science Center</cntorg>
+        </cntperp>
+        <cntpos>Oceanographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2885 Mission St.</address>
+          <city>Santa Cruz</city>
+          <state>CA</state>
+          <postal>95060</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>831-460-7424</cntvoice>
+        <cntemail>astevens@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20160321</begdate>
+    <enddate>20160331</enddate>
+    <htmlurl>http://usgs.ornl.gov/metadata/catalog/html/Coastal_and_Marine_Geology_Program/cmgds.marine.usgs.gov_metadata_pcmsc_mb16_mar_dems_metadata.html</htmlurl>
+  </mercury>
+</metadata>

@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns0:MD_Metadata id="de.pangaea.dataset829739" xmlns:ns0="http://www.isotc211.org/2005/gmd" xmlns:ns2="http://www.isotc211.org/2005/gco" xmlns:ns3="http://www.opengis.net/gml" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+	<ns0:fileIdentifier>
+		<ns2:CharacterString>de.pangaea.dataset829739</ns2:CharacterString>
+	</ns0:fileIdentifier>
+	<ns0:contact>
+		<ns0:CI_ResponsibleParty>
+			<ns0:organisationName>
+				<ns2:CharacterString>PANGAEA</ns2:CharacterString>
+			</ns0:organisationName>
+			<ns0:contactInfo>
+				<ns0:CI_Contact>
+					<ns0:address>
+						<ns0:CI_Address>
+							<ns0:electronicMailAddress>
+								<ns2:CharacterString>info@pangaea.de</ns2:CharacterString>
+							</ns0:electronicMailAddress>
+						</ns0:CI_Address>
+					</ns0:address>
+					<ns0:onlineResource>
+						<ns0:CI_OnlineResource>
+							<ns0:linkage>
+								<ns0:URL>http://www.pangaea.de/</ns0:URL>
+							</ns0:linkage>
+							<ns0:function>
+								<ns0:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_information">information</ns0:CI_OnLineFunctionCode>
+							</ns0:function>
+						</ns0:CI_OnlineResource>
+					</ns0:onlineResource>
+				</ns0:CI_Contact>
+			</ns0:contactInfo>
+			<ns0:role>
+				<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_pointOfContact">pointOfContact</ns0:CI_RoleCode>
+			</ns0:role>
+		</ns0:CI_ResponsibleParty>
+	</ns0:contact>
+	<ns0:dateStamp>
+		<ns2:DateTime>2017-08-05T09:45:07Z</ns2:DateTime>
+	</ns0:dateStamp>
+	<ns0:dataSetURI>
+		<ns2:CharacterString>https://doi.pangaea.de/10.1594/PANGAEA.829739</ns2:CharacterString>
+	</ns0:dataSetURI>
+	<ns0:identificationInfo>
+		<ns0:MD_DataIdentification>
+			<ns0:citation>
+				<ns0:CI_Citation>
+					<ns0:title>
+						<ns2:CharacterString>Geochemical and alkenones raw data of sediment core GeoB5844-2</ns2:CharacterString>
+					</ns0:title>
+					<ns0:date>
+						<ns0:CI_Date>
+							<ns0:date>
+								<ns2:DateTime>2014-02-21T07:38:52</ns2:DateTime>
+							</ns0:date>
+							<ns0:dateType>
+								<ns0:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode_publication">publication</ns0:CI_DateTypeCode>
+							</ns0:dateType>
+						</ns0:CI_Date>
+					</ns0:date>
+					<ns0:citedResponsibleParty>
+						<ns0:CI_ResponsibleParty id="dataset.author464">
+							<ns0:individualName>
+								<ns2:CharacterString>Müller, Peter J</ns2:CharacterString>
+							</ns0:individualName>
+							<ns0:role>
+								<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_author">author</ns0:CI_RoleCode>
+							</ns0:role>
+						</ns0:CI_ResponsibleParty>
+					</ns0:citedResponsibleParty>
+					<ns0:citedResponsibleParty>
+						<ns0:CI_ResponsibleParty>
+							<ns0:organisationName>
+								<ns2:CharacterString>PANGAEA</ns2:CharacterString>
+							</ns0:organisationName>
+							<ns0:contactInfo>
+								<ns0:CI_Contact>
+									<ns0:address>
+										<ns0:CI_Address>
+											<ns0:electronicMailAddress>
+												<ns2:CharacterString>info@pangaea.de</ns2:CharacterString>
+											</ns0:electronicMailAddress>
+										</ns0:CI_Address>
+									</ns0:address>
+									<ns0:onlineResource>
+										<ns0:CI_OnlineResource>
+											<ns0:linkage>
+												<ns0:URL>http://www.pangaea.de/</ns0:URL>
+											</ns0:linkage>
+											<ns0:function>
+												<ns0:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_information">information</ns0:CI_OnLineFunctionCode>
+											</ns0:function>
+										</ns0:CI_OnlineResource>
+									</ns0:onlineResource>
+								</ns0:CI_Contact>
+							</ns0:contactInfo>
+							<ns0:role>
+								<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_publisher">publisher</ns0:CI_RoleCode>
+							</ns0:role>
+						</ns0:CI_ResponsibleParty>
+					</ns0:citedResponsibleParty>
+					<ns0:citedResponsibleParty>
+						<ns0:CI_ResponsibleParty>
+							<ns0:organisationName>
+								<ns2:CharacterString>Department of Geosciences, Bremen University</ns2:CharacterString>
+							</ns0:organisationName>
+							<ns0:role>
+								<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_originator">originator</ns0:CI_RoleCode>
+							</ns0:role>
+						</ns0:CI_ResponsibleParty>
+					</ns0:citedResponsibleParty>
+					<ns0:presentationForm>
+						<ns0:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode_tableDigital">tableDigital</ns0:CI_PresentationFormCode>
+					</ns0:presentationForm>
+				</ns0:CI_Citation>
+			</ns0:citation>
+			<ns0:abstract ns2:nilReason="missing"/>
+			<ns0:status>
+				<ns0:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode_completed">completed</ns0:MD_ProgressCode>
+			</ns0:status>
+			<ns0:pointOfContact>
+				<ns0:CI_ResponsibleParty id="pi100">
+					<ns0:individualName>
+						<ns2:CharacterString>Pätzold, Jürgen</ns2:CharacterString>
+					</ns0:individualName>
+					<ns0:contactInfo>
+						<ns0:CI_Contact>
+							<ns0:address>
+								<ns0:CI_Address>
+									<ns0:electronicMailAddress>
+										<ns2:CharacterString>juergen.paetzold@uni-bremen.de</ns2:CharacterString>
+									</ns0:electronicMailAddress>
+								</ns0:CI_Address>
+							</ns0:address>
+						</ns0:CI_Contact>
+					</ns0:contactInfo>
+					<ns0:role>
+						<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_principalInvestigator">principalInvestigator</ns0:CI_RoleCode>
+					</ns0:role>
+				</ns0:CI_ResponsibleParty>
+			</ns0:pointOfContact>
+			<ns0:descriptiveKeywords>
+				<ns0:MD_Keywords>
+					<ns0:keyword>
+						<ns2:CharacterString>GeoB</ns2:CharacterString>
+					</ns0:keyword>
+					<ns0:keyword>
+						<ns2:CharacterString>Geosciences, University of Bremen</ns2:CharacterString>
+					</ns0:keyword>
+					<ns0:keyword>
+						<ns2:CharacterString>MARUM</ns2:CharacterString>
+					</ns0:keyword>
+					<ns0:keyword>
+						<ns2:CharacterString>Center for Marine Environmental Sciences</ns2:CharacterString>
+					</ns0:keyword>
+					<ns0:type>
+						<ns0:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode_theme">theme</ns0:MD_KeywordTypeCode>
+					</ns0:type>
+					<ns0:thesaurusName>
+						<ns0:CI_Citation>
+							<ns0:title>
+								<ns2:CharacterString>PANGAEA Project List</ns2:CharacterString>
+							</ns0:title>
+							<ns0:date>
+								<ns0:CI_Date>
+									<ns0:date>
+										<ns2:Date>1995-01-01</ns2:Date>
+									</ns0:date>
+									<ns0:dateType>
+										<ns0:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode_creation">creation</ns0:CI_DateTypeCode>
+									</ns0:dateType>
+								</ns0:CI_Date>
+							</ns0:date>
+							<ns0:citedResponsibleParty>
+								<ns0:CI_ResponsibleParty>
+									<ns0:organisationName>
+										<ns2:CharacterString>PANGAEA</ns2:CharacterString>
+									</ns0:organisationName>
+									<ns0:contactInfo>
+										<ns0:CI_Contact>
+											<ns0:address>
+												<ns0:CI_Address>
+													<ns0:electronicMailAddress>
+														<ns2:CharacterString>info@pangaea.de</ns2:CharacterString>
+													</ns0:electronicMailAddress>
+												</ns0:CI_Address>
+											</ns0:address>
+											<ns0:onlineResource>
+												<ns0:CI_OnlineResource>
+													<ns0:linkage>
+														<ns0:URL>http://www.pangaea.de/</ns0:URL>
+													</ns0:linkage>
+													<ns0:function>
+														<ns0:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_information">information</ns0:CI_OnLineFunctionCode>
+													</ns0:function>
+												</ns0:CI_OnlineResource>
+											</ns0:onlineResource>
+										</ns0:CI_Contact>
+									</ns0:contactInfo>
+									<ns0:role>
+										<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_pointOfContact">pointOfContact</ns0:CI_RoleCode>
+									</ns0:role>
+								</ns0:CI_ResponsibleParty>
+							</ns0:citedResponsibleParty>
+						</ns0:CI_Citation>
+					</ns0:thesaurusName>
+				</ns0:MD_Keywords>
+			</ns0:descriptiveKeywords>
+			<ns0:resourceConstraints>
+				<ns0:MD_LegalConstraints>
+					<ns0:accessConstraints>
+						<ns0:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode_copyright">copyright</ns0:MD_RestrictionCode>
+					</ns0:accessConstraints>
+					<ns0:accessConstraints>
+						<ns0:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode_restricted">restricted</ns0:MD_RestrictionCode>
+					</ns0:accessConstraints>
+					<ns0:useConstraints>
+						<ns0:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode_copyright">copyright</ns0:MD_RestrictionCode>
+					</ns0:useConstraints>
+				</ns0:MD_LegalConstraints>
+			</ns0:resourceConstraints>
+			<ns0:spatialRepresentationType>
+				<ns0:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode_textTable">textTable</ns0:MD_SpatialRepresentationTypeCode>
+			</ns0:spatialRepresentationType>
+			<ns0:language>
+				<ns0:LanguageCode codeList="http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode_eng">eng</ns0:LanguageCode>
+			</ns0:language>
+			<ns0:topicCategory>
+				<ns0:MD_TopicCategoryCode>geoscientificInformation</ns0:MD_TopicCategoryCode>
+			</ns0:topicCategory>
+			<ns0:extent>
+				<ns0:EX_Extent>
+					<ns0:geographicElement>
+						<ns0:EX_GeographicBoundingBox>
+							<ns0:westBoundLongitude>
+								<ns2:Decimal>34.6817</ns2:Decimal>
+							</ns0:westBoundLongitude>
+							<ns0:eastBoundLongitude>
+								<ns2:Decimal>34.6817</ns2:Decimal>
+							</ns0:eastBoundLongitude>
+							<ns0:southBoundLatitude>
+								<ns2:Decimal>27.7135</ns2:Decimal>
+							</ns0:southBoundLatitude>
+							<ns0:northBoundLatitude>
+								<ns2:Decimal>27.7135</ns2:Decimal>
+							</ns0:northBoundLatitude>
+						</ns0:EX_GeographicBoundingBox>
+					</ns0:geographicElement>
+					<ns0:temporalElement>
+						<ns0:EX_TemporalExtent>
+							<ns0:extent>
+								<ns3:TimePeriod ns3:id="timePeriod">
+									<ns3:beginPosition>1999-04-02T20:53:00</ns3:beginPosition>
+									<ns3:endPosition>1999-04-02T20:53:00</ns3:endPosition>
+								</ns3:TimePeriod>
+							</ns0:extent>
+						</ns0:EX_TemporalExtent>
+					</ns0:temporalElement>
+					<ns0:verticalElement>
+						<ns0:EX_VerticalExtent>
+							<ns0:minimumValue>
+								<ns2:Real>0.0</ns2:Real>
+							</ns0:minimumValue>
+							<ns0:maximumValue>
+								<ns2:Real>8.42</ns2:Real>
+							</ns0:maximumValue>
+							<ns0:verticalCRS ns4:href="http://ws.pangaea.de/schemas/iso19139/pangaea-crs-dict.xml#xpointer(//*[@gml:id='vertCRS.geocode1'])" ns4:title="Definition of geocode: DEPTH, sediment/rock"/>
+						</ns0:EX_VerticalExtent>
+					</ns0:verticalElement>
+				</ns0:EX_Extent>
+			</ns0:extent>
+		</ns0:MD_DataIdentification>
+	</ns0:identificationInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col0.ds1489786">
+			<ns0:attributeDescription>
+				<ns2:RecordType>DEPTH, sediment/rock</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col0.ds1489786.band">
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col0.ds1489786.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">m</ns3:identifier>
+							<ns3:name>m</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col1.ds12382824">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Water content, wet mass, brutto</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col1.ds12382824.band">
+					<ns0:descriptor>
+						<ns2:CharacterString>H2O</ns2:CharacterString>
+					</ns0:descriptor>
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col1.ds12382824.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">g</ns3:identifier>
+							<ns3:name>g</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col2.ds12382825">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Density, wet bulk</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col2.ds12382825.band">
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col2.ds12382825.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">g/cm**3</ns3:identifier>
+							<ns3:name>g/cm**3</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col3.ds12382826">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Density, dry bulk</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col3.ds12382826.band">
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col3.ds12382826.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">g/cm**3</ns3:identifier>
+							<ns3:name>g/cm**3</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col4.ds12382827">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Porosity</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col4.ds12382827.band">
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col4.ds12382827.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">% vol</ns3:identifier>
+							<ns3:name>% vol</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col5.ds12382828">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Carbon, total</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col5.ds12382828.band">
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col5.ds12382828.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">%</ns3:identifier>
+							<ns3:name>%</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col6.ds12382829">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Carbon, organic, total</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col6.ds12382829.band">
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col6.ds12382829.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">%</ns3:identifier>
+							<ns3:name>%</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col7.ds12382830">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Calcium carbonate</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col7.ds12382830.band">
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col7.ds12382830.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">%</ns3:identifier>
+							<ns3:name>%</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col8.ds12382831">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Nitrogen, total</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col8.ds12382831.band">
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col8.ds12382831.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">%</ns3:identifier>
+							<ns3:name>%</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col9.ds12382832">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Carbon/Nitrogen ratio</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_thematicClassification">thematicClassification</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col10.ds12382833">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Alkenone, C37:3</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col10.ds12382833.band">
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col10.ds12382833.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">ng/g</ns3:identifier>
+							<ns3:name>ng/g</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col11.ds12382834">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Alkenone, C37:2</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col11.ds12382834.band">
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col11.ds12382834.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">ng/g</ns3:identifier>
+							<ns3:name>ng/g</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col12.ds12382835">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Alkenone, C37:3+C37:2</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col12.ds12382835.band">
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col12.ds12382835.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">ng/g</ns3:identifier>
+							<ns3:name>ng/g</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col13.ds12382836">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Alkenone, unsaturation index UK'37</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_thematicClassification">thematicClassification</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col14.ds12382837">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Sea surface temperature, annual mean</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col14.ds12382837.band">
+					<ns0:descriptor>
+						<ns2:CharacterString>Calculated from UK'37 (Prahl et al., 1988)</ns2:CharacterString>
+					</ns0:descriptor>
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col14.ds12382837.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">°C</ns3:identifier>
+							<ns3:name>°C</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col15.ds12382838">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Alkenone, C37 normalized to total organic carbon</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col15.ds12382838.band">
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col15.ds12382838.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">µg/g</ns3:identifier>
+							<ns3:name>µg/g</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:distributionInfo>
+		<ns0:MD_Distribution>
+			<ns0:distributionFormat>
+				<ns0:MD_Format>
+					<ns0:name>
+						<ns2:CharacterString>text/tab-separated-values</ns2:CharacterString>
+					</ns0:name>
+					<ns0:version>
+						<ns2:CharacterString>unknown</ns2:CharacterString>
+					</ns0:version>
+				</ns0:MD_Format>
+			</ns0:distributionFormat>
+			<ns0:transferOptions>
+				<ns0:MD_DigitalTransferOptions>
+					<ns0:onLine>
+						<ns0:CI_OnlineResource>
+							<ns0:linkage>
+								<ns0:URL>https://doi.pangaea.de/10.1594/PANGAEA.829739?format=textfile</ns0:URL>
+							</ns0:linkage>
+							<ns0:function>
+								<ns0:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_download">download</ns0:CI_OnLineFunctionCode>
+							</ns0:function>
+						</ns0:CI_OnlineResource>
+					</ns0:onLine>
+				</ns0:MD_DigitalTransferOptions>
+			</ns0:transferOptions>
+		</ns0:MD_Distribution>
+	</ns0:distributionInfo>
+	<ns0:dataQualityInfo>
+		<ns0:DQ_DataQuality>
+			<ns0:scope>
+				<ns0:DQ_Scope>
+					<ns0:level>
+						<ns0:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode_dataset">dataset</ns0:MD_ScopeCode>
+					</ns0:level>
+				</ns0:DQ_Scope>
+			</ns0:scope>
+			<ns0:lineage>
+				<ns0:LI_Lineage>
+					<ns0:statement>
+						<ns2:CharacterString>The data set was checked for completeness, correctness, and consistency of metainformation. Validity of used methods was checked and - if applicable - precision and range of data.</ns2:CharacterString>
+					</ns0:statement>
+					<ns0:processStep>
+						<ns0:LI_ProcessStep id="event2014855">
+							<ns0:description>
+								<ns2:CharacterString>EVENT LABEL:  * LATITUDE: 27.713500 * LONGITUDE: 34.681700 * DATE/TIME: 1999-04-02T20:53:00 * ELEVATION: -963.0 m * Recovery: 12.35 m * LOCATION: Northern Red Sea * CAMPAIGN: M44/3 * BASIS: Meteor (1986) * DEVICE: Gravity corer (Kiel type)</ns2:CharacterString>
+							</ns0:description>
+							<ns0:dateTime>
+								<ns2:DateTime>1999-04-02T20:53:00</ns2:DateTime>
+							</ns0:dateTime>
+						</ns0:LI_ProcessStep>
+					</ns0:processStep>
+					<ns0:source>
+						<ns0:LI_Source id="refds111892">
+							<ns0:description>
+								<ns2:CharacterString>Related to</ns2:CharacterString>
+							</ns0:description>
+							<ns0:sourceCitation>
+								<ns0:CI_Citation>
+									<ns0:title>
+										<ns2:CharacterString>CaCO3, TOC and SST of sediment core GeoB5844-2</ns2:CharacterString>
+									</ns0:title>
+									<ns0:date>
+										<ns0:CI_Date>
+											<ns0:date>
+												<ns2:Date>2003-01-01</ns2:Date>
+											</ns0:date>
+											<ns0:dateType>
+												<ns0:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode_publication">publication</ns0:CI_DateTypeCode>
+											</ns0:dateType>
+										</ns0:CI_Date>
+									</ns0:date>
+									<ns0:identifier>
+										<ns0:MD_Identifier>
+											<ns0:code>
+												<ns2:CharacterString>https://doi.org/10.1594/PANGAEA.111892</ns2:CharacterString>
+											</ns0:code>
+										</ns0:MD_Identifier>
+									</ns0:identifier>
+									<ns0:citedResponsibleParty>
+										<ns0:CI_ResponsibleParty id="refds111892.author10708">
+											<ns0:individualName>
+												<ns2:CharacterString>Arz, Helge W</ns2:CharacterString>
+											</ns0:individualName>
+											<ns0:contactInfo>
+												<ns0:CI_Contact>
+													<ns0:address>
+														<ns0:CI_Address>
+															<ns0:electronicMailAddress>
+																<ns2:CharacterString>helge.arz@io-warnemuende.de</ns2:CharacterString>
+															</ns0:electronicMailAddress>
+														</ns0:CI_Address>
+													</ns0:address>
+												</ns0:CI_Contact>
+											</ns0:contactInfo>
+											<ns0:role>
+												<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_author">author</ns0:CI_RoleCode>
+											</ns0:role>
+										</ns0:CI_ResponsibleParty>
+									</ns0:citedResponsibleParty>
+									<ns0:citedResponsibleParty>
+										<ns0:CI_ResponsibleParty id="refds111892.author100">
+											<ns0:individualName>
+												<ns2:CharacterString>Pätzold, Jürgen</ns2:CharacterString>
+											</ns0:individualName>
+											<ns0:contactInfo>
+												<ns0:CI_Contact>
+													<ns0:address>
+														<ns0:CI_Address>
+															<ns0:electronicMailAddress>
+																<ns2:CharacterString>juergen.paetzold@uni-bremen.de</ns2:CharacterString>
+															</ns0:electronicMailAddress>
+														</ns0:CI_Address>
+													</ns0:address>
+												</ns0:CI_Contact>
+											</ns0:contactInfo>
+											<ns0:role>
+												<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_author">author</ns0:CI_RoleCode>
+											</ns0:role>
+										</ns0:CI_ResponsibleParty>
+									</ns0:citedResponsibleParty>
+									<ns0:citedResponsibleParty>
+										<ns0:CI_ResponsibleParty id="refds111892.author464">
+											<ns0:individualName>
+												<ns2:CharacterString>Müller, Peter J</ns2:CharacterString>
+											</ns0:individualName>
+											<ns0:role>
+												<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_author">author</ns0:CI_RoleCode>
+											</ns0:role>
+										</ns0:CI_ResponsibleParty>
+									</ns0:citedResponsibleParty>
+									<ns0:citedResponsibleParty>
+										<ns0:CI_ResponsibleParty id="refds111892.author26498">
+											<ns0:individualName>
+												<ns2:CharacterString>Moammar, Mustafa O</ns2:CharacterString>
+											</ns0:individualName>
+											<ns0:role>
+												<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_author">author</ns0:CI_RoleCode>
+											</ns0:role>
+										</ns0:CI_ResponsibleParty>
+									</ns0:citedResponsibleParty>
+									<ns0:presentationForm>
+										<ns0:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode_documentDigital">documentDigital</ns0:CI_PresentationFormCode>
+									</ns0:presentationForm>
+								</ns0:CI_Citation>
+							</ns0:sourceCitation>
+						</ns0:LI_Source>
+					</ns0:source>
+				</ns0:LI_Lineage>
+			</ns0:lineage>
+		</ns0:DQ_DataQuality>
+	</ns0:dataQualityInfo>
+</ns0:MD_Metadata>

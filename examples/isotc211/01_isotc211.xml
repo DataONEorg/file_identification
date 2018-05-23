@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://files.axds.co/isobio/gmi/gmi.xsd http://www.isotc211.org/2005/gmd http://files.axds.co/isobio/gmd/gmd.xsd">
+  <gmd:fileIdentifier gco:nilReason="missing"/>
+  <gmd:language>
+    <gco:CharacterString>eng;USA</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="UTF-8">UTF-8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>Axiom Data Science</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Metadata Specialist</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>1016 W 6th Ave, Ste 105</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Anchorage</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>AK</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>99501</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>metadata@axiomdatascience.com</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp gco:nilReason="unknown">
+    <gco:Date xsi:nil="true"/>
+  </gmd:dateStamp>
+  <gmd:dataSetURI gco:nilReason="unknown"/>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Fatty Acid Analysis as Evidence for Winter Migration of Age-0 Herring in Prince William Sound, 2010-2012, EVOS Herring Program</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date gco:nilReason="missing">
+                <gco:Date xsi:nil="true"/>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/  Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:RS_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>International DOI Foundation (IDF)</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date gco:nilReason="missing"/>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gco:CharacterString>https://doi.org/10.24431/rw1k110</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:identifier>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName gco:nilReason="template"/>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://pwssc.org/fatty-acid-analysis-as-evidence-for-winter-migration-of-age-0-herring/</gmd:URL>
+                      </gmd:linkage>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role gco:nilReason="template"/>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName gco:nilReason="template"/>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.evostc.state.ak.us/index.cfm?FA=projects.herringResearch</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:name>
+                        <gco:CharacterString>EVOS Herring Program</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>The Prince William Sound population of Pacific herring (Clupea pallasi) is considered resource that has not recovered from the effects of the 1989 oil spill. Numerous research and monitoring programs, funded in large part by the Exxon Valdez Oil Spill Trustee Council, provide critical information about about herring populations in Prince William Sound.</gco:CharacterString>
+                      </gmd:description>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role gco:nilReason="template"/>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName gco:nilReason="template"/>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.evostc.state.ak.us/index.cfm?FA=projects.home</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:name>
+                        <gco:CharacterString>Exxon Valdez Oil Spill Trustee Council</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>The webpage for the Exxon Valdez Oil Spill Trustee Council, which was formed to oversee restoration of the injured ecosystem through the use of the $900 million civil settlement, a part which funds Research, Monitoring, and Restoration programs in Prince William Sound and the Gulf of Alaska.</gco:CharacterString>
+                      </gmd:description>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role gco:nilReason="template"/>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Ron Heintz</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>NOAA Alaska Fisheries Science Center</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Program Manager</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>(907) 789-6058</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>17109 Pt. Lena Loop Rd</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Juneau</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>AK</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>99801</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>ron.heintz@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Fletcher Sewall</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>NOAA Fisheries, AK Fisheries Science Center, Auke Bay Laboratories</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>(907) 789-6024</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>17109 Pt Lena Loop Rd</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Juneau</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>AK</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>99801</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>fletcher.sewall@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="tableDigital">tableDigital</gmd:CI_PresentationFormCode>
+          </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>This dataset contains the following csv files: BioData- biological information from processed samples Custody- sample collection information (location, date, gear, etc.) FattyAcid- fatty acid concentrations in samples ProxComp- proximate composition (moisture, ash, protein, lipid) of samples RNADNA- ratio of RNA to DNA concentrations of samples The study was originally planned to include samples from each of the Sound Ecosystem Assessment study bays (Eaglek, Simpson, Whale, and Zaikof bays) collected under the current Herring Research and Monitoring program. However, the study design was modified based on the limited samples collected in the field, while aiming to maximize our ability to understand the spatial scales of age-0 herring movement over winter (e.g., between fjords, or across the sound).</gco:CharacterString>
+          </gmd:otherCitationDetails>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>These data are part of the Herring Program of the Exxon Valdez Oil Spill Trustee Council, which is a multi-faceted study to determine why herring populations in Prince William Sound (PWS) remain depressed since the early 1990s. The current herring monitoring program assumes age-0 herring remain in their nursery bays over winter. This project tested the assumption of no migration by monitoring the fatty acid composition of wild age-0 herring over winter in PWS, and in a laboratory study. The dataset is five comma-separated value (csv) files exported from a Microsoft Access database. Herring were sampled from various bays in eastern and western PWS in early winter and repeated at the end of winter in 2010 - 2012, under the EVOS Herring Survey program (EVOS project numbers 12120111-I, 13120111-I). For the laboratory component testing the validity of the fatty acid approach, we used fish collected near the NOAA Auke Bay Laboratory (ABL, Juneau, Alaska). Fish were collected by beach seine in autumn 2011, transferred to ABL and divided into two groups. The groups were fed different diets to create two groups with distinct fatty acid compositions. Each of the groups had a fasted component and a second component that was fed a reduced ration to generate an energy deficit. Captive fish were sampled for fatty acid analysis through April 2012. The file named Custody contains field collection information. The file named BioData includes length and weight measurements, and the weight of fish stomach contents. The file named RNADNA includes the ratio of ribonucleic acid (RNA) to deoxyribonucleic acid (DNA) contents of herring white muscle tissue, which were used as an indicator of the relative amount of energy individual fish were allocating towards growth (with higher RNA/DNA reflecting greater protein synthesis rates). The file named FattyAcid contains fatty acid concentration data as determined by gas chromatography and mass spectrophotometry at ABL. The file named ProxComp contains the moisture, ash, lipid, and protein content of homogenized whole herring as a percentage of wet tissue mass.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>Following the Exxon Valdez Oil Spill, a group of herring research and monitoring projects were designed to improve predictive models of herring stocks in Prince William Sound and the Gulf of Alaska through observations and research. Monitoring of age-0 herring should be an important component of the EVOS Herring Program, but the appropriate spatial scale for monitoring is unknown. The program assumes age-0 herring remain in their nursery bays over winter. If true, observations of differences among bays in terms of age-0 condition and marine conditions should allow for identifying conditions that lead to improved recruitment to age-1. We proposed to test the assumption of no migration by monitoring the fatty acid (FA) composition of wild age-0 herring over winter. The FA composition of depot lipids derives from diets (Budge et al. 2006), so differences in the prey fields in different bays should produce differences in the FA compositions of herring in those bays (Otis et al. 2010). Therefore, the FA composition of age-0 herring in fall could act as a natural tag for identifying migration. Changes in FA composition due to winter feeding were expected to be minimal because age-0 herring experience energy deficits in winter, proscribing lipid storage. We tested this assumption in a laboratory study. We hypothesized that migration of herring should result in increasing similarity of herring FA compositions over winter, while constant FA composition in given bays over winter would indicate migration is limited.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Fletcher Sewall</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>NOAA Fisheries, AK Fisheries Science Center, Auke Bay Laboratories</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>(907) 789-6024</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>17109 Pt Lena Loop Rd</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Juneau</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>AK</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>99801</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>US</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>fletcher.sewall@noaa.gov</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Exxon Valdez Oil Spill Trustee Council</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Exxon Valdez Oil Spill Trustee Council</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>907 278 8012</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>4210 University Drive</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Anchorage</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>AK</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>99508</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>dfg.evos.restoration@alaska.gov</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="funder">funder</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+          <gmd:contact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Ron Heintz</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>NOAA Alaska Fisheries Science Center</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Program Manager</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>(907) 789-6058</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>17109 Pt. Lena Loop Rd</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Juneau</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>AK</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>99801</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>ron.heintz@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:contact>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Clupea pallasii</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Pacific herring, arenque del Pacífico</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>ITIS</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="template"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Prince William Sound</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>size-dependent mortality</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>lipid</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>growth</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>fatty acids</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>early life history</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>EVOS Herring Survey</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EVOS Herring</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EVOSTC</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Exxon Valdez Oil Spill Trustee Council</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>oil spill</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Exxon Valdez</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>winter</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal">temporal</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>OCEAN &gt; PACIFIC OCEAN &gt; NORTH PACIFIC OCEAN &gt; GULF OF ALASKA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; ALASKA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GCMD Locations Keywords version 8.4.1</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>There are no legal restrictions on access to the data. They reside in public domain and can be freely distributed.</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:useLimitation>
+            <gco:CharacterString>This material is based upon work funded by multiple entities, including the Exxon Valdez Oil Spill Trustee Council. Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of funding entities. Standard scientific norms for attribution, credit, and potential co-authorship should be followed when using these data including to the Owners, Exxon Valdez Oil Spill Trustee Council and other sources of funding. Please let the Owner know when these data are used. User must read and fully comprehend the metadata prior to use. Data should not be used beyond the limits of the source scale. Acknowledgement of NOAA, as the source from which these data were obtained, in any publications and/or other representations of these data is suggested. Distribution Liability: The user is responsible for the results of any application of this data for other than its intended purpose.</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Prince William Sound Herring Program in the Gulf of Alaska Exxon Valdez Oil Spill Affected Area</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>20170101</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>Scott Pegau</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Oil Spill Recovery Institute</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:positionName>
+                    <gco:CharacterString>Research Program Manager</gco:CharacterString>
+                  </gmd:positionName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:phone>
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>(907) 424-5800 x222</gco:CharacterString>
+                          </gmd:voice>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>Box 705</gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>Cordova</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>AK</gco:CharacterString>
+                          </gmd:administrativeArea>
+                          <gmd:postalCode>
+                            <gco:CharacterString>99574</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:country>
+                            <gco:CharacterString>US</gco:CharacterString>
+                          </gmd:country>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>wspegau@pwssc.org</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>Exxon Valdez Oil Spill Trustee Council</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Exxon Valdez Oil Spill Trustee Council</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:phone>
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>907 278 8012</gco:CharacterString>
+                          </gmd:voice>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>4210 University Drive</gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>Anchorage</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>AK</gco:CharacterString>
+                          </gmd:administrativeArea>
+                          <gmd:postalCode>
+                            <gco:CharacterString>99508</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:country>
+                            <gco:CharacterString>USA</gco:CharacterString>
+                          </gmd:country>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>dfg.evos.restoration@alaska.gov</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="funder">funder</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:otherCitationDetails>
+                <gco:CharacterString>The Exxon Valdez Oil Spill Trustee Council (EVOSTC) initiated funding for the integrated research program in Prince William Sound (PWS) in 2009. The PWS Herring Survey program occurred between 2009 and 2013. The Herring Research and Monitoring (HRM) program began in 2012 and is continuing. The Herring Research and Monitoring program is administrated by the EVOSTC under five-year contracts with a total anticipated duration to be twenty-years in length, concluding in 2032. The HRM program is designed to be able to change focus every five years. This changes the types of data collected and the number of projects within the program. The overarching goal of the HRM program is to improve predictive models of herring stocks through observation and research. The monitoring efforts provide surveys of disease prevalence, adult biomass, juvenile abundance index, and condition of young of the year herring. A series of process studies are aimed at improving our understanding of individual components of the herring life cycle. These studies include determining the age at first spawn, identifying population genetic structure, analysis of herring scales for growth patterns, intensive surveys of juvenile populations and conditions, analysis of fatty acids to determine migration distances, improving validation of acoustic measurements, disease related studies, acoustic tagging, development of nonlethal sampling methods, and modeling of herring populations.</gco:CharacterString>
+              </gmd:otherCitationDetails>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>https://doi.org/10.24431/axds/0a8f3bd2-5329-432c-b71e-94171373854d</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="campaign">campaign</gmd:DS_InitiativeTypeCode>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:language>
+        <gco:CharacterString>eng;USA</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:environmentDescription>
+        <gco:CharacterString>The dataset was originally constructed in Microsoft Excel and converted to csv format for archive.</gco:CharacterString>
+      </gmd:environmentDescription>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>Prince William Sound, Alaska</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-148.516027</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-145.945612</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>59.975405</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>61.261070</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <gml:Polygon gml:id="gmlid_1">
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:coordinates decimal="-148.0857092142105,59.62849487860165 -145.1633459329605,59.94912737939198 -146.1301428079605,60.98872569234532 -148.3933264017105,60.807050868134915 -148.0857092142105,59.62849487860165"/>
+                    </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Polygon>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="gmlid_2">
+                  <gml:beginPosition>2010-10-01T00:00:00+00:00</gml:beginPosition>
+                  <gml:endPosition>2012-04-01T00:00:00+00:00</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Carol Janzen</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Alaska Ocean Observing System</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>(907) 644-6703</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>1007 W 3rd Ave # 100</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Anchorage</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>AK</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>99501</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>janzen@aoos.org</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributorFormat>
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>Data available in csv format for download in the Alaska Ocean Observing System (AOOS) Gulf of Alaska data portal.</gco:CharacterString>
+              </gmd:name>
+              <gmd:version gco:nilReason="missing"/>
+            </gmd:MD_Format>
+          </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://portal.aoos.org/gulf-of-alaska.php#metadata/4e73652c-858f-4a2a-9d0d-de53b62a27db/project</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmi:QE_Usability>
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Usability report</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:evaluationMethodDescription>
+            <gco:CharacterString>These data should not be scaled up to the population level due to unrepresentative field sampling caused by differences in size selectivity of gear and variation in gear types used to capture fish.</gco:CharacterString>
+          </gmd:evaluationMethodDescription>
+          <gmd:result gco:nilReason="missing"/>
+        </gmi:QE_Usability>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_QuantitativeAttributeAccuracy>
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Attribute accuracy report</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:evaluationMethodDescription>
+            <gco:CharacterString>Test accuracy was verified for each chemical analysis as follows: •Lipid: as described in Vollenweider et al (2011), quality control samples included with each batch of 17 samples included a blank to evaluate cross contamination, lab-produced reference material to evaluate accuracy, and a replicated sample to evaluate precision. National Institute for Standards and Technology (NIST) reference materials were analyzed prior to sample analysis to verify accuracy of lipid analysis methods. •Fatty acids: as described in Otis et al (2010), Varian software was used to quantify fatty acid concentrations from 6-point calibration curves. Quality control samples processed with each batch of 15-20 samples included a blank to evaluate cross contamination, NIST standard reference material (SRM1946) to evaluate accuracy, and replicated samples to evaluate precision. •Protein content: as described in Vollenweider et al (2011), samples were run in duplicate to evaluate precision, and mean values of the duplicates were reported. Quality control samples included with each batch of 17 samples included a blank reference consisting of cane sugar and NIST standard reference material (SRM1546). •Moisture content, ash content: as described in Vollenweider et al (2011), moisture samples were run in duplicate to evaluate precision, and mean values of the duplicates were reported. Quality control samples included with each batch of 17 samples included NIST standard reference material (SRM1546). •RNA/DNA: Ratios of RNA and DNA in known quantities of standard materials, calf liver 18s + 28s ribosomal RNA and calf thymus DNA (Sigma), were used for quality control to verify RNA/DNA analysis.</gco:CharacterString>
+          </gmd:evaluationMethodDescription>
+          <gmd:result gco:nilReason="missing"/>
+        </gmd:DQ_QuantitativeAttributeAccuracy>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_CompletenessOmission>
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Completeness report</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:evaluationMethodDescription>
+            <gco:CharacterString>Field collections were conducted opportunistically, so not all months and sites are represented. Field collections were subsampled for laboratory analyses, so not every individual fish captured was subjected to every processing type. Data were excluded from herring &gt; 120 mm fork length (age 1 +), and herring damaged during handling.</gco:CharacterString>
+          </gmd:evaluationMethodDescription>
+          <gmd:result gco:nilReason="missing"/>
+        </gmd:DQ_CompletenessOmission>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_ConceptualConsistency>
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Data quality assurance / quality control report</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:evaluationMethodDescription>
+            <gco:CharacterString>For all processes National Institute for Standards and Technology (NIST) standard reference materials were used for quality-control purposes. Data quality assurance / quality control measures for each process are documented in the laboratory standard operating procedures available from the data set point of contact.</gco:CharacterString>
+          </gmd:evaluationMethodDescription>
+          <gmd:result gco:nilReason="missing"/>
+        </gmd:DQ_ConceptualConsistency>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Herring collected in PWS in November 2010 – March 2012, and in Auke Bay in October 2011. Captive-reared Auke Bay herring sampled through April 2012. Biological measurements, stomach contents identification (for November 2011 – March 2012 field samples only), and chemical analyses (proximate composition, fatty acid composition) conducted on frozen individuals shipped to ABL following each field collection. •Lipid content: as described in Vollenweider et al (2011), lipid extraction was performed on wet tissue homogenates following a modified Folch method (Folch et al. 1957) using a Dionex 200 Accelerated Solvent Extractor, followed by drying and weighing lipid extracts. •Fatty acid composition: as described in Otis et al (2010), a portion of the total lipid extracted from each sample was transesterifed to fatty acid methyl esters following the methods of Christie (2003). Concentrations of 38 fatty acids were measured using a Varian Saturn gas chromatograph and mass spectrometer. •Protein content: as described in Vollenweider et al (2011), nitrogen content was measured with a Leco Tru-Spec CHN Analyzer following the Dumas combustion method, multiplied by a conversion factor of 6.25 (Craig et al. 1978) to yield protein content of samples. •Moisture content, ash content: as described in Vollenweider et al (2011), moisture and ash contents were determined by heating samples and measuring gravimetrically with a Leco Thermogravimetric Analyzer 701. •RNA/DNA: the RNA and DNA contents of dorsal white muscle tissue, less than 1% of fish body mass, were determined with a fluorometric dye-binding assay using methodology of Caldarone et al. (2001) as adapted by Sreenivasan (2011). Lineage citations: Budge, S. M., S. J. Iverson and H.N. Koopman. Studying trophic ecology in marine ecosystems using fatty acids: a Primer on analysis and interpretation. Marine Mammal Science 22(4):759-801. Caldarone, E. M., M. Wagner, J. St. Onge-Burns, and L. J. Buckley. 2001. Protocol and guide for estimating nucleic acids in larval fish using a fluorescence microplate reader. National Marine Fisheries Service. Christie, W. W. 2003. Lipid analysis: isolation, separation, identification, and structural analysis of lipids, 3rd ed. Oily Press, Bridgewater, UK. Craig, J.F., M.J. Kenley, and J.F. Talling. 1978. Comparative estimations of the energy content of fish tissue from bomb calorimetry, wet oxidation and proximate analysis. Freshwater Biology, 8(6):585-590. Folch, J., M. Lees, and G. H. Sloane Stanley. 1957. A simple method for the isolation and purification of total lipids from animal tissues. Journal of Biological Chemistry 226:497-509. Otis, E.O., R. Heintz, and J. Maselko. 2010. Investigation of Pacific herring (Clupea pallasii) stock structure in Alaska using otolith microchemistry and heart tissue fatty acid composition. Exxon Valdez Oil Spill Restoration Project Final Report (Restoration Project 070769), Alaska Department of Fish and Game, Division of Commercial Fisheries, Homer, Alaska. Sewall, F. F, R. A. Heintz, and J. J. Vollenweider. 2013. Prince William Sound Herring Survey: Value of Growth and Energy Storage as Predictors of Winter Performance in Young-of-the-year Herring from Prince William Sound, Exxon Valdez Oil Spill Trustee Council Final Report (Project 10100132-D), National Marine Fisheries Service, Juneau, Alaska. Sreenivasan, A. 2011. Nucleic acid rations as an index of growth and nutritional ecology in Pacific cod (Gadus macrocephalus), walleye pollock (Theragra chalcogramma), and Pacific herring (Clupea pallasii). Ph.D. Dissertation, University of Alaska, Fairbanks. Vollenweider, J. J., R. A. Heintz, L. Schaufler, and R. Bradshaw. 2011. Seasonal cycles in whole-body proximate composition and energy content of forage fish vary with water depth. Marine Biology 158:413-427.</gco:CharacterString>
+          </gmd:statement>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>Laboratory standard operating procedures for each process are available from the data set point of contact.</gco:CharacterString>
+              </gmd:description>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+      </gmd:maintenanceAndUpdateFrequency>
+      <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName gco:nilReason="missing"/>
+          <gmd:organisationName>
+            <gco:CharacterString>Axiom Data Science</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Metadata Specialist</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>1016 W 6th Avenue</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Suite 105</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Anchorage</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>AK</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>99501</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>USA</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>metadata@axiomdatascience.com</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:contact>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

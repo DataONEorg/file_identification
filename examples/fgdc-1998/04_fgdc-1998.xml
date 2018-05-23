@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://www.fgdc.gov/metadata/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Water and Climate Center, National Resources Conservation Service</origin>
+            <pubdate>20170629</pubdate>
+            <title>SCAN Willow Wells, NM (Jan, 2017)</title>
+            <geoform>vector digital data</geoform>
+            <onlink>http://nmepscor.org/dataportal</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/services/ogc/wms?SERVICE=wms&amp;REQUEST=GetCapabilities&amp;VERSION=1.1.1</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/services/ogc/wfs?SERVICE=wfs&amp;REQUEST=GetCapabilities&amp;VERSION=1.0.0</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.shp</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.original.zip</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.gml</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.kml</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.geojson</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.json</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.csv</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.xls</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/metadata/FGDC-STD-001-1998.xml</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/metadata/FGDC-STD-001-1998.html</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/metadata/ISO-19115:2003.xml</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/metadata/ISO-19115:2003.html</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/metadata/ISO-19119:WMS.xml</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/metadata/ISO-19119:WFS.xml</onlink>
+            <onlink>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/metadata/ISO-19110.xml</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>The Soil Climate Analysis Network (SCAN) is a comprehensive, nationwide soil
+                moisture and climate information system designed to provide data to support natural
+                resource assessments and conservation activities. Administered by the United States
+                Department of Agriculture Natural Resources Conservation Service (NRCS) through the
+                National Water and Climate Center (NWCC), in cooperation with the NRCS National Soil
+                Survey Center, the system focuses on agricultural areas of the U.S. monitoring soil
+                temperature and soil moisture content at several depths, soil water level, air
+                temperature, relative humidity, solar radiation, wind, precipitation, barometric
+                pressure, and more.</abstract>
+         <purpose>The Soil Climate Analysis Network (SCAN) is a comprehensive, nationwide soil
+                moisture and climate information system designed to provide data to support natural
+                resource assessments and conservation activities. Administered by the United States
+                Department of Agriculture Natural Resources Conservation Service (NRCS) through the
+                National Water and Climate Center (NWCC), in cooperation with the NRCS National Soil
+                Survey Center, the system focuses on agricultural areas of the U.S. monitoring soil
+                temperature and soil moisture content at several depths, soil water level, air
+                temperature, relative humidity, solar radiation, wind, precipitation, barometric
+                pressure, and more.</purpose>
+         <supplinf>These data are made available through New Mexico's Experimental Program to
+                Stimulate Competitive Research (NM EPSCoR) data portal. The portal provides access
+                to data generated by and of use to the EPSCoR community including researchers,
+                educators, and policy leaders, as well as the general public.
+                http://www.wcc.nrcs.usda.gov/scan/</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>20170101</begdate>
+               <begtime>010000</begtime>
+               <enddate>20170201</enddate>
+            </rngdates>
+         </timeinfo>
+         <current>Ground Condition</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>Unknown</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-103.633333333</westbc>
+            <eastbc>-103.633333333</eastbc>
+            <northbc>33.5333333333</northbc>
+            <southbc>33.5333333333</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>ISO 19115 Topic Categories</themekt>
+            <themekey>climatologyMeteorologyAtmosphere</themekey>
+         </theme>
+         <theme>
+            <themekt>http://www.wcc.nrcs.usda.gov/scan/</themekt>
+            <themekey>precipitation</themekey>
+            <themekey>air temperature</themekey>
+            <themekey>relative humidity</themekey>
+            <themekey>solar radiation</themekey>
+            <themekey>barometric pressure</themekey>
+            <themekey>snow water content</themekey>
+            <themekey>snow depth</themekey>
+            <themekey>soil moisture</themekey>
+            <themekey>soil temperature</themekey>
+         </theme>
+         <theme>
+            <themekt>EPSCoR Project</themekt>
+            <themekey>EPSCoR Tract 3</themekey>
+         </theme>
+         <place>
+            <placekt>Spatial Reference System Identifiers</placekt>
+            <placekey>EPSG:4269</placekey>
+            <placekey>EPSG:7019</placekey>
+         </place>
+         <place>
+            <placekt>http://www.wcc.nrcs.usda.gov/scan/</placekt>
+            <placekey>NM</placekey>
+            <placekey>Lea</placekey>
+            <placekey>Willow Wells</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>None</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Tony Tolsdorf</cntper>
+               <cntorg>National Water and Climate Center</cntorg>
+            </cntperp>
+            <cntpos>Monitoring Branch Leader</cntpos>
+            <cntaddr>
+               <addrtype>Mailing address</addrtype>
+               <address>1201 NE Lloyd Blvd., Suite 802</address>
+               <city>Portland</city>
+               <state>OR</state>
+               <postal>97232-1274
+                    </postal>
+            </cntaddr>
+            <cntvoice>503-414-3006</cntvoice>
+            <cntemail>tony.tolsdorf@por.usda.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog
+            9.3.1.3000</native>
+   </idinfo>
+   <dataqual>
+      <logic>Not provided</logic>
+      <complete>Not provided</complete>
+      <lineage>
+         <procstep>
+            <procdesc>Create the shapefiles using the provided lat/lon from the NRCS, one per
+                    station using an Arcpy script. Download the CSV data for each station, each
+                    year, each month from the station's Reporting Since date.</procdesc>
+            <procdate>20170629</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntorgp>
+                     <cntorg>Earth Data Analysis Center</cntorg>
+                  </cntorgp>
+                  <cntpos>Clearinghouse Manager</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing address</addrtype>
+                     <address>MSC01 1110</address>
+                     <address>1 University of New Mexico</address>
+                     <city>Albuquerque</city>
+                     <state>NM</state>
+                     <postal>87131-0001</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>505-277-3622 ext. 230</cntvoice>
+                  <cntfax>505-277-3614</cntfax>
+                  <cntemail>clearinghouse@edac.unm.edu</cntemail>
+                  <hours>8am to 5pm MT, M-F</hours>
+               </cntinfo>
+            </proccont>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <indspref>Lea County, NM</indspref>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>Point</sdtstype>
+            <ptvctcnt>744</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <geograph>
+            <latres>0.00000001</latres>
+            <longres>0.00000001</longres>
+            <geogunit>Decimal degrees</geogunit>
+         </geograph>
+         <geodetic>
+                <horizdn>North American Datum of 1983</horizdn>
+                <ellips>Geodetic Reference System 80</ellips>
+                <semiaxis>6378137.000000</semiaxis>
+                <denflat>298.257222</denflat>
+            </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>SCAN</enttypl>
+            <enttypd>Soil, Climate, Analysis, Network (SCAN)</enttypd>
+            <enttypds>http://www.wcc.nrcs.usda.gov/scan/</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>FID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>site_id</attrlabl>
+            <attrdef>NRCS Internal Site Number</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <udom>NRCS Internal Site Number</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>date</attrlabl>
+            <attrdef>Date</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <udom>Date</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>time</attrlabl>
+            <attrdef>Time (Pacific Standard Time)</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <udom>Time (Pacific Standard Time)</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>preci_1</attrlabl>
+            <attrdef>Precipitation Accumulated</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>inches</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>tobsi_1</attrlabl>
+            <attrdef>Air Temperature Observed</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>degrees Celsius</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>tmaxh_1</attrlabl>
+            <attrdef>Air Temperature Maximum</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>degrees Celsius</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>tminh_1</attrlabl>
+            <attrdef>Air Temperature Minimum</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>degrees Celsius</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>tavgh_1</attrlabl>
+            <attrdef>Air Temperature Average</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>degrees Celsius</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>prcph_1</attrlabl>
+            <attrdef>Precipitation Increment</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>inches</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>smsi_1_2l</attrlabl>
+            <attrdef>"Soil Moisture Percent; Sensor Height -2"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>smsi_1_4l</attrlabl>
+            <attrdef>"Soil Moisture Percent; Sensor Height -4"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>smsi_1_8l</attrlabl>
+            <attrdef>"Soil Moisture Percent; Sensor Height -8"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>smsi_1_20l</attrlabl>
+            <attrdef>"Soil Moisture Percent; Sensor Height -20"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>smsi_1_40l</attrlabl>
+            <attrdef>"Soil Moisture Percent; Sensor Height -40"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>stoi_1_2</attrlabl>
+            <attrdef>"Soil Temperature Observed; Sensor Height -2"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>degrees Celsius</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>stoi_1_4</attrlabl>
+            <attrdef>"Soil Temperature Observed; Sensor Height -4"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>degrees Celsius</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>stoi_1_8</attrlabl>
+            <attrdef>"Soil Temperature Observed; Sensor Height -8"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>degrees Celsius</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>stoi_1_20</attrlabl>
+            <attrdef>"Soil Temperature Observed; Sensor Height -20"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>degrees Celsius</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>stoi_1_40</attrlabl>
+            <attrdef>"Soil Temperature Observed; Sensor Height -40"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>degrees Celsius</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>sali_1_2</attrlabl>
+            <attrdef>"Salinity; Sensor Height -2"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>gram</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>sali_1_4</attrlabl>
+            <attrdef>"Salinity; Sensor Height -4"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>gram</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>sali_1_8</attrlabl>
+            <attrdef>"Salinity; Sensor Height -8"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>gram</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>sali_1_20</attrlabl>
+            <attrdef>"Salinity; Sensor Height -20"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>gram</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>sali_1_40</attrlabl>
+            <attrdef>"Salinity; Sensor Height -40"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>gram</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>rdci_1_2</attrlabl>
+            <attrdef>"Real Dielectric Constant; Sensor Height -2"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>unitless</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>rdci_1_4</attrlabl>
+            <attrdef>"Real Dielectric Constant; Sensor Height -4"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>unitless</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>rdci_1_8</attrlabl>
+            <attrdef>"Real Dielectric Constant; Sensor Height -8"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>unitless</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>rdci_1_20</attrlabl>
+            <attrdef>"Real Dielectric Constant; Sensor Height -20"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>unitless</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>rdci_1_40</attrlabl>
+            <attrdef>"Real Dielectric Constant; Sensor Height -40"""</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>unitless</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>batti_1</attrlabl>
+            <attrdef>Battery Voltage</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>volt</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>batti_2</attrlabl>
+            <attrdef>Battery Voltage</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>volt</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>wdirvh_1122</attrlabl>
+            <attrdef>Wind Direction Average</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>degrees</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>wspdxh_1mx122</attrlabl>
+            <attrdef>Wind Speed Maximum</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>mph</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>wspdvh1122</attrlabl>
+            <attrdef>Wind Speed Average</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>mph</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>rhumi_1</attrlabl>
+            <attrdef>Relative Humidity; Vaisala</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>sradvh_1</attrlabl>
+            <attrdef>Solar Radiation Average</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>watt</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>dptph_1</attrlabl>
+            <attrdef>Dew Point Temperature</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>degrees Celsius</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>pvpvh_1</attrlabl>
+            <attrdef>Vapor Pressure</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>kPa</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>rhumnh_1</attrlabl>
+            <attrdef>Relative Humidity Minimum</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>rhumxh_1</attrlabl>
+            <attrdef>Relative Humidity Maximum</attrdef>
+            <attrdefs>NRCS</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>Unknown</rdommin>
+                  <rdommax>Unknown</rdommax>
+                  <attrunit>percent</attrunit>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>0800 - 1700 MT, M-F -7 hours GMT</hours>
+         </cntinfo>
+      </distrib>
+      <resdesc>Downloadable Data</resdesc>
+      <distliab>The material on this site is made available as a public service. Maps and data are to be used for reference purposes only and the Earth Data Analysis Center (EDAC), New Mexico EPSCoR (NM EPSCoR), Energize New Mexico and The University of New Mexico are not responsible for any inaccuracies herein contained. No responsibility is assumed for damages or other liabilities due to the accuracy, availability, use or misuse of the information herein provided. Unless otherwise indicated in the documentation (metadata) for individual data sets, information on this site is public domain and may be copied without permission; citation of the source is appreciated.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ZIP</formname>
+               <transize>1</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.original.zip</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico at http://nmepscor.org.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico (http://nmepscor.org).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ESRI Shapefile (shp)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.shp</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico at http://nmepscor.org.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico (http://nmepscor.org).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>GML</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.gml</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico at http://nmepscor.org.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico (http://nmepscor.org).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>KML</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.kml</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico at http://nmepscor.org.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico (http://nmepscor.org).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>GeoJSON</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.geojson</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico at http://nmepscor.org.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico (http://nmepscor.org).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>JSON</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.json</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico at http://nmepscor.org.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico (http://nmepscor.org).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Comma Separated Values (csv)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.csv</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico at http://nmepscor.org.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico (http://nmepscor.org).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>MS Excel format (xls)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/energize/datasets/00d436f8-8006-4d21-bfef-a4a74167b320/scan_201701_2108.derived.xls</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico at http://nmepscor.org.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from New Mexico EPSCoR (NM EPSCoR), Energize New Mexico (http://nmepscor.org).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <custom>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</custom>
+      <techpreq>Adequate computer capability is the only technical prerequisite for viewing data in digital form.</techpreq>
+   </distinfo>
+   <metainfo>
+      <metd>20170821</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>0800 - 1700 MT, M-F -7 hours GMT</hours>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+   </metainfo>
+</metadata>

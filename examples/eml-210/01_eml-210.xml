@@ -1,0 +1,511 @@
+<?xml version="1.0"?>
+<eml:eml packageId="aceasdata.12.8" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Weekly pollen count data for the Australian National University, Canberra.</title>
+ <creator id="1392872834276"> <individualName> <salutation>Professor</salutation>
+ <givenName>Simon</givenName>
+ <surName>Haberle</surName>
+ </individualName>
+ <organizationName>Australian National University</organizationName>
+ <positionName>Professor</positionName>
+ <electronicMailAddress>simon.haberle@anu.edu.au</electronicMailAddress>
+ </creator>
+ <associatedParty id="1392873200466"> <individualName> <salutation>Dr</salutation>
+ <givenName>Janet</givenName>
+ <surName>Davies</surName>
+ </individualName>
+ <organizationName>University of Queensland</organizationName>
+ <positionName>Senior Research Fellow</positionName>
+ <electronicMailAddress>j.davis2@uq.edu.au</electronicMailAddress>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1392873340524"> <individualName> <salutation>Assoc. Prof</salutation>
+ <givenName>Alison</givenName>
+ <surName>Specht</surName>
+ </individualName>
+ <organizationName>University of Queensland</organizationName>
+ <positionName>ACEAS Program Manager</positionName>
+ <electronicMailAddress>aceas.tern@uq.edu.au</electronicMailAddress>
+ <role>Distributor</role>
+ </associatedParty>
+ <abstract> <para>The datafile contains the composition and abundance of airborne pollen in the campus of the Australian National University, Canberra, ACT, Australia. The data was collected for the period between September 2007 to December 2009 as part of a large research program looking at atmospheric particles and human health and phenology of urban planted environments (unpublished).</para>
+ </abstract>
+<keywordSet><keyword>Weekly pollen counts</keyword>
+<keywordThesaurus>local</keywordThesaurus>
+</keywordSet>
+<keywordSet><keyword>BIOSPHERE &gt;VEGETATION &gt;POLLEN</keyword>
+<keyword>PALEOCLIMATE &gt;LAND RECORDS &gt;POLLEN</keyword>
+<keywordThesaurus>GCMD</keywordThesaurus>
+</keywordSet>
+<keywordSet><keyword>0502 ENVIRONMENTAL SCIENCE AND MANAGEMENT</keyword>
+<keywordThesaurus>anzsrc-for</keywordThesaurus>
+</keywordSet>
+   <intellectualRights> <para>This data is shared under conditions described in the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU) licence (https://creativecommons.org/licenses/by-nc-sa/3.0/au/). The licence let others copy, distribute, display copyrighted work &#8218;&#196;&#236; but data can be used only for non-commercial purposes and appropriate credit must be given for the original creator. Distribute derivative of work under the same license as the original.</para>
+ </intellectualRights>
+ <coverage> <geographicCoverage> <geographicDescription>In the suburb of Acton (Australian National University), Canberra, ACT, Australia</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>149.116667</westBoundingCoordinate>
+ <eastBoundingCoordinate>149.265783667</eastBoundingCoordinate>
+ <northBoundingCoordinate>-35.266667</northBoundingCoordinate>
+ <southBoundingCoordinate>-35.266667</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage> <rangeOfDates> <beginDate> <calendarDate>2007-09-26</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2009-12-13</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Asteraceae</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Chenopodiaceae</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Cupressaceae</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Cyperaceae</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Myrtaceae</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Oleaceae</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Poaceae</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Alnus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Betula</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Casuarina</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Coprosma</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Oleaceae</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Pinus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Plantago</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Quercus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Rumex</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Salix</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Ulmus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Urticaceae</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact> <references>1392872834276</references>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Airborne pollen counts</title>
+ <para>Airborne pollen counts were derived from deployment of a seven-day Hirst-type volumetric pollen and spore trap located on a rooftops at 8m above the ground.</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling> <studyExtent> <description> <para>the study is conducted in the Australian National University, Canberra, ACT, Australia</para>
+ </description>
+ </studyExtent>
+ <samplingDescription> <para>Airborne pollen counts were derived from deployment of a seven-day Hirst-type volumetric pollen and spore trap located on a rooftops at 8m above the ground. The Hirst-type sampler uses a range of adhesive surface compounds including vaseline and 10% paraffin wax in toluene on MelinexTM tape (Burkard Manufacturing Co. Ltd., Rickmansworth, Hertfordshire, UK), silicon-based adhesive (Lanzoni s.r.l., Bologna, Italy). The seven-day tapes are then cut into 24-hr segments and mounted on glass slides with a stain such as fuchsine stained Gelvatol. Analysis of each 24-hr period is conducted by counting four transects at 400 magnification. The data is summed to provide an average weekly pollen count.</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <project> <title>Understanding Australian aerobiology to monitor environmental change and human allergenic exposure</title>
+ <personnel> <references>1392873200466</references>
+ <role>Principal Investigator</role>
+ </personnel>
+ <personnel id="1392873823425"> <individualName> <salutation>Professor</salutation>
+ <givenName>David</givenName>
+ <surName>Bowman</surName>
+ </individualName>
+ <organizationName>University of Tasmania</organizationName>
+ <positionName>Professor</positionName>
+ <electronicMailAddress>David.Bowman@utas.edu.au</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392874043200"> <individualName> <givenName>Paul</givenName>
+ <surName>Beggs</surName>
+ </individualName>
+ <organizationName>Department of Environment and Geography, Faculty of Science, Macquarie University</organizationName>
+ <positionName>Associate Professor</positionName>
+ <electronicMailAddress>paul.beggs@mq.edu.au</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel> <references>1392872834276</references>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392874193463"> <individualName> <salutation>Assoc Prof</salutation>
+ <givenName>Edward</givenName>
+ <surName>Newbigin</surName>
+ </individualName>
+ <organizationName>School of Botany, University of Melbourne</organizationName>
+ <positionName>Assoc Prof</positionName>
+ <electronicMailAddress>edwardjn@unimelb.edu.au</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392874299307"> <individualName> <givenName>Bircan</givenName>
+ <surName>Erbas</surName>
+ </individualName>
+ <organizationName>School of Public Health, La Trobe University</organizationName>
+ <positionName>Biostatistican</positionName>
+ <electronicMailAddress>B.Erbas@latrobe.edu.au</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392874364131"> <individualName> <givenName>Bradley</givenName>
+ <surName>Campbell</surName>
+ </individualName>
+ <organizationName>School of Agriculture and Food Science, The University of Queensland</organizationName>
+ <positionName>Postdoctoral research fellow</positionName>
+ <electronicMailAddress>b.campbell2@uq.edu.au</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392874598818"> <individualName> <salutation>Assoc Prof</salutation>
+ <givenName>Francis</givenName>
+ <surName>Murray</surName>
+ </individualName>
+ <organizationName>School of Environmental Science, Murdoch University</organizationName>
+ <positionName>Assoc Prof</positionName>
+ <electronicMailAddress>F.murray@murdoch.edu.au</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392874685858"> <individualName> <salutation>Ms</salutation>
+ <givenName>Alison</givenName>
+ <surName>Jaggard</surName>
+ </individualName>
+ <organizationName>Department of Environment and Geography, Faculty of Science, Macquarie University</organizationName>
+ <positionName>Research Officer</positionName>
+ <electronicMailAddress>alison.je.garde@gmail.com</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392874789005"> <individualName> <salutation>Prof</salutation>
+ <givenName>Ian</givenName>
+ <surName>Godwin</surName>
+ </individualName>
+ <organizationName>School of Agriculture and Food Science, The University of Queensland</organizationName>
+ <positionName>Professor</positionName>
+ <electronicMailAddress>i.godwin@uq.edu.au</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392874918133"> <individualName> <salutation>Prof</salutation>
+ <givenName>Connie</givenName>
+ <surName>Katelaris</surName>
+ </individualName>
+ <organizationName>University of Western Sydney &amp; Campbelltown Hospital</organizationName>
+ <positionName>Prof</positionName>
+ <electronicMailAddress>chk@allergyimmunol.com.au</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392875002648"> <individualName> <salutation>Prof</salutation>
+ <givenName>Michel</givenName>
+ <surName>Thibaudon</surName>
+ </individualName>
+ <organizationName>National Research for Aerobiological Surveilance, France</organizationName>
+ <positionName>Director</positionName>
+ <electronicMailAddress>michel.thibaudon@wanadoo.fr</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392875119478"> <individualName> <salutation>Prof</salutation>
+ <givenName>Jereon</givenName>
+ <surName>Buters</surName>
+ </individualName>
+ <organizationName>Center for Allergy and Environment, Technical University of Munich, Germany</organizationName>
+ <positionName>Professor</positionName>
+ <electronicMailAddress>buters@lrz.tu-muenchen.de</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392875227865"> <individualName> <salutation>Dr</salutation>
+ <givenName>Fay</givenName>
+ <surName>Johnston</surName>
+ </individualName>
+ <organizationName>Menzies Research Institute Tasmania, UTAS</organizationName>
+ <positionName>Environmental Epidemiologist</positionName>
+ <electronicMailAddress>Fay.Johnston@utas.edu.au</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392875525542"> <individualName> <givenName>Danielle</givenName>
+ <surName>Medek</surName>
+ </individualName>
+ <organizationName>School of Medicine, Australian National University</organizationName>
+ <positionName>Medical Student</positionName>
+ <electronicMailAddress>dianella@gmail.com</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392875616087"> <individualName> <salutation>Prof</salutation>
+ <givenName>Rewi</givenName>
+ <surName>Newnham</surName>
+ </individualName>
+ <organizationName>Victoria University, Wellington, New Zealand</organizationName>
+ <positionName>Prof</positionName>
+ <electronicMailAddress>Rewi.Newnham@vuw.ac.nz</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392875699175"> <individualName> <salutation>Prof</salutation>
+ <givenName>Alfredo</givenName>
+ <surName>Huete</surName>
+ </individualName>
+ <organizationName>Science, University of Technology Sydney</organizationName>
+ <positionName>Prof</positionName>
+ <electronicMailAddress>Alfredo.Huete@uts.edu.au</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <personnel id="1392875751633"> <individualName> <givenName>Don</givenName>
+ <surName>Vicendese</surName>
+ </individualName>
+ <organizationName>La Trobe University</organizationName>
+ <positionName>Senior Research Assistant</positionName>
+ <electronicMailAddress>vicendese.don@gmail.com</electronicMailAddress>
+ <role>Content Provider</role>
+ </personnel>
+ <funding> <para>Australian Centre for Ecological Analysis and Synthesis (ACEAS)</para>
+ </funding>
+ </project>
+ <dataTable id="1392879407398"> <entityName>Canberra_weekly_pollen_counts-Sep2007-Dec2009.csv</entityName>
+ <entityDescription>Weekly pollen counts data between September 2007 and December 2009</entityDescription>
+ <physical id="1392878357768"> <objectName>Canberra_weekly_pollen_counts-Sep2007-Dec2009.csv</objectName>
+ <size unit="byte">13015</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/aceasdata.9.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1392879407399"> <attributeName>first_date_of_week</attributeName>
+ <attributeDefinition>Date of the first day of the week</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>DD/MM/YYYY</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407400"> <attributeName>week_number</attributeName>
+ <attributeDefinition>the week number of the year</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407401"> <attributeName>num_days_data_collected</attributeName>
+ <attributeDefinition>The number fo days in a week data is collected</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407402"> <attributeName>Casuarina (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407403"> <attributeName>Urticaceae (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407404"> <attributeName>Acacia (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407405"> <attributeName>Myrtaceae (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407406"> <attributeName>Chenopodiaceae (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407407"> <attributeName>Cyperaceae (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407408"> <attributeName>Asteraceae (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407409"> <attributeName>Cupressaceae (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407410"> <attributeName>Pinus (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407411"> <attributeName>Poaceae (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407412"> <attributeName>Plantago (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407413"> <attributeName>Ulmus (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407414"> <attributeName>Salix (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407415"> <attributeName>Rumex (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407416"> <attributeName>Quercus (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407417"> <attributeName>Oleaceae (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407418"> <attributeName>Alnus (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407419"> <attributeName>Betula (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>taxonomic name and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407420"> <attributeName>Other (known and unknown) (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>other species and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1392879407421"> <attributeName>Total pollen (Weekly sum: grains/m3)</attributeName>
+ <attributeDefinition>total pollen counts and weekly sum of pollen counts (unit is grains/m3)</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>grainsPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>245</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="grainsPerCubicMeter" multiplierToSI=" " name="grainsPerCubicMeter" parentSI="mole" unitType="amount"> <description>grainsPerCubicMeter</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>

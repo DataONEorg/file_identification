@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="JDavis.24.11" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Salmon River RCC Benthic Invertebrate Data</title>
+ <creator id="1307992946318" scope="document"> <individualName> <givenName>Colden</givenName>
+ <surName>Baxter</surName>
+ </individualName>
+ <organizationName>Stream Ecology Center, Idaho State University</organizationName>
+ <positionName>Associate Professor</positionName>
+ <address scope="document"> <deliveryPoint>Idaho State University</deliveryPoint>
+ <deliveryPoint>Department of Biological Sciences, 921 South 8th Ave, Stop #8007</deliveryPoint>
+ <city>Pocatello</city>
+ <administrativeArea>ID</administrativeArea>
+ <postalCode>83209-8007</postalCode>
+ <country>U.S.A.</country>
+ </address>
+ <phone phonetype="voice">(208) 282-2139</phone>
+ <phone phonetype="fax">(208) 282-4570</phone>
+ <electronicMailAddress>baxtcold@isu.edu</electronicMailAddress>
+ <onlineUrl>http://www.isu.edu/departments/strmecol/index.shtml</onlineUrl>
+ </creator>
+ <associatedParty id="1307992987580" scope="document"> <individualName> <givenName>John</givenName>
+ <surName>Davis</surName>
+ </individualName>
+ <organizationName>Stream Ecology Center, Idaho State University</organizationName>
+ <positionName>Postdoctoral Researcher</positionName>
+ <address scope="document"> <deliveryPoint>Idaho State University</deliveryPoint>
+ <deliveryPoint>Department of Biological Sciences, 921 South 8th Ave, Stop #8007</deliveryPoint>
+ <city>Pocatello</city>
+ <administrativeArea>ID</administrativeArea>
+ <postalCode>83209-8007</postalCode>
+ <country>U.S.A.</country>
+ </address>
+ <phone phonetype="voice">(208) 282-2139</phone>
+ <phone phonetype="fax">(208) 282-4570</phone>
+ <electronicMailAddress>jmdavis@isu.edu</electronicMailAddress>
+ <onlineUrl>http://www.isu.edu/departments/strmecol/index.shtml</onlineUrl>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <associatedParty scope="document"> <references>1307992976894</references>
+ <role>Principal Investigator</role>
+ </associatedParty>
+ <abstract> <para>The data presented here represent the benthic macroinvertebrate data collected in 1976 and 1977 along the Salmon River mainstem.  These data were part of the original river continuum concept (RCC) project.  Seven sites were sampled seasonally over the two year period.  Four sites on the upper Salmon River mainstem (i.e., Camp, Smiley, Obsidian, and Casino) were sampled in March and July of 1976.  Four sites on the mid to lower Salmon River were sampled in March/April, July, and September/October of 1977 (i.e., Casino, Deadman's hole, Shoup, and Slate).  However, only Shoup and Slate were processed during the July 1977 sampling trip.  Additional samples (i.e., transport and benthic organic matter) were sampled during other trips, but the data presented here are the only seasonal samples that were processed for invertebrates.  Samples were collected either via a 'dustpan-kicknet' (1976) or a dome sampler (1977).  Invertebrates were identified and counted.  As the methods differ between years, interannual differences can only be compared based on relative abundance.
+
+These data are the basis for the following manuscripts.
+
+Minshall, G. W., J. T. Brock, and T. W. Lapoint. 1982. Characterization and dynamics of benthic organic-matter and invertebrate functional feeding group relationships in the upper Salmon River, Idaho (USA). Internationale Revue der Gesamten Hydrobiologie 67:793-820.
+Minshall, G. W., R. C. Petersen, T. L. Bott, C. E. Cushing, K. W. Cummins, R. L. Vannote, and J. R. Sedell. 1992. Stream ecosystem dynamics of the Salmon River, Idaho: An 8th order system. Journal of the North American Benthological Society 11:111-137.
+Minshall, G. W., R. C. Petersen, K. W. Cummins, T. L. Bott, J. R. Sedell, C. E. Cushing, and R. L. Vannote. 1983. Interbiome comparison of stream ecosystem dynamics. Ecological Monographs 53:1-25.</para>
+ </abstract>
+ <keywordSet> <keyword>Salmon River, river continuum concept, RCC, macroinvertebrate, insect, invertebrate, benthic, functional feeding group, abundance, aquatic</keyword>
+ </keywordSet>
+ <intellectualRights> <para>The data presented here have already been published.  Although they are freely available, the data owner (Colden Baxter) should be contacted prior to their being used in any form.  In addition, the original RCC citations and datasets should be clearly acknowledged as the data source.</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Salmon River mainstem</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-116.2916676</westBoundingCoordinate>
+ <eastBoundingCoordinate>-114.253611</eastBoundingCoordinate>
+ <northBoundingCoordinate>45.641667</northBoundingCoordinate>
+ <southBoundingCoordinate>43.883333</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1976-03-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>1977-10-05</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1307992964928" scope="document"> <individualName> <givenName>Colden</givenName>
+ <surName>Baxter</surName>
+ </individualName>
+ <organizationName>Stream Ecology Center, Idaho State University</organizationName>
+ <positionName>Associate Professor</positionName>
+ <address scope="document"> <deliveryPoint>Idaho State University</deliveryPoint>
+ <deliveryPoint>Department of Biological Sciences, 921 South 8th Ave, Stop #8007</deliveryPoint>
+ <city>Pocatello</city>
+ <administrativeArea>ID</administrativeArea>
+ <postalCode>83209-8007</postalCode>
+ <country>U.S.A.</country>
+ </address>
+ <phone phonetype="voice">(208) 282-2139</phone>
+ <phone phonetype="fax">(208) 282-4570</phone>
+ <electronicMailAddress>baxtcold@isu.edu</electronicMailAddress>
+ <onlineUrl>http://www.isu.edu/departments/strmecol/index.shtml</onlineUrl>
+ </contact>
+ <contact id="1307992976894" scope="document"> <individualName> <givenName>G. Wayne</givenName>
+ <surName>Minshall</surName>
+ </individualName>
+ <organizationName>Stream Ecology Center, Idaho State University</organizationName>
+ <positionName>Professor Emeritus</positionName>
+ <address scope="document"> <deliveryPoint>Idaho State University</deliveryPoint>
+ <deliveryPoint>Department of Biological Sciences, 921 South 8th Ave, Stop #8007</deliveryPoint>
+ <city>Pocatello</city>
+ <administrativeArea>ID</administrativeArea>
+ <postalCode>83209-8007</postalCode>
+ <country>U.S.A.</country>
+ </address>
+ <phone phonetype="voice">(208) 282-2139</phone>
+ <phone phonetype="fax">(208) 282-4570</phone>
+ <electronicMailAddress>minswayn@isu.edu</electronicMailAddress>
+ <onlineUrl>http://www.isu.edu/departments/strmecol/index.shtml</onlineUrl>
+ </contact>
+<methods><methodStep><description><section><title>Benthic invertebrate field methods</title>
+<para>Different sampling methods were used in 1976 and 1977.  Please see the following publications for additional methodological details.</para>
+<para>Minshall, G. W., J. T. Brock, and T. W. Lapoint. 1982. Internationale Revue der Gesamten Hydrobiologie 67:793-820.</para>
+<para>Minshall, G. W., R. C. Petersen, T. L. Bott, C. E. Cushing, K. W. Cummins, R. L. Vannote, and J. R. Sedell. 1992. Journal of the North American Benthological Society 11:111-137.</para>
+<para>Minshall, G. W., R. C. Petersen, K. W. Cummins, T. L. Bott, J. R. Sedell, C. E. Cushing, and R. L. Vannote. 1983. Ecological Monographs 53:1-25.</para>
+<para>The following methods were used in 1976.</para>
+<para>Only the upper sites on  the Salmon River mainstem were sampled in 1976 (Camp, Smiley, Obsidian, and Casino).  These were sampled in March and July of that year. Three habitat types were sampled: riffle, pool, reach, alcove, which was backwater pool habitat.  Reach habitat samples were transects in riffle habitat that extended across the river channel (i.e., perpendicular to flow).  Multiple samples were taken along this transect at varying distances from the shore.  The instrument used to collect the samples was termed a 'Dustpan-Kicknet' sampler, which was composed of a mesh net (mesh size = 1mm) attached to a wooden frame.  A known area was sampled at each site, which was typically 100cm in length x 45cm in width.  When sample area differed, it is recorded on the spreadsheet.  The wooden frame had a width of 45cm.  The benthos was disturbed by hand or foot and all material was collected in the wooden frame net.  As a known length of benthos was sampled, it allowed for estimates of abundance per unit area.  In riffle habitat, the water flow carried sampled material into the net.  In pool and alcove habitat, the net was moved to bring material into the net.  Samples were preserved in formalin and then wet-sieved in the lab.  Samples were fractionated into &gt;16mm, 4-16mm, and 1-4mm size fractions.  The entire sample was picked.  No data are reported for the &lt;1mm and &gt;100um size fraction because these samples were not collected in 1976 (i.e., the dustpan mesh size was 1mm).</para>
+<para>Specimens were identified to different taxonomic levels.  Many insects were identified to genus or species level.  However, other invertebrates (e.g., oligochaetes and nematodes) were simply recorded at the order or family level.  In those cases, the genera and species names are left blank.  Adults, nymphs, and larvae were recorded separately. As many of the taxonomic classifications have shifted since 1976, we present updated genera and species identifications when known.  The original classifications used in the 1976 and 1977 dataset are included in the 'ID Notes' column.  Please note that additional taxonomic name changes, which have not been updated, are likely.  When taxonomic classifications were updated, they follow the classifications of Merritt, R. W., K. W. Cummins, and M. B. Berg, editors. 2008. An introduction to the aquatic insects of North America. 4th edition. Kendall Hunt, Dubuque.</para>
+<para>Additional site notes:  The Obsidian sampling site varied between March and July 1976.  The July Obsidian site was located along a reach of river that is currently occupied by the Sawtooth Fish Hatchery water intake.  The March 1976 Obsidian site was moved down river to where the bridge for ID-75 crosses the river, just upriver of the turnoff for Redfish Lake.  When these sites were resampled in 2009 and 2010, the Obsidian site near the hatchery was used, but it was moved ca. 100 meters upriver of the hatchery water intake.</para>
+<para>The following methods were used in 1977.</para>
+<para>Only the mid to lower Salmon River mainstem sites were sampled in 1977 (Casino, Deadman's hole, Shoup, and Slate).  They were sampled in March/April, July, and September/October.  However, only Shoup and Slate were sampled in July 1977.  Sampling methods differed from the 1976 methods.  Three habitat types were sampled: riffle, pool, alcove, which was backwater pool habitat. In this year, samples were collected via a 'dome sampler' and SCUBA. The dome sampler was composed of a rigid steel ring that had a clear plexiglass dome attached to the top (sample area = 1620 cm^2).  The plexiglass had an attached pump and portals with attached gloves. This allowed a person's hand to be inserted into the dome sampler without opening it up.  The sampler was pressed into the benthos until a good seal was obtained.  Then a person inserted their hand into the glove and disturbed the bottom.  The sample was then filtered into a net using the attached pump.</para>
+<para>In some cases, multiple samples were collected where a specific dome sample was taken.  The first sample was used to estimate invertebrate abundance (as indicated in the 'Sample Type' column). Subsequent samples were sometimes taken and termed 'detrital depletion' samples.  These subsequent samples were collected to assess the efficiency that the dome sampler was collecting benthic samples.  When multiple samples were taken at a given dome sampling site, all samples were picked and processed in the lab.  However, only the first sample was used for macroinvertebrate assessment, which are designated as 'Invert Sample' in the 'Sample Type' column.   We include the 'detrital depletion' samples for comparison.  When detrital depletion samples were taken, the first number in the 'Sample ID' column represents the dome sample number.  The second number represents the detrital sample number.  The samples with the 'a' designation after the detrital sample number represent the sample that was used for invertebrate assements and the 'b or c' designation represent the detrital depletion samples.  For example, Slate (July 1977) sample #1_1a is the invertebrate sample and #18_1b and #19_1c are its detrital depletion samples.  When no letter follows the second number, that second number corresponds to the sample ID for the assessment of benthic organic matter.  Benthic organic matter data are not presented here.</para>
+<para>In the lab, the samples were wet sieved into two size fractions (&#8805;500&#181;m; &lt;500&#181;m and &gt;100&#181;m).  Some times only the &#8805;500&#181;m samples were picked and identified.  Other times, both the &#8805;500&#181;m and &lt;500&#181;m samples were picked and identified.  When the &#8805;500&#181;m size fraction was picked, but not the &lt;500&#181;m fraction, the &lt;500&#181;m column is designated with 'Not Picked.'  A '0' in a column means the size fraction was picked, but no individuals were observed. The abundances in both of those size fractions are presented separately to facilitate comparison between sites and seasons.</para>
+<para>Specimens were identified to different taxonomic levels.  Many insects were identified to genus or species level.  However, other invertebrates (e.g., oligochaetes and nematodes) were simply recorded at the order or family level.  In those cases, the genera and species names are left blank.  Adults, nymphs, and larvae were recorded separately. As many of the taxonomic classifications have shifted since 1976, we present updated genera and species identifications when known.  The original classifications used in the 1976 and 1977 dataset are included in the 'ID Notes' column.  Please note that additional taxonomic name changes, which have not been updated, are likely.</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>The data presented here are from the mainstem Salmon River.  Seven sites were sampled along the mainstem (Camp, Smiley, Obsidian, Casino, Deadman's hole, Shoup, and Slate).  The upper Salmon River sites (Camp, Smiley, Obsidian, and Casino) were sampled in March and July 1976.  The mid to lower Salmon River sites (Casino, Deadman's hole, Shoup, and Slate) were sampled in March/April and September/October 1977.  Only Slate and Shoup were sampled for invertebrates in July 1977.  Although these sites were sampled for other metrics during other seasons (i.e., transported organic matter and benthic organic matter), the data presented here are the only seasons that were processed for macroinvertebrate data.
+
+In 1976, the March sample was considered a 'winter' sample and the July sample was considered the 'summer' sample.  In 1977, the March/April sample was considered the 'spring' sample, the July sample was considered the 'summer' sample, and the September/October sample was considered the 'fall' sample.</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Sites were selected primarily for ease of access during the winter months.  In general, the sites were named after the nearest tributary or town. Therefore, many of these sites are near roads, bridges, or campgrounds.  The same site was sampled in each season, except for Obsidian.  The March 1976 site was where the ID-75 bridge crosses the Salmon River (upriver of the Redfish Lake turnoff) and the July 1976 site was where the current Sawtooth Hatchery's water intake is located.</para>
+</samplingDescription>
+</sampling>
+</methods>
+  <dataTable id="1308085022930" scope="document"> <entityName>Mainstem GPS locations MORPHO.xls</entityName>
+ <entityDescription>These are the GPS coordinates of the RCC study sites</entityDescription>
+ <physical scope="document"> <objectName>Mainstem GPS locations MORPHO.xls</objectName>
+ <dataFormat> <externallyDefinedFormat> <formatName>application/vnd.ms-excel</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/JDavis.13.4</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1308085022931" scope="document"> <attributeName>Station</attributeName>
+ <attributeLabel>Study Site Location Names</attributeLabel>
+ <attributeDefinition>These are the actual study site locations.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Study Site Locations</definition>
+ <source>User defined</source>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308085022932" scope="document"> <attributeName>Lat Dec</attributeName>
+ <attributeLabel>Latitude of Study Site</attributeLabel>
+ <attributeDefinition>These are the latitude measurements for the study site.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308085022933" scope="document"> <attributeName>Long Dec</attributeName>
+ <attributeLabel>Longitude of the study site</attributeLabel>
+ <attributeDefinition>Longitude of the study site</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308085022934" scope="document"> <attributeName>Nearby feature</attributeName>
+ <attributeLabel>Geographic reference point for each study site.</attributeLabel>
+ <attributeDefinition>This provides a nearby reference point for each study reach.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>User defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <otherEntity scope="document"> <entityName>RCC Site Map MORPHO.pdf</entityName>
+ <entityDescription>These are the maps for the specific study reaches.  The Obsidian site has two maps because two different sites were sampled in March and July of 1976.  When the map spans two pages, the pages should be overlaid upon each other with the lettered arrows lining up.</entityDescription>
+ <physical scope="document"> <objectName>RCC Site Map MORPHO.pdf</objectName>
+ <size unit="byte">5502864</size>
+ <dataFormat> <externallyDefinedFormat> <formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/JDavis.22.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <dataTable id="1308162593047" scope="document"> <entityName>Salmon River RCC Invertebrate MORPHO.xlsx</entityName>
+ <entityDescription>These are the benthic invertebrate samples that were collected during the original river continuum concept (RCC) project.  Samples were collected at 7 locations along the Salmon River mainstem.</entityDescription>
+ <physical scope="document"> <objectName>Salmon River RCC Invertebrate MORPHO.xlsx</objectName>
+ <dataFormat> <externallyDefinedFormat> <formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/JDavis.23.5</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1308162593048" scope="document"> <attributeName>Site</attributeName>
+ <attributeLabel>Name of the study site</attributeLabel>
+ <attributeDefinition>This is the name of the study site.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>User defined.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308162593049" scope="document"> <attributeName>Year</attributeName>
+ <attributeLabel>This is the year that the sample was collected.</attributeLabel>
+ <attributeDefinition>This is the specific year that a sample was collected.</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308162593050" scope="document"> <attributeName>Month</attributeName>
+ <attributeLabel>This is the month that a sample was collected.</attributeLabel>
+ <attributeDefinition>This is the particular month that a sample was collected.</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>MM</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308162593051" scope="document"> <attributeName>Day</attributeName>
+ <attributeLabel>This is the day of the month that a sample was collected.</attributeLabel>
+ <attributeDefinition>This is the day of the month that a particular sample was collected.</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308162593052" scope="document"> <attributeName>Date</attributeName>
+ <attributeLabel>This is the date that a sample was collected.</attributeLabel>
+ <attributeDefinition>This is the specific date that a sample was collected.</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308162593053" scope="document"> <attributeName>Sample ID</attributeName>
+ <attributeLabel>This is the unique identifier for each sample.</attributeLabel>
+ <attributeDefinition>These are the sample identifications that were recorded off of the lab datasheets. Note that some sites and year do not exhibit consecutive sampling numbers.  When a detrital depletion sample was taken, the first number in the column is the dome sample number.  The second number is the detrital sample number. The samples with the 'a' designation are the samples used for invertebrate calculations.  The samples with the 'b' or 'c' designation are the detrital depletion samples that were not used in the invertebrate calculations.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>User defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308162593054" scope="document"> <attributeName>Sample Type</attributeName>
+ <attributeLabel>This the sample type of the specific sample</attributeLabel>
+ <attributeDefinition>Two types of samples were identified.  Invert samples are the ones that were used for the invertebrate assemblage calculations.  The detrital depletion are replicate samples at the dome sampling sites, which were not used in the invertebrate calculations.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>User defined.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308162593055" scope="document"> <attributeName>Sampler type</attributeName>
+ <attributeLabel>This is the type of sample instrument used</attributeLabel>
+ <attributeDefinition>This is the type of instrument used to collect the sample.  In 1976, a modified kicknet was used.  In 1977, a dome sampler was used.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>User defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308162593056" scope="document"> <attributeName>Habitat</attributeName>
+ <attributeLabel>Habitat type where the sample was taken.</attributeLabel>
+ <attributeDefinition>This is the habitat type where a specific sample was taken.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>user defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308162593057" scope="document"> <attributeName>Order</attributeName>
+ <attributeLabel>Taxonomic order</attributeLabel>
+ <attributeDefinition>This is the taxonomic order that a particular individual belonged to</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>User defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308162593058" scope="document"> <attributeName>Family</attributeName>
+ <attributeLabel>Taxonomic family</attributeLabel>
+ <attributeDefinition>This is the taxonomic family that an individual was classified as</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>user defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode> <code>.</code>
+ <codeExplanation>When an individual was only identified to order, a period is recorded in this cell</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1308162593059" scope="document"> <attributeName>Genus</attributeName>
+ <attributeLabel>Taxonomic genus</attributeLabel>
+ <attributeDefinition>This is the genus that an individual was classified as</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>user defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode> <code>.</code>
+ <codeExplanation>A period is entered in this cell when an individual was only identified to the order or family level</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1308162593060" scope="document"> <attributeName>Species</attributeName>
+ <attributeLabel>Taxomic species designation</attributeLabel>
+ <attributeDefinition>This is the species name of the particular organism</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>user defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode> <code>.</code>
+ <codeExplanation>A period is recorded in this cell when the individual was only identified to order, family, or genus level</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1308162593061" scope="document"> <attributeName>Stage</attributeName>
+ <attributeLabel>Development stage</attributeLabel>
+ <attributeDefinition>This is the development stage that an individual was classified as.
+adult, nymph, larvae, or pupae</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>user defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode> <code>.</code>
+ <codeExplanation>A period is recorded in the cell when a development stage was not clear.</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1308162593062" scope="document"> <attributeName># in Size Fraction  &#8805;1mm or  &#8805;500um (# per sample)</attributeName>
+ <attributeLabel>Abundance of individuals in the large size fraction</attributeLabel>
+ <attributeDefinition>This is the number of individuals per sample.  In 1976, this was defined as individuals  &#8805; 1mm.  In 1977, this was defined as individuals  &#8805; 500micrometers.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>number per sample</customUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308162593063" scope="document"> <attributeName># in Size Fraction &lt;1mm and &#8805;100&#181;m (# per sample)</attributeName>
+ <attributeLabel># in the smaller size fraction</attributeLabel>
+ <attributeDefinition>This is the total number of individuals of a particular taxonomic group that was found in the smaller size fraction of that sample.  In 1977, this was defined as &lt;500micrometer and &#8805;100micrometer.  This size fraction was not collected during 1976.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>number per sample</customUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>Not collected</code>
+ <codeExplanation>When a particular size fraction was not collected, the cell is recorded as 'not collected' (i.e., the mesh size on the kicknet was 1mm)</codeExplanation>
+ </missingValueCode>
+ <missingValueCode> <code>Not picked</code>
+ <codeExplanation>When a size fraction was collected, but was not picked or identified, the cell is recorded as not picked.</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1308162593064" scope="document"> <attributeName>Area sampled (cm^2)</attributeName>
+ <attributeLabel>The sample area</attributeLabel>
+ <attributeDefinition>This is the area of the benthos that was sampled for a given sample.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>squareCentimeters</standardUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308162593065" scope="document"> <attributeName>Habitat Notes</attributeName>
+ <attributeLabel>Notes on the substrate and habitat of a particular sample</attributeLabel>
+ <attributeDefinition>This reports the dominant substrate or habitat that was present at a given sampling location.  Also, this indicates which invert sample that a detrital depletion sample was coupled with.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>user defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode> <code>.</code>
+ <codeExplanation>When no notes were taken, this is designated with a period</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1308162593066" scope="document"> <attributeName>ID notes</attributeName>
+ <attributeLabel>Notes about the old taxonomic name for a particular organism</attributeLabel>
+ <attributeDefinition>Between the 1970s and the present, taxonomic names have changed.  The name reported here is the name originally reported in the RCC publications, which has been updated in the genus column.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>user defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1308246069122" scope="document"> <entityName>Breakdown of how samples were processed and size fractionated</entityName>
+ <entityDescription>This is a table that summarizes how and which samples were size fractionated each year</entityDescription>
+ <physical scope="document"> <objectName>Breakdown of which samples were identified MORPHO.xlsx</objectName>
+ <dataFormat> <externallyDefinedFormat> <formatName>application/vnd.ms-excel</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/JDavis.25.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1308246069137" scope="document"> <attributeName>Sample Date</attributeName>
+ <attributeLabel>The date a sample was taken</attributeLabel>
+ <attributeDefinition>This is the date that sample was collected</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>MM-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308246069153" scope="document"> <attributeName>Site</attributeName>
+ <attributeLabel>Study site name</attributeLabel>
+ <attributeDefinition>This is the RCC study site</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>user defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1308246069169" scope="document"> <attributeName>Sample processing notes</attributeName>
+ <attributeLabel>Notes on how and which samples were size fractionated</attributeLabel>
+ <attributeDefinition>This describes the sampling method used.  It also indicates which samples were size fractionated and picked.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>user defined</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="number per sample" name="number per sample" parentSI="number" unitType="abundance"> <description>This is the number of individuals of a particular taxonomic group that was recorded in a given sample.</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>

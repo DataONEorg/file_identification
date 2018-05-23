@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ornl:metadata xmlns:ornl="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin><![CDATA[DeFries, Ruth]]></origin>
+        <origin><![CDATA[Townshend, John]]></origin>
+        <title><![CDATA[1 Degree Global Land Cover Data Set Derived from AVHRR]]></title>
+        <onlink><![CDATA[http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/metadata/VF/vegetation/umd1deg.xml]]></onlink>
+        <alt_onlink><![CDATA[http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/metadata/VF/vegetation/umd1deg.xml]]></alt_onlink>
+        <onlink><![CDATA[http://glcf.umd.edu/]]></onlink>
+        <onlink><![CDATA[http://glcf.umd.edu/data/landcover/description.shtml]]></onlink>
+        <onlink><![CDATA[http://glcf.umd.edu/library/guide/datadownload.shtml]]></onlink>
+        <onlink><![CDATA[http://glcf.umd.edu/library/guide/ijrs21_p1331.pdf]]></onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[The University of Maryland (UMD) 1 degree global land cover product was produced by the UMD Global Land Cover Facility (GLCF) based on Advanced Very High Resolution Radiometer (AVHRR) maximum, monthly composites imagery of Normalized Difference Vegetation Index (NDVI) values acquired between 1981 and 1994. The original data, at approximately 8 km resolution, were averaged to one by one degree resolution and analyzed to distinguish fourteen land cover classes. This coarse resolution data set was used as the basis for a supervised classification of eleven cover types that broadly represent the major biomes of the world.  
+
+The data are available as a global coverage in binary (BSQ) and GeoTIFF formats. Additional information and references on this data set can be found at the GLCF web site.]]></abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[19810101]]></begdate>
+          <enddate><![CDATA[19941231]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Final]]></progress>
+      <update><![CDATA[As appropriate]]></update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180</westbc>
+        <eastbc>180</eastbc>
+        <northbc>90</northbc>
+        <southbc>-90</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt><![CDATA[Parameter_Sensor_Source]]></themekt>
+        <themekey><![CDATA[VEGETATION COVER|AVHRR|COMPUTER MODEL]]></themekey>
+        <themekey><![CDATA[VEGETATION COVER|AVHRR|COMPUTER MODEL]]></themekey>
+        <themekey><![CDATA[LAND COVER|AVHRR|COMPUTER MODEL]]></themekey>
+        <themekey><![CDATA[LAND COVER|AVHRR|COMPUTER MODEL]]></themekey>
+        <themekey><![CDATA[AGRICULTURAL LAND|AVHRR|COMPUTER MODEL]]></themekey>
+        <themekey><![CDATA[AGRICULTURAL LAND|AVHRR|COMPUTER MODEL]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Parameter]]></themekt>
+        <themekey><![CDATA[VEGETATION COVER]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Source]]></themekt>
+        <themekey><![CDATA[COMPUTER MODEL]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Sensor]]></themekt>
+        <themekey><![CDATA[AVHRR]]></themekey>
+      </theme>
+      <place>
+        <placekt><![CDATA[Place Keywords]]></placekt>
+        <placekey><![CDATA[Global (gridded)]]></placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[DeFries, Ruth]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; rd63@umail.umd.edu]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[Global Land Cover Facility, University of Maryland, College Park, Maryland, USA]]></cntorg>
+          <cntper><![CDATA[User Services, Global Land Cover Facility]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[Not Available]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; rd63@umail.umd.edu]]></cntfax>
+        <cntemail><![CDATA[glcf@umd.edu]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://glcf.umd.edu/]]></computer>
+            <accinstr><![CDATA[Public]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[DeFries, R. S. and J. R. G. Townshend. 1998. 1 Degree Global Land Cover Data Set Derived from AVHRR. Available online at [http://glcf.umd.edu/] from the Global Land Cover Facility, University of Maryland, College Park, Maryland, USA.]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd><![CDATA[20140917 150830]]></metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn><![CDATA[FGDC Content Standard for Digital Geospatial Metadata]]></metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>19810101</begdate>
+    <enddate>19941231</enddate>
+    <Site_Information>
+      <Site><![CDATA[Global (gridded)]]></Site>
+      <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+    </Site_Information>
+    <Keywords><![CDATA[AVHRR]]></Keywords>
+    <Keywords><![CDATA[Binary data]]></Keywords>
+    <Keywords><![CDATA[Gridded data]]></Keywords>
+    <Keywords><![CDATA[NDVI]]></Keywords>
+    <Keywords><![CDATA[Vegetation Collections]]></Keywords>
+    <Keywords><![CDATA[Bare ground]]></Keywords>
+    <Keywords><![CDATA[Broadleaf]]></Keywords>
+    <Keywords><![CDATA[Coniferous]]></Keywords>
+    <Keywords><![CDATA[Croplands]]></Keywords>
+    <Keywords><![CDATA[Deciduous forests]]></Keywords>
+    <Keywords><![CDATA[Evergreen forests]]></Keywords>
+    <Keywords><![CDATA[Grasslands]]></Keywords>
+    <Keywords><![CDATA[Shrublands]]></Keywords>
+    <Keywords><![CDATA[Tundra]]></Keywords>
+    <Keywords><![CDATA[Water]]></Keywords>
+    <Keywords><![CDATA[Wooded grasslands]]></Keywords>
+    <Keywords><![CDATA[Woodlands]]></Keywords>
+    <Parameter_Description>
+      <Parameter><![CDATA[VEGETATION COVER]]></Parameter>
+      <Sensor><![CDATA[AVHRR]]></Sensor>
+      <Source><![CDATA[COMPUTER MODEL]]></Source>
+      <Term><![CDATA[LAND USE/LAND COVER]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[VEGETATION COVER]]></Parameter>
+      <Sensor><![CDATA[AVHRR]]></Sensor>
+      <Source><![CDATA[COMPUTER MODEL]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[LAND COVER]]></Parameter>
+      <Sensor><![CDATA[AVHRR]]></Sensor>
+      <Source><![CDATA[COMPUTER MODEL]]></Source>
+      <Term><![CDATA[LAND USE/LAND COVER]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[LAND COVER]]></Parameter>
+      <Sensor><![CDATA[AVHRR]]></Sensor>
+      <Source><![CDATA[COMPUTER MODEL]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[AGRICULTURAL LAND]]></Parameter>
+      <Sensor><![CDATA[AVHRR]]></Sensor>
+      <Source><![CDATA[COMPUTER MODEL]]></Source>
+      <Term><![CDATA[LAND USE/LAND COVER]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[AGRICULTURAL LAND]]></Parameter>
+      <Sensor><![CDATA[AVHRR]]></Sensor>
+      <Source><![CDATA[COMPUTER MODEL]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Project><![CDATA[One Degree Global Land Cover Project]]></Project>
+    <Navpath><![CDATA[COMPUTER MODEL|AVHRR|VEGETATION COVER]]></Navpath>
+    <Navpath><![CDATA[COMPUTER MODEL|AVHRR|VEGETATION COVER]]></Navpath>
+    <Navpath><![CDATA[COMPUTER MODEL|AVHRR|LAND COVER]]></Navpath>
+    <Navpath><![CDATA[COMPUTER MODEL|AVHRR|LAND COVER]]></Navpath>
+    <Navpath><![CDATA[COMPUTER MODEL|AVHRR|AGRICULTURAL LAND]]></Navpath>
+    <Navpath><![CDATA[COMPUTER MODEL|AVHRR|AGRICULTURAL LAND]]></Navpath>
+    <Principal_Investigator>
+      <Name><![CDATA[DeFries, Ruth]]></Name>
+      <Email><![CDATA[rd63@umail.umd.edu]]></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[Townshend, John]]></Name>
+      <Email><![CDATA[jt59@umail.umd.edu]]></Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL><![CDATA[http://glcfapp.glcf.umd.edu:8080/esdi/index.jsp]]></URL>
+      <Label><![CDATA[1 Degree AVHRR Global Land Cover (BSQ) from Web Interface]]></Label>
+      <Link_Note><![CDATA[Register and login to GLCF Earth Science Data Interface (ESDI). Select Product Search. Select global coverage at 1 degree resolution from the AVHRR Global Land Cover Product data menu. The data are available in binary (BSQ) format.]]></Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL><![CDATA[http://glcf.umd.edu/data/landcover/data.shtml]]></URL>
+      <Label><![CDATA[1 Degree AVHRR Global Land Cover (GeoTIFF) from FTP area]]></Label>
+      <Link_Note><![CDATA[Register and login to GLCF Earth Science Data Interface (ESDI). Select 1 degree pixel resolution and click on Geographic projection, GeoTIFF. Download will begin.]]></Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL><![CDATA[http://glcf.umd.edu/]]></URL>
+      <Label><![CDATA[Global Land Cover Facility Web Site]]></Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL><![CDATA[http://glcf.umd.edu/data/landcover/description.shtml]]></URL>
+      <Label><![CDATA[AVHRR Global Land Cover Project Description]]></Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL><![CDATA[http://glcf.umd.edu/library/guide/datadownload.shtml]]></URL>
+      <Label><![CDATA[GLCF Data Download Guide]]></Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL><![CDATA[http://glcf.umd.edu/library/guide/ijrs21_p1331.pdf]]></URL>
+      <Label><![CDATA[Hansen et al. (2000)]]></Label>
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status />
+      <Data_Set_Restrictions />
+      <Data_Set_Location />
+      <Data_Contact_Person>
+        <Email />
+        <Name />
+        <Phone />
+        <Data_Center_URL />
+      </Data_Contact_Person>
+      <Data_Center_URL />
+      <Data_Set_Citation />
+      <Data_Set_Link>
+        <URL />
+        <Label />
+        <Link_Note />
+        <Data_Center_URL />
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version><![CDATA[Version 4.7.5, Revision Date: 04 Apr 2006]]></OME_Software_Version>
+    <OME_DTD_Version><![CDATA[metadata24.dtd]]></OME_DTD_Version>
+    <Contact_Person>
+      <Email><![CDATA[glcf@umd.edu]]></Email>
+      <Name><![CDATA[User Services, Global Land Cover Facility]]></Name>
+      <Phone><![CDATA[Not Available]]></Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID><![CDATA[Created 20131113 035821 by 128.219.250.39]]></File_ID>
+    <Spatial_Reference_Method><![CDATA[Raster]]></Spatial_Reference_Method>
+    <Spatial_Extent>64800</Spatial_Extent>
+    <Search_Text_Link>
+      <URL><![CDATA[http://glcf.umd.edu/]]></URL>
+      <Label><![CDATA[Global Land Cover Facility Web Site]]></Label>
+    </Search_Text_Link>
+    <Search_Text_Link>
+      <URL><![CDATA[http://glcf.umd.edu/data/landcover/description.shtml]]></URL>
+      <Label><![CDATA[AVHRR Global Land Cover Project Description]]></Label>
+    </Search_Text_Link>
+    <Search_Text_Link>
+      <URL><![CDATA[http://glcf.umd.edu/library/guide/datadownload.shtml]]></URL>
+      <Label><![CDATA[GLCF Data Download Guide]]></Label>
+    </Search_Text_Link>
+    <Other_Link>
+      <URL><![CDATA[http://glcf.umd.edu/library/guide/ijrs21_p1331.pdf]]></URL>
+      <Label><![CDATA[Hansen et al. (2000)]]></Label>
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData><![CDATA[database]]></sourceData>
+</ornl:metadata>

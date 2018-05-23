@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns0:MD_Metadata id="de.pangaea.dataset397699" xmlns:ns0="http://www.isotc211.org/2005/gmd" xmlns:ns2="http://www.isotc211.org/2005/gco" xmlns:ns3="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+	<ns0:fileIdentifier>
+		<ns2:CharacterString>de.pangaea.dataset397699</ns2:CharacterString>
+	</ns0:fileIdentifier>
+	<ns0:contact>
+		<ns0:CI_ResponsibleParty>
+			<ns0:organisationName>
+				<ns2:CharacterString>PANGAEA</ns2:CharacterString>
+			</ns0:organisationName>
+			<ns0:contactInfo>
+				<ns0:CI_Contact>
+					<ns0:address>
+						<ns0:CI_Address>
+							<ns0:electronicMailAddress>
+								<ns2:CharacterString>info@pangaea.de</ns2:CharacterString>
+							</ns0:electronicMailAddress>
+						</ns0:CI_Address>
+					</ns0:address>
+					<ns0:onlineResource>
+						<ns0:CI_OnlineResource>
+							<ns0:linkage>
+								<ns0:URL>https://www.pangaea.de/</ns0:URL>
+							</ns0:linkage>
+							<ns0:function>
+								<ns0:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_information">information</ns0:CI_OnLineFunctionCode>
+							</ns0:function>
+						</ns0:CI_OnlineResource>
+					</ns0:onlineResource>
+				</ns0:CI_Contact>
+			</ns0:contactInfo>
+			<ns0:role>
+				<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_pointOfContact">pointOfContact</ns0:CI_RoleCode>
+			</ns0:role>
+		</ns0:CI_ResponsibleParty>
+	</ns0:contact>
+	<ns0:dateStamp>
+		<ns2:DateTime>2018-04-19T13:13:12Z</ns2:DateTime>
+	</ns0:dateStamp>
+	<ns0:dataSetURI>
+		<ns2:CharacterString>https://doi.pangaea.de/10.1594/PANGAEA.397699</ns2:CharacterString>
+	</ns0:dataSetURI>
+	<ns0:identificationInfo>
+		<ns0:MD_DataIdentification>
+			<ns0:citation>
+				<ns0:CI_Citation>
+					<ns0:title>
+						<ns2:CharacterString>Water temperature from PALACE float OAC110</ns2:CharacterString>
+					</ns0:title>
+					<ns0:date>
+						<ns0:CI_Date>
+							<ns0:date>
+								<ns2:DateTime>2006-03-07T17:02:29</ns2:DateTime>
+							</ns0:date>
+							<ns0:dateType>
+								<ns0:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode_publication">publication</ns0:CI_DateTypeCode>
+							</ns0:dateType>
+						</ns0:CI_Date>
+					</ns0:date>
+					<ns0:identifier>
+						<ns0:MD_Identifier>
+							<ns0:code>
+								<ns2:CharacterString>https://doi.org/10.1594/PANGAEA.397699</ns2:CharacterString>
+							</ns0:code>
+						</ns0:MD_Identifier>
+					</ns0:identifier>
+					<ns0:citedResponsibleParty>
+						<ns0:CI_ResponsibleParty id="dataset.author21165">
+							<ns0:individualName>
+								<ns2:CharacterString>Owens, W Brechner</ns2:CharacterString>
+							</ns0:individualName>
+							<ns0:contactInfo>
+								<ns0:CI_Contact>
+									<ns0:address>
+										<ns0:CI_Address>
+											<ns0:electronicMailAddress>
+												<ns2:CharacterString>bowens@whoi.edu</ns2:CharacterString>
+											</ns0:electronicMailAddress>
+										</ns0:CI_Address>
+									</ns0:address>
+									<ns0:onlineResource>
+										<ns0:CI_OnlineResource>
+											<ns0:linkage>
+												<ns0:URL>http://www.whoi.edu/science/PO/dept/personnel/personnel_scientist_owens.htm</ns0:URL>
+											</ns0:linkage>
+											<ns0:function>
+												<ns0:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_information">information</ns0:CI_OnLineFunctionCode>
+											</ns0:function>
+										</ns0:CI_OnlineResource>
+									</ns0:onlineResource>
+								</ns0:CI_Contact>
+							</ns0:contactInfo>
+							<ns0:role>
+								<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_author">author</ns0:CI_RoleCode>
+							</ns0:role>
+						</ns0:CI_ResponsibleParty>
+					</ns0:citedResponsibleParty>
+					<ns0:citedResponsibleParty>
+						<ns0:CI_ResponsibleParty>
+							<ns0:organisationName>
+								<ns2:CharacterString>PANGAEA</ns2:CharacterString>
+							</ns0:organisationName>
+							<ns0:contactInfo>
+								<ns0:CI_Contact>
+									<ns0:address>
+										<ns0:CI_Address>
+											<ns0:electronicMailAddress>
+												<ns2:CharacterString>info@pangaea.de</ns2:CharacterString>
+											</ns0:electronicMailAddress>
+										</ns0:CI_Address>
+									</ns0:address>
+									<ns0:onlineResource>
+										<ns0:CI_OnlineResource>
+											<ns0:linkage>
+												<ns0:URL>https://www.pangaea.de/</ns0:URL>
+											</ns0:linkage>
+											<ns0:function>
+												<ns0:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_information">information</ns0:CI_OnLineFunctionCode>
+											</ns0:function>
+										</ns0:CI_OnlineResource>
+									</ns0:onlineResource>
+								</ns0:CI_Contact>
+							</ns0:contactInfo>
+							<ns0:role>
+								<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_publisher">publisher</ns0:CI_RoleCode>
+							</ns0:role>
+						</ns0:CI_ResponsibleParty>
+					</ns0:citedResponsibleParty>
+					<ns0:citedResponsibleParty>
+						<ns0:CI_ResponsibleParty>
+							<ns0:organisationName>
+								<ns2:CharacterString>Woods Hole Oceanographic Institution, Physical Oceanography Department</ns2:CharacterString>
+							</ns0:organisationName>
+							<ns0:role>
+								<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_originator">originator</ns0:CI_RoleCode>
+							</ns0:role>
+						</ns0:CI_ResponsibleParty>
+					</ns0:citedResponsibleParty>
+					<ns0:presentationForm>
+						<ns0:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode_tableDigital">tableDigital</ns0:CI_PresentationFormCode>
+					</ns0:presentationForm>
+				</ns0:CI_Citation>
+			</ns0:citation>
+			<ns0:abstract ns2:nilReason="missing"/>
+			<ns0:status>
+				<ns0:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode_completed">completed</ns0:MD_ProgressCode>
+			</ns0:status>
+			<ns0:pointOfContact>
+				<ns0:CI_ResponsibleParty id="pi21165">
+					<ns0:individualName>
+						<ns2:CharacterString>Owens, W Brechner</ns2:CharacterString>
+					</ns0:individualName>
+					<ns0:contactInfo>
+						<ns0:CI_Contact>
+							<ns0:address>
+								<ns0:CI_Address>
+									<ns0:electronicMailAddress>
+										<ns2:CharacterString>bowens@whoi.edu</ns2:CharacterString>
+									</ns0:electronicMailAddress>
+								</ns0:CI_Address>
+							</ns0:address>
+							<ns0:onlineResource>
+								<ns0:CI_OnlineResource>
+									<ns0:linkage>
+										<ns0:URL>http://www.whoi.edu/science/PO/dept/personnel/personnel_scientist_owens.htm</ns0:URL>
+									</ns0:linkage>
+									<ns0:function>
+										<ns0:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_information">information</ns0:CI_OnLineFunctionCode>
+									</ns0:function>
+								</ns0:CI_OnlineResource>
+							</ns0:onlineResource>
+						</ns0:CI_Contact>
+					</ns0:contactInfo>
+					<ns0:role>
+						<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_principalInvestigator">principalInvestigator</ns0:CI_RoleCode>
+					</ns0:role>
+				</ns0:CI_ResponsibleParty>
+			</ns0:pointOfContact>
+			<ns0:descriptiveKeywords>
+				<ns0:MD_Keywords>
+					<ns0:keyword>
+						<ns2:CharacterString>WOCE</ns2:CharacterString>
+					</ns0:keyword>
+					<ns0:keyword>
+						<ns2:CharacterString>World Ocean Circulation Experiment</ns2:CharacterString>
+					</ns0:keyword>
+					<ns0:type>
+						<ns0:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode_theme">theme</ns0:MD_KeywordTypeCode>
+					</ns0:type>
+					<ns0:thesaurusName>
+						<ns0:CI_Citation>
+							<ns0:title>
+								<ns2:CharacterString>PANGAEA Project List</ns2:CharacterString>
+							</ns0:title>
+							<ns0:date>
+								<ns0:CI_Date>
+									<ns0:date>
+										<ns2:Date>1995-01-01</ns2:Date>
+									</ns0:date>
+									<ns0:dateType>
+										<ns0:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode_creation">creation</ns0:CI_DateTypeCode>
+									</ns0:dateType>
+								</ns0:CI_Date>
+							</ns0:date>
+							<ns0:citedResponsibleParty>
+								<ns0:CI_ResponsibleParty>
+									<ns0:organisationName>
+										<ns2:CharacterString>PANGAEA</ns2:CharacterString>
+									</ns0:organisationName>
+									<ns0:contactInfo>
+										<ns0:CI_Contact>
+											<ns0:address>
+												<ns0:CI_Address>
+													<ns0:electronicMailAddress>
+														<ns2:CharacterString>info@pangaea.de</ns2:CharacterString>
+													</ns0:electronicMailAddress>
+												</ns0:CI_Address>
+											</ns0:address>
+											<ns0:onlineResource>
+												<ns0:CI_OnlineResource>
+													<ns0:linkage>
+														<ns0:URL>https://www.pangaea.de/</ns0:URL>
+													</ns0:linkage>
+													<ns0:function>
+														<ns0:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_information">information</ns0:CI_OnLineFunctionCode>
+													</ns0:function>
+												</ns0:CI_OnlineResource>
+											</ns0:onlineResource>
+										</ns0:CI_Contact>
+									</ns0:contactInfo>
+									<ns0:role>
+										<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_pointOfContact">pointOfContact</ns0:CI_RoleCode>
+									</ns0:role>
+								</ns0:CI_ResponsibleParty>
+							</ns0:citedResponsibleParty>
+						</ns0:CI_Citation>
+					</ns0:thesaurusName>
+				</ns0:MD_Keywords>
+			</ns0:descriptiveKeywords>
+			<ns0:resourceConstraints>
+				<ns0:MD_LegalConstraints>
+					<ns0:accessConstraints>
+						<ns0:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode_copyright">copyright</ns0:MD_RestrictionCode>
+					</ns0:accessConstraints>
+					<ns0:useConstraints>
+						<ns0:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode_copyright">copyright</ns0:MD_RestrictionCode>
+					</ns0:useConstraints>
+					<ns0:otherConstraints>
+						<ns2:CharacterString>CC-BY: Creative Commons Attribution 3.0 Unported</ns2:CharacterString>
+					</ns0:otherConstraints>
+				</ns0:MD_LegalConstraints>
+			</ns0:resourceConstraints>
+			<ns0:spatialRepresentationType>
+				<ns0:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode_textTable">textTable</ns0:MD_SpatialRepresentationTypeCode>
+			</ns0:spatialRepresentationType>
+			<ns0:language>
+				<ns0:LanguageCode codeList="http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode_eng">eng</ns0:LanguageCode>
+			</ns0:language>
+			<ns0:topicCategory>
+				<ns0:MD_TopicCategoryCode>geoscientificInformation</ns0:MD_TopicCategoryCode>
+			</ns0:topicCategory>
+			<ns0:extent>
+				<ns0:EX_Extent>
+					<ns0:geographicElement>
+						<ns0:EX_GeographicBoundingBox>
+							<ns0:westBoundLongitude>
+								<ns2:Decimal>-31.392</ns2:Decimal>
+							</ns0:westBoundLongitude>
+							<ns0:eastBoundLongitude>
+								<ns2:Decimal>-13.986</ns2:Decimal>
+							</ns0:eastBoundLongitude>
+							<ns0:southBoundLatitude>
+								<ns2:Decimal>57.330999999999996</ns2:Decimal>
+							</ns0:southBoundLatitude>
+							<ns0:northBoundLatitude>
+								<ns2:Decimal>63.024</ns2:Decimal>
+							</ns0:northBoundLatitude>
+						</ns0:EX_GeographicBoundingBox>
+					</ns0:geographicElement>
+					<ns0:temporalElement>
+						<ns0:EX_TemporalExtent>
+							<ns0:extent>
+								<ns3:TimePeriod ns3:id="timePeriod">
+									<ns3:beginPosition>1996-11-20T02:24:00</ns3:beginPosition>
+									<ns3:endPosition>2000-03-31T12:00:00</ns3:endPosition>
+								</ns3:TimePeriod>
+							</ns0:extent>
+						</ns0:EX_TemporalExtent>
+					</ns0:temporalElement>
+				</ns0:EX_Extent>
+			</ns0:extent>
+			<ns0:supplementalInformation>
+				<ns2:CharacterString>Data have been checked by the WOCE Subsurface Float Data Assembly Center. See hdl:10013/epic.32931.d001 for further information.</ns2:CharacterString>
+			</ns0:supplementalInformation>
+		</ns0:MD_DataIdentification>
+	</ns0:identificationInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col0.ds1195483">
+			<ns0:attributeDescription>
+				<ns2:RecordType>DATE/TIME</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_thematicClassification">thematicClassification</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col1.ds1195484">
+			<ns0:attributeDescription>
+				<ns2:RecordType>LATITUDE</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_thematicClassification">thematicClassification</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col2.ds1195485">
+			<ns0:attributeDescription>
+				<ns2:RecordType>LONGITUDE</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_thematicClassification">thematicClassification</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col3.ds8323757">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Temperature, water</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col3.ds8323757.band">
+					<ns0:descriptor>
+						<ns2:CharacterString>Subsurface float</ns2:CharacterString>
+					</ns0:descriptor>
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col3.ds8323757.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">°C</ns3:identifier>
+							<ns3:name>°C</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col4.ds8323758">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Pressure, maximum</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_physicalMeasurement">physicalMeasurement</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+			<ns0:dimension>
+				<ns0:MD_Band id="col4.ds8323758.band">
+					<ns0:descriptor>
+						<ns2:CharacterString>Subsurface float</ns2:CharacterString>
+					</ns0:descriptor>
+					<ns0:units>
+						<ns3:UnitDefinition ns3:id="col4.ds8323758.band.unit">
+							<ns3:identifier codeSpace="PANGAEA">dbar</ns3:identifier>
+							<ns3:name>dbar</ns3:name>
+						</ns3:UnitDefinition>
+					</ns0:units>
+				</ns0:MD_Band>
+			</ns0:dimension>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col5.ds8323759">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Comment</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_thematicClassification">thematicClassification</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:contentInfo>
+		<ns0:MD_CoverageDescription id="col6.ds8323760">
+			<ns0:attributeDescription>
+				<ns2:RecordType>Sample code/label</ns2:RecordType>
+			</ns0:attributeDescription>
+			<ns0:contentType>
+				<ns0:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode_thematicClassification">thematicClassification</ns0:MD_CoverageContentTypeCode>
+			</ns0:contentType>
+		</ns0:MD_CoverageDescription>
+	</ns0:contentInfo>
+	<ns0:distributionInfo>
+		<ns0:MD_Distribution>
+			<ns0:distributionFormat>
+				<ns0:MD_Format>
+					<ns0:name>
+						<ns2:CharacterString>text/tab-separated-values</ns2:CharacterString>
+					</ns0:name>
+					<ns0:version>
+						<ns2:CharacterString>unknown</ns2:CharacterString>
+					</ns0:version>
+				</ns0:MD_Format>
+			</ns0:distributionFormat>
+			<ns0:transferOptions>
+				<ns0:MD_DigitalTransferOptions>
+					<ns0:onLine>
+						<ns0:CI_OnlineResource>
+							<ns0:linkage>
+								<ns0:URL>https://doi.pangaea.de/10.1594/PANGAEA.397699?format=textfile</ns0:URL>
+							</ns0:linkage>
+							<ns0:function>
+								<ns0:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode_download">download</ns0:CI_OnLineFunctionCode>
+							</ns0:function>
+						</ns0:CI_OnlineResource>
+					</ns0:onLine>
+				</ns0:MD_DigitalTransferOptions>
+			</ns0:transferOptions>
+		</ns0:MD_Distribution>
+	</ns0:distributionInfo>
+	<ns0:dataQualityInfo>
+		<ns0:DQ_DataQuality>
+			<ns0:scope>
+				<ns0:DQ_Scope>
+					<ns0:level>
+						<ns0:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode_dataset">dataset</ns0:MD_ScopeCode>
+					</ns0:level>
+				</ns0:DQ_Scope>
+			</ns0:scope>
+			<ns0:lineage>
+				<ns0:LI_Lineage>
+					<ns0:statement>
+						<ns2:CharacterString>The data set was checked for completeness, correctness, and consistency of metainformation. Validity of used methods was checked and - if applicable - precision and range of data.</ns2:CharacterString>
+					</ns0:statement>
+					<ns0:processStep>
+						<ns0:LI_ProcessStep id="event2339513">
+							<ns0:description>
+								<ns2:CharacterString>EVENT LABEL:  * LATITUDE START: 59.080000 * LONGITUDE START: -22.640000 * LATITUDE END: 59.312000 * LONGITUDE END: -18.095000 * DATE/TIME START: 1996-11-20T02:24:00 * DATE/TIME END: 2000-03-31T12:00:00 * LOCATION: North Atlantic Ocean * CAMPAIGN: Floater * DEVICE: Profiling auto. lagrangian circulation explorer</ns2:CharacterString>
+							</ns0:description>
+							<ns0:rationale>
+								<ns2:CharacterString>Nominal depth: 1310m</ns2:CharacterString>
+							</ns0:rationale>
+							<ns0:dateTime>
+								<ns2:DateTime>1996-11-20T02:24:00</ns2:DateTime>
+							</ns0:dateTime>
+						</ns0:LI_ProcessStep>
+					</ns0:processStep>
+					<ns0:source>
+						<ns0:LI_Source id="ref22528">
+							<ns0:description>
+								<ns2:CharacterString>Related to</ns2:CharacterString>
+							</ns0:description>
+							<ns0:sourceCitation>
+								<ns0:CI_Citation>
+									<ns0:title>
+										<ns2:CharacterString>World Ocean Circulation Experiment, Global Data, Version 3.0</ns2:CharacterString>
+									</ns0:title>
+									<ns0:date>
+										<ns0:CI_Date>
+											<ns0:date>
+												<ns2:Date>2002-01-01</ns2:Date>
+											</ns0:date>
+											<ns0:dateType>
+												<ns0:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode_publication">publication</ns0:CI_DateTypeCode>
+											</ns0:dateType>
+										</ns0:CI_Date>
+									</ns0:date>
+									<ns0:citedResponsibleParty>
+										<ns0:CI_ResponsibleParty id="ref22528.author751">
+											<ns0:individualName>
+												<ns2:CharacterString>WOCE</ns2:CharacterString>
+											</ns0:individualName>
+											<ns0:role>
+												<ns0:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode_author">author</ns0:CI_RoleCode>
+											</ns0:role>
+										</ns0:CI_ResponsibleParty>
+									</ns0:citedResponsibleParty>
+									<ns0:presentationForm>
+										<ns0:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode_documentHardcopy">documentHardcopy</ns0:CI_PresentationFormCode>
+									</ns0:presentationForm>
+									<ns0:series>
+										<ns0:CI_Series>
+											<ns0:name>
+												<ns2:CharacterString>WOCE International Project Office, WOCE Report, Southampton, UK; published by U.S. National Oceanographic Data Center, Silver Spring</ns2:CharacterString>
+											</ns0:name>
+											<ns0:issueIdentification>
+												<ns2:CharacterString>180/02</ns2:CharacterString>
+											</ns0:issueIdentification>
+											<ns0:page>
+												<ns2:CharacterString>DVD-ROM</ns2:CharacterString>
+											</ns0:page>
+										</ns0:CI_Series>
+									</ns0:series>
+								</ns0:CI_Citation>
+							</ns0:sourceCitation>
+						</ns0:LI_Source>
+					</ns0:source>
+					<ns0:source>
+						<ns0:LI_Source id="ref41854">
+							<ns0:description>
+								<ns2:CharacterString>Further details</ns2:CharacterString>
+							</ns0:description>
+							<ns0:sourceCitation>
+								<ns0:CI_Citation>
+									<ns0:title>
+										<ns2:CharacterString>Float Deployment Log: ACCE Fall 1996 and 1997</ns2:CharacterString>
+									</ns0:title>
+									<ns0:date ns2:nilReason="unknown"/>
+									<ns0:identifier>
+										<ns0:MD_Identifier>
+											<ns0:code>
+												<ns2:CharacterString>http://store.pangaea.de/Projects/WOCE/SSF/acceo.htm</ns2:CharacterString>
+											</ns0:code>
+										</ns0:MD_Identifier>
+									</ns0:identifier>
+									<ns0:presentationForm>
+										<ns0:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode_documentDigital">documentDigital</ns0:CI_PresentationFormCode>
+									</ns0:presentationForm>
+									<ns0:series>
+										<ns0:CI_Series>
+											<ns0:name>
+												<ns2:CharacterString>Woods Hole Oceanographic Institution</ns2:CharacterString>
+											</ns0:name>
+										</ns0:CI_Series>
+									</ns0:series>
+								</ns0:CI_Citation>
+							</ns0:sourceCitation>
+						</ns0:LI_Source>
+					</ns0:source>
+				</ns0:LI_Lineage>
+			</ns0:lineage>
+		</ns0:DQ_DataQuality>
+	</ns0:dataQualityInfo>
+</ns0:MD_Metadata>
