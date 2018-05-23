@@ -14,9 +14,6 @@ from urllib.parse import quote
 NUM_DOCS = 5  #Number of examples to retrieve
 CN_BASEURL = "https://cn.dataone.org/cn/v2"
 
-def urlencode(s_in):
-  return s_in
-
 
 def getIdentifiers(catalog):
   '''
