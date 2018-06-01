@@ -1,0 +1,182 @@
+<metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>Erin Muths</origin>
+                <origin>Blake Hossack</origin>
+                <origin>David Pilliod</origin>
+                <pubdate>2017</pubdate>
+                <title>Invertebrate presence data at Blackrock, Wyoming 2013-2015</title>
+                <geoform>tabular digital data</geoform>
+                <onlink>https://doi.org/10.5066/F7MW2G32</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>These data provide information on the presence of invertebrates at a subset of sites at Blackrock and Togwotee pass. These data are associated with the project detailed in the abstract below: Amphibian decline is a problem of global importance, with over 40% of species considered at risk. This phenomenon is not limited to the tropics or to other countries. Amphibian species in the U.S. are also declining, contributing to the larger, global phenomenon. For example, in the State of Wyoming, the Wyoming toad has been extirpated in the wild and the boreal toad is a species of special concern. Understanding biotic and abiotic factors that influence amphibian persistence is critical for amphibian conservation. This work in northern Wyoming has focused on demography, habitat alteration and creation, and disease in the context of multiple amphibian populations. One of the foci has been to identify the capacity for mitigation wetlands (those created to offset losses due to, for example, road construction) to serve as habitat for amphibians.  Four species of amphibians native to Wyoming, including the boreal toad, reside in this region. Our previous research indicates that the toad population at Blackrock is declining at 5-6% per year and that disease due to the amphibian chytrid fungus is contributing to this decline. Our demographic work at this site began in 2003, focusing solely on the boreal toad. Additional funding in 2012 allowed us to increase the scope of the project and assess chorus frog, salamander and Columbia spotted frog populations, invertebrate assemblages,  work to quantify the use of mitigation sites by amphibians, and to expand efforts to include sites on Togwotee Pass a short distance away from Blackrock. Because most previous studies of amphibian use of created wetlands have taken place in the eastern United States, this project, incorporating demographic and disease dynamics as well as community composition and mitigation effects of created wetlands, is unique and provides  a case study in the Intermountain West. By 2015, all four native amphibian species were observed at one of the created wetlands, and all of them, including the boreal toad, were breeding (evidenced by breeding behavior, eggs or tadpoles).</abstract>
+            <purpose>Data were collected to inform conservation and management of amphibian populations. Information will be used to understand demographics of natural populations (survival, recruitment, and population growth rate), disease, and occupancy of amphibians across a landscape.  Additional site specific data such as invertebrate species, calls of other organisms (i.e. birds), and vegetation will inform the implementation of mitigation (e.g. as required when amphibian habitat is destroyed during road construction, or possibly the creation of new amphibian-specific sites for reintroduction).</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>20150425</begdate>
+                    <enddate>20160725</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>ground condition</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <descgeog>Togwotee and Blackrock wetlands</descgeog>
+            <bounding>
+                <westbc>-110.1482391357422</westbc>
+                <eastbc>-109.98550415039064</eastbc>
+                <northbc>43.79885402720353</northbc>
+                <southbc>43.69667260550321</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>biota</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>wetland ecosystems</themekey>
+                <themekey>amphibians</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Blackrock</placekey>
+                <placekey>Togwotee</placekey>
+            </place>
+        </keywords>
+        <accconst>None.  Please see 'Distribution Info' for details.</accconst>
+        <useconst>None.  Users are advised to read the data set's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Erin L Muths</cntper>
+                    <cntorg>U.S. Geological Survey, Southwest Region</cntorg>
+                </cntperp>
+                <cntpos>Research Zoologist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing address</addrtype>
+                    <address>2150 Centre Avenue Bldg C</address>
+                    <city>Fort Collins</city>
+                    <state>CO</state>
+                    <postal>80526</postal>
+                    <country>United States</country>
+                </cntaddr>
+                <cntvoice>970-226-9474</cntvoice>
+                <cntfax>970-226-9230</cntfax>
+                <cntemail>muthse@usgs.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+        </attracc>
+        <logic>No formal logical accuracy tests were conducted.</logic>
+        <complete>Data set is considered complete for the information presented, as described in the abstract.  Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+            </horizpa>
+            <vertacc>
+                <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <procstep>
+                <procdesc>After field collection, specimens were sorted and stored in ethanol then transferred to the entomologist for identification. Data were quality checked at the end of each year to ensure that specimens were associated with the appropriate sites.</procdesc>
+                <procdate>2017</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <eainfo>
+        <overview>
+            <eaover>Site: arbitrary site names.  Type: wetland type; created =  man-built or modified, natural = naturally occurring, impacted = partial modification of a natural wetland, for example, one end of a small pond might have been filled in.   year: year of data collection  columns D-G= taxonomic Order  columns H-BD = taxonomic Genus  columns BE-CB = taxonomic Family Values in body of table are the number of each taxonomic group identified in the samples at each site for each year.   SpeciesRichness = species richness determined using SPECRiCH (SPECRICH estimator, https://www.mbr-pwrc.usgs.gov/software/specrich.html)  StdError = standard error for value for species richness</eaover>
+            <eadetcit>producer defined</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntperp>
+                    <cntper>GS ScienceBase</cntper>
+                    <cntorg>U.S. Geological Survey</cntorg>
+                </cntperp>
+                <cntaddr>
+                    <addrtype>mailing address</addrtype>
+                    <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+                    <city>Denver</city>
+                    <state>CO</state>
+                    <postal>80225</postal>
+                    <country>United States</country>
+                </cntaddr>
+                <cntvoice>1-888-275-8747</cntvoice>
+                <cntemail>sciencebase@usgs.gov</cntemail>
+            </cntinfo>
+        </distrib>
+        <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Digital Data</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://doi.org/10.5066/F7MW2G32</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20170825</metd>
+        <metc>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Erin L Muths</cntper>
+                    <cntorg>U.S. Geological Survey, Southwest Region</cntorg>
+                </cntperp>
+                <cntpos>Research Zoologist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing address</addrtype>
+                    <address>2150 Centre Avenue Bldg C</address>
+                    <city>Fort Collins</city>
+                    <state>CO</state>
+                    <postal>80526</postal>
+                    <country>United States</country>
+                </cntaddr>
+                <cntvoice>970-226-9474</cntvoice>
+                <cntfax>970-226-9230</cntfax>
+                <cntemail>muthse@usgs.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Biological Data Profile of the CDGSM</metstdn>
+        <metstdv>FGDC-STD-001.1-1999</metstdv>
+        <metuc>Record created using USGS Metadata Wizard tool. (https://github.com/usgs/fort-pymdwizard)</metuc>
+    </metainfo>
+<about>
+    <files>
+        <url contentType="text/csv" originalMetadata="false">https://www.sciencebase.gov/catalog/file/get/59f9f2bbe4b0531197aff083?f=__disk__43%2F64%2Fba%2F4364ba7ae1e46c2a8f0e2dd15dfd5409e324b7f7</url>
+        <url contentType="application/fgdc+xml" originalMetadata="true">https://www.sciencebase.gov/catalog/file/get/59f9f2bbe4b0531197aff083?f=__disk__a5%2F85%2Fa7%2Fa585a70d0990f7a350b42708efd602794e022ac2</url>
+    </files>
+    <data_owners>
+        <data_owner>Fort Collins Science Center</data_owner>
+    </data_owners>
+    <keywords />
+    <usgs_mission_areas>
+        <mission_area>Ecosystems</mission_area>
+    </usgs_mission_areas>
+</about></metadata>

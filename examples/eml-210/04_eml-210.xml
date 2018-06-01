@@ -1,3 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?><error detailCode="1400" errorCode="401" name="NotAuthorized">
-    <description>READ not allowed on aceasdata.13.5</description>
-</error>
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="AKCRRAB.10.2" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset>  <title>2010 BKC larval rearinf survival 190s</title>
+<creator id="1339615922037"> <individualName><surName>Daly</surName>
+ </individualName>
+ </creator>
+ <creator id="1339615931738"><individualName><surName>Swingle</surName>
+ </individualName>
+ </creator>
+<abstract><para>Experiments conducted in the 190 L tanks investigated effects of diet and stocking density. Larvae were reared at densities of 50 and 75 larvae L-1 and fed either San Francisco Bay or Great Salt Lake enriched Artemia. Larvae were reared at 10&#176;C. Unfortunately, high pulses of mortality were observed beginning in the early Z3 stage (Fig. 1). These pulses of mortality occurred in all diet, temperature, and density treatments and were characterized by generally greater than 90% mortality over an approximate three day period after onset in all tanks, However, onset of this mortality was not synchronous in all tanks and occurred over a period of about two weeks in the hatchery. Specific causes of this mortality are unknown; however theories include narrow temperature tolerances and bacterial infection. The experimental design was aborted at the mid Z3 stage due to low survival. The pulses of mortality during the experiment make interpretations of diet and density effects impossible. As such, surviving larvae in each of the remaining tanks were placed in four sterile tanks in an attempt to salvage surviving individuals by reducing density. The remaining tanks survived to the glaucothoe stage resulting in 1800 glaucothoe produced.</para>
+</abstract>
+ <coverage><temporalCoverage><singleDateTime><calendarDate>2010</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Paralithodes platypus</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact id="1339615943321"><individualName><surName>Daly</surName>
+ </individualName>
+ </contact>
+ <contact id="1339615949363"><individualName><surName>Swingle</surName>
+ </individualName>
+ </contact>
+ <dataTable id="1339616343869"><entityName>2010 BKC larval rearing survival 190s.txt</entityName>
+ <entityDescription>2010 BKC larval rearing survival usinf 190 L tanks.</entityDescription>
+ <physical id="1339616099938"><objectName>2010 BKC larval rearing survival 190s.txt</objectName>
+ <size unit="byte">529</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/AKCRRAB.9.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1339616343870"><attributeName>diet</attributeName>
+<attributeDefinition>2 different strains of Artemia (GSL, SFB). GSL= Great Salt Lake strain, SFB= SanFransisco Bay strain</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Artemia strain</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1339616343871"><attributeName>density</attributeName>
+<attributeDefinition>stocking density (number of larvae per L).</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>whole</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1339616343872"><attributeName>tank</attributeName>
+<attributeDefinition>tank number. Tanks were 190 liters.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>whole</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1339616343873"><attributeName>Z1</attributeName>
+<attributeDefinition>Number of larvae in the tank.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1339616343874"><attributeName>Z2</attributeName>
+<attributeDefinition>Number of larvae in the tank.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1339616343875"><attributeName>Z3</attributeName>
+<attributeDefinition>Number of larvae in the tank.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1339616343876"><attributeName>Z4</attributeName>
+<attributeDefinition>Number of larvae in the tank.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1339616343877"><attributeName>G</attributeName>
+<attributeDefinition>Number of larvae in the tank.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+  </attributeList>
+ <numberOfRecords>30</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><describes>1339616099938</describes>
+ <metadata><consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>

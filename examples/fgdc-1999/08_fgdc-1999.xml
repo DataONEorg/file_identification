@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <Source>http://cmgds.marine.usgs.gov/metadata/spcmsc/2015_Chand_IFB_5m_WGS84_XYZ_Metadata.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>20161221</pubdate>
+        <title>Coastal Interferometric Swath Bathymetry Data Collected in 2015 from the Chandeleur Islands, Louisiana: 2015_Chand_IFB_5m_WGS84_XYZ</title>
+        <geoform>tabular digital data</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Data Release</sername>
+          <issue>doi:10.5066/F7NV9GC8</issue>
+        </serinfo>
+        <onlink>http://dx.doi.org/10.5066/F7NV9GC8</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The U.S. Geological Survey St. Petersburg Coastal and Marine Science Center (USGS SPCMSC), collected swath bathymetry data offshore of the Northern Chandeleur Islands, Louisiana in September 2015.  This USGS Data Release includes the resulting processed elevation point data (xyz) and an interpolated digital elevation model (DEM). For further information regarding data collection and/or processing methods, refer to previously published USGS Data Series 847 and 848 (http://dx.doi.org/10.3133/ds8487 and http://dx.doi.org10.3133/ds848)
+      </abstract>
+      <purpose>This zip archive contains processed x,y,z data points for the interferometric swath bathymetry data collected in September 2015 offshore of the Chandeleur Islands, Louisiana (USGS field activity number (FAN), 2015-331-FA). Additional survey and data details are available at http://cmgds.marine.usgs.gov/fan_info.php?fan=2015-331-FA</purpose>
+      <supplinf>The processed swath data, 2015_Chand_IFB_5m_WGS84_XYZ.txt, are provided as an American Standard Code for Information Interchange (ASCII) x,y,z point data file.  These values are not the individual soundings but are the exported BASE (Bathymetry with Associated Statistical Error) surface at 5-meter spatial distances with associated CUBE (Combined Uncertainty and Bathymetry Estimator) sample surface created from the edited soundings dataset using CARIS HIPS and SIPS version 9.1.  These are considered interpolated samples in which one value represents all soundings within a five-meter node, weighted by uncertainty and proximity, giving the final value as a data sample within the specific grid cell.
+The swath bathymetry data were collected and processed in World Geodetic System of 1984 (WGS84).  This dataset was subsequently transformed to the North American Datum of 1983 (NAD83), using the National Oceanic and Atmospheric Administration (NOAA) VDatum version 3.5 transformation software (http://vdatum.noaa.gov/), and included in the data release as 2015_Chand_IFB_5m_NAD83_NAVD88_GEOID09_XYZ.txt.  The data were collected using the WGS84 reference ellipsoid.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20150915</begdate>
+          <enddate>20150921</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Not planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.87805384</westbc>
+        <eastbc>-88.83262031</eastbc>
+        <northbc>30.07266169</northbc>
+        <southbc>30.01512066</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>oceans</themekey>
+        <themekey>elevation</themekey>
+        <themekey>location</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>marine geology</themekey>
+        <themekey>geophysics</themekey>
+        <themekey>bathymetry</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>interferometry</themekey>
+        <themekey>swath</themekey>
+        <themekey>Systems Engineering and Assessment</themekey>
+        <themekey>SEA</themekey>
+        <themekey>SWATHplus-H</themekey>
+        <themekey>hydrography</themekey>
+        <themekey>geophysical</themekey>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Coastal and Marine Geology Program</themekey>
+        <themekey>CMGP</themekey>
+        <themekey>St. Petersburg Coastal and Marine Science Center</themekey>
+        <themekey>SPCMSC</themekey>
+        <themekey>Barrier Island Evolution Research Project</themekey>
+        <themekey>Barrier Island Mapping</themekey>
+        <themekey>2015-331-FA</themekey>
+        <themekey>datum</themekey>
+        <themekey>shoreline</themekey>
+        <themekey>interferometric bathymetry</themekey>
+        <themekey>IFB</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Louisiana</placekey>
+        <placekey>Gulf of Mexico</placekey>
+        <placekey>Chandeleur Islands</placekey>
+      </place>
+      <stratum>
+        <stratkt>Oregon Geospatial Enterprise Office (GEO) Stratum Keyword</stratkt>
+        <stratkey>sea surface</stratkey>
+        <stratkey>epipelagic</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>September 2015</tempkey>
+      </temporal>
+    </keywords>
+    <useconst>These data are scientific in nature and are not to be used for navigation. Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. The U.S. Geological Survey requests to be acknowledged as originator of these data in future products or derivative research.</useconst>
+    <accconst>none</accconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jake J. Fredericks</cntper>
+          <cntorg>U.S. Geological Survey - St. Petersburg Coastal and Marine Science Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33701</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(727)502-8033</cntvoice>
+        <cntemail>jfredericks@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>U.S. Geological Survey, Coastal and Marine Geology Program, St. Petersburg Coastal and Marine Science Center</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The accuracy of the data was determined during data collection.  This dataset was from one research cruise and was therefore internally consistent. Methods were employed to maintain data collection consistency aboard the platform.  During mobilization, each piece of equipment was isolated to obtain internal and external offset measurements with respect to the survey platform. All the critical measurements were recorded manually and digitally entered into their respective programs. For the interferometric swath bathymetry (IFB), offsets between the sonar head and the Differential Global Positioning System (DGPS) antennas were measured and entered into the CodaOctopus F190R+ internal setup program. The DGPS correction was obtained from Marinestar High-precision (HP) differential global navigation satellite system, a satellite positioning service, from Fugro, Inc. This signal was received through the Coda Octopus F190R+ GPS antennas.  These bathymetric data have not been independently verified for accuracy.</attraccr>
+    </attracc>
+    <logic>This file represents the post-processed bathymetric data (x,y,z) collected during a swath bathymetry survey (2015-331-FA).</logic>
+    <complete>These are complete post-processed x,y,z bathymetric data points from acoustic swath data collected near the Chandeleur Islands, Louisiana, in September 2015.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Navigation information was recorded in real-time kinematic mode via the CODA Octopus F190R+ Precision Attitude and Positioning System. Differential GPS correction was obtained through the Marinestar HP broadcast subscription from Fugro, Inc. The manufacturer's stated horizontal accuracy is 10 centimeters (cm) 95% of the time.  The trackline position data were recorded using HYPACK version 15.0.1.1 hydrographic acquisition and processing software.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The manufacturer's stated vertical accuracy of Marinestar GPS subscription is 15 cm, 95% of the time.  The Coda Octopus F190R+ inertial measurement unit (IMU), which integrates the Marinestar position with motion, measures vessel velocity (+/- 0.014 meters/second [m/s]), roll and pitch (less than 0.025 degrees), heading (1 m baseline 0.1 degrees), and heave (5 cm per meter (m) of depth). The vertical accuracy for the SWATHplus-H system varies with depth and across track range. At 57 m, it is accurate to 10 cm vertically. Maximum vertical transformation error reported by VDatum version 3.5 was 0.171 m or 17.1 centimeters for eastern Louisiana. The sum of the errors (+/- 0.013 m + +/-0.15 m +0.171 m) in the vertical direction is equal to +/-.334 m or +/- 33.4 cm.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Swath Bathymetry Acquisition:  The interferometric swath bathymetry data were collected aboard the R/V Sallenger in September 2015 using the SEA SWATHplus-H 468 kHz interferometric sonar system.  The transducer system was fastened to a static pole mount deployed over the starboard side gunnel. The Novatel GPS antennas were mounted atop the cabin.  Boat position and motion data were recorded in real-time using a CodaOctopus F190R+ wetpod IMU.  The IMU was mounted underwater between the transducer heads to minimize lever arm geometry errors between observed depths and vessel motion. Real-time corrected positions were acquired via Marinestar HP DGPS subscription service from Fugro, Inc. Marinestar HP position correction data and motion data from the IMU were integrated with interferometric soundings using SWATHplus software, version 3.10.2.0, with positional and calibration offsets pre-defined by a session file (.sxs), allowing for real-time-corrected depths. Before deployment, all equipment offsets were measured. During the survey, all swath tracklines were recorded in SWATHplus raw data format (.sxr). A Valeport Mini Sound Velocity Sensor (miniSVS) was attached to the transducer mount and collected continuous speed of sound (SOS) measurements at the depth of the transducers. These values were directly read and incorporated into the SWATHplus raw data format during acquisition providing a real-time speed of sound at the transducer while underway. In addition, a separate Mini Sound Velocity Profiler (Valeport miniSVP) was used to collect speed of sound profiles (water surface to seafloor) approximately every two hours throughout the survey as well as other areas of question such as rapid transitions in water depth.</procdesc>
+        <procdate>2015</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Jake J. Fredericks</cntper>
+              <cntorg>U.S. Geological Survey - St. Petersburg Coastal and Marine Science Center</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>600 4th Street South</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33701</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(727) 502-8033</cntvoice>
+            <cntemail>jfredericks@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Swath Bathymetry Processing: Data were collected with SWATHplus-H and Bathyswath 3.10.2, an acquisition and initial processing program.  Preliminary roll calibration trackline data were collected and processed using Bathyswath Swath Processor version 3.10.2.0 and Bathyswath Grid Processor software version 3.10.0.0.   Instrument offsets and calibration values were input into the session file (.sxs) and the raw data files (.sxr) were then processed using the updated system configuration file containing roll calibration values, measured equipment offsets, acquisition parameters, navigation and motion from the F190R+, SOS at the sonar head, and SVP cast data. Any calibration offsets and acoustic filtering utilized in Bathyswath was then applied to each raw data file to create a processed data file (.sxp), and then imported into advanced sounding data processing software CARIS HIPS and SIPS (CARIS) version 9.1. The initial real-time processing datum for the swath and backscatter data was WGS84, which is the acquisition datum for Marinestar HP position and navigation data. 
+Within CARIS, outliers for the navigation data and processed soundings were removed using program filters.  Any remaining data outliers were then removed manually. A CARIS BASE surface with associated CUBE sample surface was created from the edited soundings. A CUBE hypothesis is the estimated value of a grid node representing all the soundings within a chosen resolution or grid-cell size (for example, 5 m) weighted by uncertainty and proximity, giving the final value as a "sample" of the data within the specific grid cell. This algorithm allows for multiple grid-node hypotheses to be verified or overridden by the user while maximizing processing efficiency. A final visual inspection of the dataset in addition to Quality Control and Quality Assurance (QA/QC) procedures were implemented to ensure all outliers and erroneous data points had been removed from the final BASE surface. In order to provide the dataset in a non-proprietary format, the final XYZ data were exported as an ASCII comma-separated file.
+</procdesc>
+        <procdate>20160416</procdate>
+        <srcprod>2015_Chand_IFB_5m_WGS84_XYZ.txt</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Jake J. Fredericks</cntper>
+              <cntorg>U.S. Geological Survey - St. Petersburg Coastal and Marine Science Center</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>600 4th Street South</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33701</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(727) 502-8033</cntvoice>
+            <cntemail>jfredericks@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>5.000000</absres>
+            <ordres>5.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>World Geodetic System 1984</horizdn>
+        <ellips>World Geodetic System 1984</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>WGS84</altdatum>
+        <altres>0.0001 cm</altres>
+        <altunits>meters</altunits>
+        <altenc>Attribute values</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>2015_Chand_IFB_5m_WGS84_XYZ.txt</enttypl>
+        <enttypd>ASCII text file containing the processed 5-meter resolution interferometric swath bathymetry x,y,z samples collected in WGS84.</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>WGS84_X</attrlabl>
+        <attrdef>WGS84 X-coordinate (easting) of sample point, in meters</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>318980</rdommin>
+            <rdommax>323260</rdommax>
+            <attrmres>1.0E-4</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WGS84_Y</attrlabl>
+        <attrdef>WGS84 Y-coordinate (northing) of sample point, in meters</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3321944</rdommin>
+            <rdommax>3328254</rdommax>
+            <attrmres>1.0E-4</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ellipsoid_m</attrlabl>
+        <attrdef>Ellipsoid height of sample point in meters.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-36.969</rdommin>
+            <rdommax>-29.923</rdommax>
+            <attrmres>1.0E-4</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DataType</attrlabl>
+        <attrdef>IFB = Interferometric Bathymetry; SPCMSC identifier of bathymetry data type.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>Character string - IFB</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>Year data were collected</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>2015</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jake J. Fredericks</cntper>
+          <cntorg>U.S. Geological Survey - St. Petersburg Coastal and Marine Science Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33701</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(727)502-8033</cntvoice>
+        <cntemail>jfredericks@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system, or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The USGS shall not be held liable for improper or incorrect use of the data described or contained herein. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ASCII</formname>
+          <formvern>9.20</formvern>
+          <formspec>XYZ</formspec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://coastal.er.usgs.gov/data-release/doi-F7NV9GC8/data/2015_Chand_IFB_5m_WGS84_XYZ.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20161216</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jake J. Fredericks</cntper>
+          <cntorg>U.S. Geological Survey - St. Petersburg Coastal and Marine Science Center</cntorg>
+        </cntperp>
+        <cntpos>Physical Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33701</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(727) 502-8000</cntvoice>
+        <cntemail>jfredericks@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metsi>
+      <metscs>none</metscs>
+      <metsc>unclassified</metsc>
+      <metshd>None</metshd>
+    </metsi>
+  </metainfo>
+  <mercury>
+    <begdate>20150915</begdate>
+    <enddate>20150921</enddate>
+    <htmlurl>http://usgs.ornl.gov/metadata/catalog/html/Coastal_and_Marine_Geology_Program/cmgds.marine.usgs.gov_metadata_spcmsc_2015_Chand_IFB_5m_WGS84_XYZ_Metadata.html</htmlurl>
+  </mercury>
+</metadata>

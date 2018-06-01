@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ornl:metadata xmlns:ornl="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin><![CDATA[Deichmann, Uwe]]></origin>
+        <origin><![CDATA[Nelson, Andy]]></origin>
+        <title><![CDATA[Africa Population Distribution Database]]></title>
+        <onlink><![CDATA[http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/human_dimensions/africa_grid_pop.xml]]></onlink>
+        <alt_onlink><![CDATA[http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/human_dimensions/africa_grid_pop.xml]]></alt_onlink>
+        <onlink><![CDATA[http://na.unep.net/siouxfalls/globalpop/africa/africa_index.html]]></onlink>
+        <onlink />
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[The Africa Population Distribution Database provides decadal population density data for African administrative units for the period 1960-1990.  The databsae was prepared for the United Nations Environment Programme / Global Resource Information Database (UNEP/GRID) project as part of an ongoing effort to improve global, spatially referenced demographic data holdings. The database is useful for a variety of applications including strategic-level agricultural research and applications in the analysis of the human dimensions of global change.
+
+This documentation describes the third version of a database of administrative units and associated population density data for Africa. The first version was compiled for UNEP's Global Desertification Atlas (UNEP, 1997; Deichmann and Eklundh, 1991), while the second version represented an update and expansion of this first product (Deichmann, 1994; WRI, 1995). The current work is also related to National Center for Geographic Information and Analysis (NCGIA) activities to produce a global database of subnational population estimates (Tobler et al., 1995), and an improved database for the Asian continent (Deichmann, 1996). The new version for Africa provides considerably more detail: more than 4700 administrative units, compared to about 800 in the first and 2200 in the second version. In addition, for each of these units a population estimate was compiled for 1960, 70, 80 and 90 which provides an indication of past population dynamics in Africa.  Forthcoming are population count data files as download options.
+
+African population density data were compiled from a large number of heterogeneous sources, including official government censuses and estimates/projections derived from yearbooks, gazetteers, area handbooks, and other country studies.  The political boundaries template (PONET) of the Digital Chart of the World (DCW) was used delineate national boundaries and coastlines for African countries.  
+
+For more information on African population density and administrative boundary data sets, see metadata files at [http://na.unep.net/datasets/datalist.php3] which provide information on file identification, format, spatial data organization, distribution, and metadata reference.
+
+References:
+
+Deichmann, U. 1994. A medium resolution population database for Africa, Database documentation and digital database, National Center for Geographic Information and Analysis, University of California, Santa Barbara.
+
+Deichmann, U. and L. Eklundh. 1991. Global digital datasets for land degradation studies: A GIS approach, GRID Case Study Series No. 4, Global Resource Information Database, United Nations Environment Programme, Nairobi.
+
+UNEP. 1997. World Atlas of Desertification, 2nd Ed., United Nations Environment Programme, Edward Arnold Publishers, London.
+
+WRI. 1995. Africa data sampler, Digital database and documentation, World Resources Institute, Washington, D.C.]]></abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[19600101]]></begdate>
+          <enddate><![CDATA[19971231]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Final]]></progress>
+      <update><![CDATA[As appropriate]]></update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-18</westbc>
+        <eastbc>52</eastbc>
+        <northbc>37</northbc>
+        <southbc>-35</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt><![CDATA[Parameter_Sensor_Source]]></themekt>
+        <themekey><![CDATA[POPULATION|CENSUS|GOVERNMENT RECORDS]]></themekey>
+        <themekey><![CDATA[POPULATION|ANALYSIS|YEARBOOKS, GAZETTEERS, AREA HANDBOOKS, OTHER COUNTRY STUDIES]]></themekey>
+        <themekey><![CDATA[ADMINISTRATIVE DIVISIONS|GEOGRAPHIC INFORMATION SYSTEM|DIGITAL CHART OF THE WORLD]]></themekey>
+        <themekey><![CDATA[POPULATION DISTRIBUTION|ANALYSIS|COMPUTER MODEL]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Parameter]]></themekt>
+        <themekey><![CDATA[POPULATION]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Source]]></themekt>
+        <themekey><![CDATA[GOVERNMENT RECORDS]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Sensor]]></themekt>
+        <themekey><![CDATA[CENSUS]]></themekey>
+      </theme>
+      <place>
+        <placekt><![CDATA[Place Keywords]]></placekt>
+        <placekey><![CDATA[Africa (gridded)]]></placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[Deichmann, Uwe]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; udeichmann@worldbank.org]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[U.S. Geological Survey, EROS Data Center, United Nations Environment Programme / Global Resource Information Database (UNEP/GRID) Clearinghouse Node (UNEP/GRID-Sioux Falls), Sioux Falls, South Dakota, USA]]></cntorg>
+          <cntper><![CDATA[GRID Webmaster]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1-605-594-6107]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; udeichmann@worldbank.org]]></cntfax>
+        <cntemail><![CDATA[info@northamerica.unep.net]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://na.unep.net/siouxfalls/index.php]]></computer>
+            <accinstr><![CDATA[Public]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Deichmann, Uwe. 2004. Africa Population Distribution Database. Prepared for the United Nations Environment Programme / Global Resource Information Database (UNEP/GRID). Available online at [http://na.unep.net/siouxfalls/globalpop/africa/africa_index.html] from the U.S. Geological Survey, EROS Data Center, UNEP/GRID Clearinghouse Node (UNEP/GRID-Sioux Falls), Sioux Falls, South Dakota, USA.]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd><![CDATA[20140919 163645]]></metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn><![CDATA[FGDC Content Standard for Digital Geospatial Metadata]]></metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>19600101</begdate>
+    <enddate>19971231</enddate>
+    <Site_Information>
+      <Site><![CDATA[Africa (gridded)]]></Site>
+      <Westernmost_Longitude><![CDATA[-18]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[52]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[37]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[-35]]></Southernmost_Latitude>
+    </Site_Information>
+    <Keywords><![CDATA[Africa]]></Keywords>
+    <Keywords><![CDATA[Administrative boundaries]]></Keywords>
+    <Keywords><![CDATA[EOSDIS]]></Keywords>
+    <Keywords><![CDATA[GRID]]></Keywords>
+    <Keywords><![CDATA[Human Dimensions Collections]]></Keywords>
+    <Keywords><![CDATA[Population density]]></Keywords>
+    <Keywords><![CDATA[UNEP]]></Keywords>
+    <Parameter_Description>
+      <Parameter><![CDATA[POPULATION]]></Parameter>
+      <Sensor><![CDATA[CENSUS]]></Sensor>
+      <Source><![CDATA[GOVERNMENT RECORDS]]></Source>
+      <Term><![CDATA[POPULATION]]></Term>
+      <Topic><![CDATA[HUMAN DIMENSIONS]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[POPULATION]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[YEARBOOKS, GAZETTEERS, AREA HANDBOOKS, OTHER COUNTRY STUDIES]]></Source>
+      <Term><![CDATA[POPULATION]]></Term>
+      <Topic><![CDATA[HUMAN DIMENSIONS]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[ADMINISTRATIVE DIVISIONS]]></Parameter>
+      <Sensor><![CDATA[GEOGRAPHIC INFORMATION SYSTEM]]></Sensor>
+      <Source><![CDATA[DIGITAL CHART OF THE WORLD]]></Source>
+      <Term><![CDATA[BOUNDARIES]]></Term>
+      <Topic><![CDATA[HUMAN DIMENSIONS]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[POPULATION DISTRIBUTION]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[COMPUTER MODEL]]></Source>
+      <Term><![CDATA[POPULATION]]></Term>
+      <Topic><![CDATA[HUMAN DIMENSIONS]]></Topic>
+    </Parameter_Description>
+    <Project><![CDATA[United Nations Environment Programme / Global Resource Information Database (UNEP/GRID)]]></Project>
+    <Navpath><![CDATA[GOVERNMENT RECORDS|CENSUS|POPULATION]]></Navpath>
+    <Navpath><![CDATA[YEARBOOKS, GAZETTEERS, AREA HANDBOOKS, OTHER COUNTRY STUDIES|ANALYSIS|POPULATION]]></Navpath>
+    <Navpath><![CDATA[DIGITAL CHART OF THE WORLD|GEOGRAPHIC INFORMATION SYSTEM|ADMINISTRATIVE DIVISIONS]]></Navpath>
+    <Navpath><![CDATA[COMPUTER MODEL|ANALYSIS|POPULATION DISTRIBUTION]]></Navpath>
+    <Principal_Investigator>
+      <Name><![CDATA[Deichmann, Uwe]]></Name>
+      <Email><![CDATA[udeichmann@worldbank.org]]></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[Nelson, Andy]]></Name>
+      <Email><![CDATA[a.d.nelson@leeds.ac.uk]]></Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL><![CDATA[http://na.unep.net/siouxfalls/datasets/datalist.php]]></URL>
+      <Label><![CDATA[Africa Population Distribution Data Set Download]]></Label>
+      <Link_Note><![CDATA[Click on Data link. Then fill out form, selecting data type and compression.]]></Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL><![CDATA[http://na.unep.net/siouxfalls/globalpop/africa/africa_index.html]]></URL>
+      <Label><![CDATA[Africa Population Distribution Database Documentation]]></Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status />
+      <Data_Set_Restrictions />
+      <Data_Set_Location />
+      <Data_Contact_Person>
+        <Email />
+        <Name />
+        <Phone />
+        <Data_Center_URL />
+      </Data_Contact_Person>
+      <Data_Center_URL />
+      <Data_Set_Citation />
+      <Data_Set_Link>
+        <URL />
+        <Label />
+        <Link_Note />
+        <Data_Center_URL />
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version><![CDATA[Version 4.7.5, Revision Date: 04 Apr 2006]]></OME_Software_Version>
+    <OME_DTD_Version><![CDATA[metadata24.dtd]]></OME_DTD_Version>
+    <Contact_Person>
+      <Email><![CDATA[info@northamerica.unep.net]]></Email>
+      <Name><![CDATA[GRID Webmaster]]></Name>
+      <Phone><![CDATA[+1-605-594-6107]]></Phone>
+    </Contact_Person>
+    <Temporal_Resolution><![CDATA[Decadal]]></Temporal_Resolution>
+    <enddate_blank />
+    <File_ID><![CDATA[Created 20010803 170422 by 206.246.119.40]]></File_ID>
+    <Spatial_Reference_Method><![CDATA[Raster]]></Spatial_Reference_Method>
+    <Spatial_Extent>5040</Spatial_Extent>
+    <Search_Text_Link>
+      <URL><![CDATA[http://na.unep.net/siouxfalls/globalpop/africa/africa_index.html]]></URL>
+      <Label><![CDATA[Africa Population Distribution Database Documentation]]></Label>
+    </Search_Text_Link>
+    <Other_Link>
+      <URL />
+      <Label />
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData><![CDATA[database]]></sourceData>
+</ornl:metadata>
