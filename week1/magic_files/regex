@@ -1,3 +1,25 @@
+#------------------------------------------------------------------------------
+# $File: dataone files,
+# Type:	EML, DryadData, FGDC
+
+
+### First check for the xmltag
 0	string <?xml
+
+### Test for the eml pattern within the string.
 >&0	regex (eml)-[0-9].[0-9].[0-9]+ eml://ecoinformatics.org/%s
->&0	regex (onedcx)+ http://ns.dataone.org/metadata/schema/onedcx/v1.0/
+
+### If EML Test fails test for the onedcx pattern within the string.
+>&0	regex (onedcx)+ http://ns.dataone.org/metadata/schema/onedcx/v1.0
+
+### If EML & onedcx Tests fails test for the FGDC pattern within the string.
+>&0	regex fgdc FGDC-STD-001-1998
+
+### If EML, FGDC & onedcx Tests fails test for the mercury pattern within the string.
+>&0	regex (mercury/terms/v)[0-9].[0-9] http://purl.org/ornl/schema/mercury/terms/v1.0
+
+### First check for the DryadData tag
+0 string <DryadData
+
+### now check for the version
+>&0 regex (dryad-bibo/v)[0-9].[0-9] http://datadryad.org/profile/v3.1
