@@ -9,18 +9,15 @@ class TestFileExt(unittest.TestCase):
         self.func = getFileExt("examples/")
 
     def test_eml_200(self):
-        for fileNames in listdir("examples/eml-200/"):
-        #for (dirpath, dirnames, filenames) in walk("examples/eml-200/"):
-            self.assertEqual(getFileExt("examples/eml-200/"+fileNames), 'eml://ecoinformatics.org/eml-2.0.0')
+        for fileName in listdir("examples/eml-200/"):
+            self.assertEqual(getFileExt("examples/eml-200/"+fileName), 'eml://ecoinformatics.org/eml-2.0.0', "Incorrect File extension for file: {0}" .format(fileName))
 
     def test_eml_201(self):
         for fileName in listdir("examples/eml-201/"):
-        #for (dirpath, dirnames, filenames) in walk("examples/eml-200/"):
             self.assertEqual(getFileExt("examples/eml-201/"+fileName) , 'eml://ecoinformatics.org/eml-2.0.1', "Incorrect File extension for file: {0}" .format(fileName))
 
     def test_eml_210(self):
         for fileName in listdir("examples/eml-210/"):
-        #for (dirpath, dirnames, filenames) in walk("examples/eml-200/"):
             self.assertEqual(getFileExt("examples/eml-210/"+ fileName), 'eml://ecoinformatics.org/eml-2.1.0', "Incorrect File extension for file: {0}" .format(fileName))
 
     def test_eml_211(self):
