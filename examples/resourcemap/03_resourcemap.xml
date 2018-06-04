@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:cito="http://purl.org/spar/cito/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ore="http://www.openarchives.org/ore/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs1="http://www.w3.org/2001/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/Aggregation">
+    <rdfs1:label>Aggregation</rdfs1:label>
+    <rdfs1:isDefinedBy rdf:resource="http://www.openarchives.org/ore/terms/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v1/resolve/002006c7-d976-4c82-94a9-56b6f5874835">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+    <dcterms:modified>2014-03-25T17:41:00Z</dcterms:modified>
+    <dcterms:creator rdf:resource="http://foresite-toolkit.googlecode.com/#pythonAgent"/>
+    <dc:format>http://www.opernarchives.org/ore/terms</dc:format>
+    <ore:describes rdf:resource="https://cn.dataone.org/cn/v1/resolve/002006c7-d976-4c82-94a9-56b6f5874835#aggregation"/>
+    <dcterms:created>2014-03-25T17:41:00Z</dcterms:created>
+    <dcterms:identifier>002006c7-d976-4c82-94a9-56b6f5874835</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v1/resolve/5fe6af01-1a55-4fb3-96d1-af83fc6e6edf">
+    <cito:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v1/resolve/08bea141-facb-4f3e-860c-5e2c10cc38ae"></cito:isDocumentedBy>
+    <dcterms:description>Data object ("5fe6af01-1a55-4fb3-96d1-af83fc6e6edf")</dcterms:description>
+    <dcterms:identifier>5fe6af01-1a55-4fb3-96d1-af83fc6e6edf</dcterms:identifier>
+    <dc:title>Dataset: "5fe6af01-1a55-4fb3-96d1-af83fc6e6edf"</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v1/resolve/08bea141-facb-4f3e-860c-5e2c10cc38ae">
+    <cito:documents rdf:resource="https://cn.dataone.org/cn/v1/resolve/5fe6af01-1a55-4fb3-96d1-af83fc6e6edf"></cito:documents>
+    <dcterms:description>Science metadata object (08bea141-facb-4f3e-860c-5e2c10cc38ae) for Data object ("5fe6af01-1a55-4fb3-96d1-af83fc6e6edf")</dcterms:description>
+    <dcterms:identifier>08bea141-facb-4f3e-860c-5e2c10cc38ae</dcterms:identifier>
+    <dc:title>Metadata: 08bea141-facb-4f3e-860c-5e2c10cc38ae</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/ResourceMap">
+    <rdfs1:label>ResourceMap</rdfs1:label>
+    <rdfs1:isDefinedBy rdf:resource="http://www.openarchives.org/ore/terms/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v1/resolve/002006c7-d976-4c82-94a9-56b6f5874835#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v1/resolve/08bea141-facb-4f3e-860c-5e2c10cc38ae"/>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v1/resolve/5fe6af01-1a55-4fb3-96d1-af83fc6e6edf"/>
+    <ore:isDescribedBy rdf:resource="https://cn.dataone.org/cn/v1/resolve/002006c7-d976-4c82-94a9-56b6f5874835"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://foresite-toolkit.googlecode.com/#pythonAgent">
+    <foaf:name>Foresite Toolkit (Python)</foaf:name>
+    <foaf:mbox>foresite@googlegroups.com</foaf:mbox>
+  </rdf:Description>
+</rdf:RDF>
