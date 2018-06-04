@@ -57,3 +57,4 @@ for obj in catalog['examples']:
 	formatId = obj['formatId']
 	folder = obj["folder"]
 	chkFileType(formatId,folder, obj['identifiers'])
+	#print(formatId)
