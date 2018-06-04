@@ -1,4 +1,27 @@
 examples:
+- folder: resourcemap
+  formatId: http://www.openarchives.org/ore/terms
+  identifiers:
+  - filename: 00_resourcemap.xml
+    pid: 0007f892-0d8f-4451-94e9-94d02ba5dd0d_0
+  - filename: 01_resourcemap.xml
+    pid: 0007f892-0d8f-4451-94e9-94d02ba5dd0d_1
+  - filename: 02_resourcemap.xml
+    pid: 0007f892-0d8f-4451-94e9-94d02ba5dd0d_2
+  - filename: 03_resourcemap.xml
+    pid: 002006c7-d976-4c82-94a9-56b6f5874835
+  - filename: 04_resourcemap.xml
+    pid: 00223c14-ba07-4fc4-93c3-5caaac5041f3_0
+  - filename: 05_resourcemap.xml
+    pid: 00223c14-ba07-4fc4-93c3-5caaac5041f3_1
+  - filename: 06_resourcemap.xml
+    pid: 00223c14-ba07-4fc4-93c3-5caaac5041f3_2
+  - filename: 07_resourcemap.xml
+    pid: 0024e77f-000e-4b38-8a80-215fab398905_0
+  - filename: 08_resourcemap.xml
+    pid: 0024e77f-000e-4b38-8a80-215fab398905_2
+  - filename: 09_resourcemap.xml
+    pid: 00327229-485e-4865-a8d2-eb33d27438af-snotel_201606_1017.rdf
 - folder: onedcx
   formatId: http://ns.dataone.org/metadata/schema/onedcx/v1.0
   identifiers:
