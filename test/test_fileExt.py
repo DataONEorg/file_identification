@@ -57,6 +57,9 @@ class TestFileExt(unittest.TestCase):
         for fileName in listdir("examples/isotc211-pangaea/"):
             self.assertEqual(getFileExt("examples/isotc211-pangaea/"+fileName), 'http://www.isotc211.org/2005/gmd-pangaea', "Incorrect File extension for file: {0}" .format(fileName))
 
+    def test_resourcemap(self):
+        for fileName in listdir("examples/resourcemap/"):
+            self.assertEqual(getFileExt("examples/resourcemap/"+fileName), 'http://www.openarchives.org/ore/terms', "Incorrect File extension for file: {0}" .format(fileName))
 
 if __name__ == '__main__':
     unittest.main()
