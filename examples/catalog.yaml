@@ -12,6 +12,16 @@ examples:
     pid: dcx_00223c14-ba07-4fc4-93c3-5caaac5041f3_0
   - filename: 04_onedcx.xml
     pid: dcx_00223c14-ba07-4fc4-93c3-5caaac5041f3_1
+  - filename: 05_onedcx.xml
+    pid: dcx_00223c14-ba07-4fc4-93c3-5caaac5041f3_2
+  - filename: 06_onedcx.xml
+    pid: dcx_0024e77f-000e-4b38-8a80-215fab398905_0
+  - filename: 07_onedcx.xml
+    pid: dcx_0024e77f-000e-4b38-8a80-215fab398905_2
+  - filename: 08_onedcx.xml
+    pid: dcx_00b8fc63-5981-4110-9926-34774cd376d3_0
+  - filename: 09_onedcx.xml
+    pid: dcx_00b8fc63-5981-4110-9926-34774cd376d3_1
 - folder: dryad-31
   formatId: http://datadryad.org/profile/v3.1
   identifiers:
@@ -25,6 +35,16 @@ examples:
     pid: http://dx.doi.org/10.5061/dryad.0015b/2?ver=2015-10-01T12:57:42.782-04:00
   - filename: 04_dryad-31.xml
     pid: http://dx.doi.org/10.5061/dryad.0015b/3?ver=2015-10-01T12:57:50.618-04:00
+  - filename: 05_dryad-31.xml
+    pid: http://dx.doi.org/10.5061/dryad.0015b/4?ver=2015-10-01T12:57:57.708-04:00
+  - filename: 06_dryad-31.xml
+    pid: http://dx.doi.org/10.5061/dryad.0015b/5?ver=2015-10-01T12:58:04.913-04:00
+  - filename: 07_dryad-31.xml
+    pid: http://dx.doi.org/10.5061/dryad.0015b/6?ver=2015-10-01T12:58:11.371-04:00
+  - filename: 08_dryad-31.xml
+    pid: http://dx.doi.org/10.5061/dryad.0015b/7?ver=2015-10-01T12:58:18.024-04:00
+  - filename: 09_dryad-31.xml
+    pid: http://dx.doi.org/10.5061/dryad.0015b/8?ver=2015-10-01T12:58:25.312-04:00
 - folder: fgdc-1998
   formatId: FGDC-STD-001-1998
   identifiers:
@@ -38,6 +58,16 @@ examples:
     pid: 00a78a76-758f-40f2-b4d5-9a310ba8fd8e
   - filename: 04_fgdc-1998.xml
     pid: 00d436f8-8006-4d21-bfef-a4a74167b320-scan_201701_2108.xml
+  - filename: 05_fgdc-1998.xml
+    pid: 0100ced0-e8ae-47d6-90fd-bfcaeb236224-PRISM-T-min-celcius-Torrance.xml
+  - filename: 06_fgdc-1998.xml
+    pid: 010172ce-2068-48a8-9aa1-071c8c8accc6-snotel_201702_1034.xml
+  - filename: 07_fgdc-1998.xml
+    pid: 010eac04-cc12-4c23-aa43-9599077f9477-snotel_201604_933.xml
+  - filename: 08_fgdc-1998.xml
+    pid: 016528db-6f8c-472b-a557-af6e1b461649-SNSNmetadata8_22_2014_Oil.xml
+  - filename: 09_fgdc-1998.xml
+    pid: 0199027a-dcd7-48e3-9420-20663b7b5e79-20160610-sajddh-tray9-121-9-Enr-1-CR3000_2_RawData.xml
 - folder: fgdc-1999
   formatId: FGDC-STD-001.1-1999
   identifiers:
@@ -51,6 +81,16 @@ examples:
     pid: 0005bb86-dd8a-488e-b7d8-93bab9ae6da4
   - filename: 04_fgdc-1999.xml
     pid: 00066295-ccd0-474d-bf38-d5a343c6f543
+  - filename: 05_fgdc-1999.xml
+    pid: 00096bb1-69a0-433b-988e-f02d343a9743
+  - filename: 06_fgdc-1999.xml
+    pid: 000a5eee-53e9-4317-abaa-2ca368568ba8
+  - filename: 07_fgdc-1999.xml
+    pid: 000bb6c3-4b9a-4c96-8576-2631ef9798f5
+  - filename: 08_fgdc-1999.xml
+    pid: 000fe705-53d1-4783-a492-aa29df0cfad3
+  - filename: 09_fgdc-1999.xml
+    pid: 00108fbf-0dda-4d99-8aca-efc73045b7e0
 - folder: mercury
   formatId: http://purl.org/ornl/schema/mercury/terms/v1.0
   identifiers:
@@ -64,6 +104,16 @@ examples:
     pid: 1_km_Global_Land_Cover_Data_Set_Derived_from_AVHRR.xml
   - filename: 04_mercury.xml
     pid: 8_km_Global_Land_Cover_Data_Set_Derived_from_AVHRR.xml
+  - filename: 05_mercury.xml
+    pid: AARS_Asia_30-second_Land_Cover_Data_Set_with_Ground_Truth_Information.xml
+  - filename: 06_mercury.xml
+    pid: Above-Ground_Woody_Biomass_Map_of_Africa,_2000-2003.xml
+  - filename: 07_mercury.xml
+    pid: AErosol_RObotic_NETwork_(AERONET)_Database.xml
+  - filename: 08_mercury.xml
+    pid: Africa_Population_Distribution_Database.xml
+  - filename: 09_mercury.xml
+    pid: Africa_Soil_Profiles_Database,_v1.1.xml
 - folder: isotc211
   formatId: http://www.isotc211.org/2005/gmd
   identifiers:
@@ -77,6 +127,16 @@ examples:
     pid: 10.24431/rw1k112
   - filename: 04_isotc211.xml
     pid: 10.24431/rw1k113
+  - filename: 05_isotc211.xml
+    pid: 10.24431/rw1k114
+  - filename: 06_isotc211.xml
+    pid: 10.24431/rw1k115
+  - filename: 07_isotc211.xml
+    pid: 10.24431/rw1k116
+  - filename: 08_isotc211.xml
+    pid: 10.24431/rw1k118
+  - filename: 09_isotc211.xml
+    pid: 10.24431/rw1k12
 - folder: isotc211-pangaea
   formatId: http://www.isotc211.org/2005/gmd-pangaea
   identifiers:
@@ -90,6 +150,16 @@ examples:
     pid: 0000d11ff42b22915fcce5cfa6027040
   - filename: 04_isotc211-pangaea.xml
     pid: 0000eb4ff1fc59ae6c33a4981e00eabf
+  - filename: 05_isotc211-pangaea.xml
+    pid: 000132709354c15009def3e28e8e0601
+  - filename: 06_isotc211-pangaea.xml
+    pid: 00013889b661e91ae02955cf96906944
+  - filename: 07_isotc211-pangaea.xml
+    pid: 0001acf7dc7e6587aa68be8706678f3b
+  - filename: 08_isotc211-pangaea.xml
+    pid: 0001c9bdadd1f433c4a0f5e621d7d2dc
+  - filename: 09_isotc211-pangaea.xml
+    pid: 0001cbfc32d19be75bc984665b871414
 - folder: isotc211-noaa
   formatId: http://www.isotc211.org/2005/gmd-noaa
   identifiers:
@@ -103,6 +173,16 @@ examples:
     pid: '{00046FE2-7425-4FF0-BD00-1CC82B492782}'
   - filename: 04_isotc211-noaa.xml
     pid: '{0005016B-C4E8-4863-A0A7-1305D0441328}'
+  - filename: 05_isotc211-noaa.xml
+    pid: '{00053F3B-7552-444F-8F57-6670756212BA}'
+  - filename: 06_isotc211-noaa.xml
+    pid: '{000873A6-4AC6-48B7-8CDC-4C7A2C5BEA0F}'
+  - filename: 07_isotc211-noaa.xml
+    pid: '{0008B19B-2E58-4BAE-B6AB-44E26077A81A}'
+  - filename: 08_isotc211-noaa.xml
+    pid: '{0008F1ED-7499-48E1-B5CE-18359542659F}'
+  - filename: 09_isotc211-noaa.xml
+    pid: '{000C861F-9811-475B-9B11-CCD3647D2AB4}'
 - folder: eml-211
   formatId: eml://ecoinformatics.org/eml-2.1.1
   identifiers:
@@ -116,6 +196,16 @@ examples:
     pid: 10.5066/F7833Q2V.0
   - filename: 04_eml-211.xml
     pid: 10.5066/F7C82781.0
+  - filename: 05_eml-211.xml
+    pid: 10.5066/F7H1300R.0
+  - filename: 06_eml-211.xml
+    pid: 10.5066/F7H1300R.1
+  - filename: 07_eml-211.xml
+    pid: 10.5066/F7MS3QRT.0
+  - filename: 08_eml-211.xml
+    pid: 10.5066/F7MS3QRT.1
+  - filename: 09_eml-211.xml
+    pid: a1211.8.15
 - folder: eml-210
   formatId: eml://ecoinformatics.org/eml-2.1.0
   identifiers:
@@ -124,11 +214,21 @@ examples:
   - filename: 01_eml-210.xml
     pid: aceasdata.12.8
   - filename: 02_eml-210.xml
-    pid: aceasdata.13.3
+    pid: aceasdata.3.2
   - filename: 03_eml-210.xml
-    pid: aceasdata.13.4
+    pid: AKCRRAB.10.1
   - filename: 04_eml-210.xml
-    pid: aceasdata.13.5
+    pid: AKCRRAB.10.2
+  - filename: 05_eml-210.xml
+    pid: AKCRRAB.10.3
+  - filename: 06_eml-210.xml
+    pid: AKCRRAB.10.4
+  - filename: 07_eml-210.xml
+    pid: AKCRRAB.12.1
+  - filename: 08_eml-210.xml
+    pid: AKCRRAB.12.2
+  - filename: 09_eml-210.xml
+    pid: AKCRRAB.13.1
 - folder: eml-201
   formatId: eml://ecoinformatics.org/eml-2.0.1
   identifiers:
@@ -137,11 +237,21 @@ examples:
   - filename: 01_eml-201.xml
     pid: aghy.4.2
   - filename: 02_eml-201.xml
-    pid: andrewd.5.1
+    pid: asan.13.1
   - filename: 03_eml-201.xml
-    pid: andrewd.5.2
+    pid: asan.14.1
   - filename: 04_eml-201.xml
-    pid: AnneWu.14.1
+    pid: asan.14.3
+  - filename: 05_eml-201.xml
+    pid: asan.14.4
+  - filename: 06_eml-201.xml
+    pid: asan.17.1
+  - filename: 07_eml-201.xml
+    pid: asan.3.1
+  - filename: 08_eml-201.xml
+    pid: asan.3.11
+  - filename: 09_eml-201.xml
+    pid: asan.3.13
 - folder: eml-200
   formatId: eml://ecoinformatics.org/eml-2.0.0
   identifiers:
@@ -155,3 +265,13 @@ examples:
     pid: ctduh.3.3
   - filename: 04_eml-200.xml
     pid: ctduh.3.4
+  - filename: 05_eml-200.xml
+    pid: ctduh.3.6
+  - filename: 06_eml-200.xml
+    pid: doi:10.5063/AA/adler.3.1
+  - filename: 07_eml-200.xml
+    pid: doi:10.5063/AA/adler.3.10
+  - filename: 08_eml-200.xml
+    pid: doi:10.5063/AA/adler.3.11
+  - filename: 09_eml-200.xml
+    pid: doi:10.5063/AA/adler.3.12

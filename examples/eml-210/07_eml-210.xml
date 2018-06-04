@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="AKCRRAB.12.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>2010 RKC larval rearing survival in 190s</title>
+ <creator id="1339616788730"> <individualName><surName>Daly</surName>
+</individualName>
+</creator>
+ <creator id="1339616795416"><individualName><surName>Swingle</surName>
+</individualName>
+</creator>
+<creator id="1339616803154"><individualName><surName>Eckert</surName>
+</individualName>
+</creator>
+<coverage><taxonomicCoverage><taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>Paralithodes camtschaticus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact id="1339616813131"><individualName><surName>Eckert</surName>
+</individualName>
+</contact>
+<dataTable id="1339617087395"><entityName>2010 RKC larval rearing survival 190s.txt</entityName>
+<entityDescription>RKC experiment comparing Artemia strain and stocking density</entityDescription>
+<physical id="1339616912203"><objectName>2010 RKC larval rearing survival 190s.txt</objectName>
+<size unit="byte">584</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/AKCRRAB.11.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1339617087396"><attributeName>diet</attributeName>
+<attributeDefinition>2 dfferent Artemia strains</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>En GSL</code>
+<definition>Great Salt Lake strain</definition>
+</codeDefinition>
+<codeDefinition><code>En SFB</code>
+<definition>San Fransisco Bay strain</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1339617087397"><attributeName>density</attributeName>
+<attributeDefinition>stocking density (larvae per Liter)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>mole</standardUnit>
+</unit>
+<numericDomain><numberType>whole</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1339617087398"><attributeName>tank</attributeName>
+<attributeDefinition>tank number</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>whole</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1339617087399"><attributeName>Z1</attributeName>
+<attributeDefinition>cumulative survival</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1339617087400"><attributeName>Z2</attributeName>
+<attributeDefinition>cumulative survival</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1339617087401"><attributeName>Z3</attributeName>
+<attributeDefinition>cumulative survival</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1339617087402"><attributeName>Z4</attributeName>
+<attributeDefinition>cumulative survival</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>mole</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1339617087403"><attributeName>G</attributeName>
+<attributeDefinition>cumulative survival</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>12</numberOfRecords>
+</dataTable>
+</dataset>
+ </eml:eml>

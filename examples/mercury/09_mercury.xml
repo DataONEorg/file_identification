@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ornl:metadata xmlns:ornl="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin><![CDATA[Leenaars, J.G.B.]]></origin>
+        <title><![CDATA[Africa Soil Profiles Database, v1.1]]></title>
+        <onlink><![CDATA[http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/soils/Africa_soil_profiles.xml]]></onlink>
+        <alt_onlink><![CDATA[http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/soils/Africa_soil_profiles.xml]]></alt_onlink>
+        <onlink />
+        <onlink><![CDATA[http://www.isric.org/sites/default/files/Report_2013_03.pdf]]></onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[ISRIC World Soil Information has compiled legacy soil profile data of Sub-Saharan Africa, as a project activity of the AfSIS project (Globally integrated Africa Soil Information Service), based on a wide variety of digital and analogue data sources reporting soil profile data in various formats and stamdards. The resulting Africa Soil Profiles database, version. 1.1 holds 16,711 unique soil profile records, inventoried from a wide variety of data sources (> 450), of which 15,499 records are georeferenced, including soil profile layer attribute data. Soil analytical data are available for 13,835 profiles, of which 12,683 are georeferenced. The database includes, but is not limited, to the soil attributes specified by GlobalSoilMap.net. Soil attribute values are standardized according to e-SOTER conventions and validated according to routine rules. Odd values are flagged. The degree of validation, and associated reliability of the data, varies because reference soil profile data, that are previously and thoroughly validated, are compiled together with non-reference soil profile data of lesser inherent representativeness.]]></abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[19380101]]></begdate>
+          <enddate><![CDATA[20101231]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Final]]></progress>
+      <update><![CDATA[As appropriate]]></update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-20</westbc>
+        <eastbc>52</eastbc>
+        <northbc>20</northbc>
+        <southbc>-35</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt><![CDATA[Parameter_Sensor_Source]]></themekt>
+        <themekey><![CDATA[CALCIUM|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[CALCIUM|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[CARBON|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[CARBON|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[ELECTRICAL CONDUCTIVITY|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[ELECTRICAL CONDUCTIVITY|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[NITROGEN|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[NITROGEN|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[ORGANIC MATTER|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[ORGANIC MATTER|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[PHOSPHORUS|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[PHOSPHORUS|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[POTASSIUM|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[POTASSIUM|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL SALINITY/SOIL SODICITY|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL SALINITY/SOIL SODICITY|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL ABSORPTION|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL ABSORPTION|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL BULK DENSITY|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL BULK DENSITY|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL CHEMISTRY|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL CHEMISTRY|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL CLASSIFICATION|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL CLASSIFICATION|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL COLOR|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL COLOR|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL DEPTH|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL DEPTH|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL FERTILITY|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL FERTILITY|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL HORIZONS/PROFILE|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL HORIZONS/PROFILE|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL MOISTURE/WATER CONTENT|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL MOISTURE/WATER CONTENT|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL PH|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL PH|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL STRUCTURE|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL STRUCTURE|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL TEXTURE|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL TEXTURE|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL MOISTURE/WATER CONTENT|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL MOISTURE/WATER CONTENT|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SULFUR|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SULFUR|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL ROOTING DEPTH|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[SOIL ROOTING DEPTH|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Parameter]]></themekt>
+        <themekey><![CDATA[CALCIUM]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Source]]></themekt>
+        <themekey><![CDATA[FIELD INVESTIGATION]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Sensor]]></themekt>
+        <themekey><![CDATA[ANALYSIS]]></themekey>
+      </theme>
+      <place>
+        <placekt><![CDATA[Place Keywords]]></placekt>
+        <placekey><![CDATA[Sub-Saharan Africa]]></placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[Leenaars, J.G.B.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; johan.leenaars@wur.nl]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[International Soil Reference and Information Centre (ISRIC), World Soil Information (World Data Center for Soils), Wageningen, The Netherlands]]></cntorg>
+          <cntper><![CDATA[Leenaars, J.G.B.]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+31(317)483735]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; johan.leenaars@wur.nl]]></cntfax>
+        <cntemail><![CDATA[johan.leenaars@wur.nl]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://www.isric.org]]></computer>
+            <accinstr><![CDATA[Public]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Leenaars J.G.B. Africa Soil Profiles Database, v1.1. 2013. A compilation of geo-referenced and standardized legacy soil profile data for Sub Saharan Africa (with data set). ISRIC report 2013/03. Africa Soil Information Service (AfSIS) project. International Soil Reference and Information Centre (ISRIC) Ã¢ï¿½â World Soil Information, Wageningen, the Netherlands. Available online at [http://www.isric.org/data/africa-soil-profiles-database-version-01-1] from ISRIC.]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd><![CDATA[20140901 133657]]></metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn><![CDATA[FGDC Content Standard for Digital Geospatial Metadata]]></metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>19380101</begdate>
+    <enddate>20101231</enddate>
+    <Site_Information>
+      <Site><![CDATA[Sub-Saharan Africa]]></Site>
+      <Westernmost_Longitude><![CDATA[-20]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[52]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[20]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[-35]]></Southernmost_Latitude>
+    </Site_Information>
+    <Keywords><![CDATA[Africa]]></Keywords>
+    <Keywords><![CDATA[AfSIS]]></Keywords>
+    <Keywords><![CDATA[Digital soil mapping]]></Keywords>
+    <Keywords><![CDATA[EOSDIS]]></Keywords>
+    <Keywords><![CDATA[Field investigations]]></Keywords>
+    <Keywords><![CDATA[ISRIC]]></Keywords>
+    <Keywords><![CDATA[Legacy soil data]]></Keywords>
+    <Keywords><![CDATA[Soil Collections]]></Keywords>
+    <Keywords><![CDATA[Soil database]]></Keywords>
+    <Keywords><![CDATA[Soil profiles]]></Keywords>
+    <Keywords><![CDATA[Soil resources]]></Keywords>
+    <Keywords><![CDATA[Soil surveys]]></Keywords>
+    <Keywords><![CDATA[Soils]]></Keywords>
+    <Keywords><![CDATA[Sub-Saharan Africa]]></Keywords>
+    <Keywords><![CDATA[Terestrial ecosystems]]></Keywords>
+    <Keywords><![CDATA[Topography]]></Keywords>
+    <Keywords><![CDATA[World Soil Information Service]]></Keywords>
+    <Keywords><![CDATA[WoSIS]]></Keywords>
+    <Parameter_Description>
+      <Parameter><![CDATA[CALCIUM]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[CALCIUM]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[CARBON]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[CARBON]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[ELECTRICAL CONDUCTIVITY]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[ELECTRICAL CONDUCTIVITY]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[NITROGEN]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[NITROGEN]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[ORGANIC MATTER]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[ORGANIC MATTER]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[PHOSPHORUS]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[PHOSPHORUS]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[POTASSIUM]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[POTASSIUM]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL SALINITY/SOIL SODICITY]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL SALINITY/SOIL SODICITY]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL ABSORPTION]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL ABSORPTION]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL BULK DENSITY]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL BULK DENSITY]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL CHEMISTRY]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL CHEMISTRY]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL CLASSIFICATION]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL CLASSIFICATION]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL COLOR]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL COLOR]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL DEPTH]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL DEPTH]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL FERTILITY]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL FERTILITY]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL HORIZONS/PROFILE]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL HORIZONS/PROFILE]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL MOISTURE/WATER CONTENT]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL MOISTURE/WATER CONTENT]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL PH]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL PH]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL STRUCTURE]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL STRUCTURE]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL TEXTURE]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL TEXTURE]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL MOISTURE/WATER CONTENT]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL MOISTURE/WATER CONTENT]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SULFUR]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SULFUR]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL ROOTING DEPTH]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[AGRICULTURE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[SOIL ROOTING DEPTH]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[SOILS]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Project><![CDATA[ISRIC World Soil Information]]></Project>
+    <Project><![CDATA[Globally integrated Africa Soil Information Service (AfSIS)]]></Project>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|CALCIUM]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|CALCIUM]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|CARBON]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|CARBON]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|ELECTRICAL CONDUCTIVITY]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|ELECTRICAL CONDUCTIVITY]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|NITROGEN]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|NITROGEN]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|ORGANIC MATTER]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|ORGANIC MATTER]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|PHOSPHORUS]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|PHOSPHORUS]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|POTASSIUM]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|POTASSIUM]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL SALINITY/SOIL SODICITY]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL SALINITY/SOIL SODICITY]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL ABSORPTION]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL ABSORPTION]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL BULK DENSITY]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL BULK DENSITY]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL CHEMISTRY]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL CHEMISTRY]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL CLASSIFICATION]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL CLASSIFICATION]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL COLOR]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL COLOR]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL DEPTH]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL DEPTH]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL FERTILITY]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL FERTILITY]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL HORIZONS/PROFILE]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL HORIZONS/PROFILE]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL MOISTURE/WATER CONTENT]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL MOISTURE/WATER CONTENT]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL PH]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL PH]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL STRUCTURE]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL STRUCTURE]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL TEXTURE]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL TEXTURE]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL MOISTURE/WATER CONTENT]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL MOISTURE/WATER CONTENT]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SULFUR]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SULFUR]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL ROOTING DEPTH]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|SOIL ROOTING DEPTH]]></Navpath>
+    <Principal_Investigator>
+      <Name><![CDATA[Leenaars, J.G.B.]]></Name>
+      <Email><![CDATA[johan.leenaars@wur.nl]]></Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL><![CDATA[http://www.isric.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file=http://www.isric.org/sites/default/files/datasets/AfSP011Qry_ISRIC.7z&amp;nid=557]]></URL>
+      <Label><![CDATA[Africa Soil Profiles Database, v1.1]]></Label>
+      <Link_Note><![CDATA[The continuously growing dataset will also be made available through the World Soil Information Service upon continuation of the project activity. The current version is released here as version 1.1.]]></Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL><![CDATA[http://www.isric.org/sites/default/files/Report_2013_03.pdf]]></URL>
+      <Label><![CDATA[Leenaars J.G.B. (2013) (PDF)]]></Label>
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status />
+      <Data_Set_Restrictions />
+      <Data_Set_Location />
+      <Data_Contact_Person>
+        <Email />
+        <Name />
+        <Phone />
+        <Data_Center_URL />
+      </Data_Contact_Person>
+      <Data_Center_URL />
+      <Data_Set_Citation />
+      <Data_Set_Link>
+        <URL />
+        <Label />
+        <Link_Note />
+        <Data_Center_URL />
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version><![CDATA[Version 4.7.5, Revision Date: 04 Apr 2006]]></OME_Software_Version>
+    <OME_DTD_Version><![CDATA[basic02.dtd]]></OME_DTD_Version>
+    <Contact_Person>
+      <Email><![CDATA[johan.leenaars@wur.nl]]></Email>
+      <Name><![CDATA[Leenaars, J.G.B.]]></Name>
+      <Phone><![CDATA[+31(317)483735]]></Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID><![CDATA[Created 20140901 123316 by 128.219.250.173]]></File_ID>
+    <Spatial_Reference_Method><![CDATA[Point]]></Spatial_Reference_Method>
+    <Spatial_Extent>3960</Spatial_Extent>
+    <Search_Text_Link>
+      <URL />
+      <Label />
+    </Search_Text_Link>
+    <Other_Link>
+      <URL><![CDATA[http://www.isric.org/sites/default/files/Report_2013_03.pdf]]></URL>
+      <Label><![CDATA[Leenaars J.G.B. (2013) (PDF)]]></Label>
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData><![CDATA[database]]></sourceData>
+</ornl:metadata>

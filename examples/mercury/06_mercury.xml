@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ornl:metadata xmlns:ornl="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin><![CDATA[Baccini, A.]]></origin>
+        <origin><![CDATA[Laporte, N.]]></origin>
+        <origin><![CDATA[Goetz, S.J.]]></origin>
+        <title><![CDATA[Above-Ground Woody Biomass Map of Africa, 2000-2003]]></title>
+        <onlink><![CDATA[http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/africa_woody_biomass.xml]]></onlink>
+        <alt_onlink><![CDATA[http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/africa_woody_biomass.xml]]></alt_onlink>
+        <onlink />
+        <onlink />
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[Observations from the moderate resolution imaging spectroradiometer (MODIS) were used in combination with a large data set of field measurements to map woody above-ground biomass (AGB) across tropical Africa. A mosaic of best-quality cloud-free MODIS satellite reflectance observations [MODIS Nadir bidirectional reflectance distribution function adjusted reflectances (NBAR) product (MOD43B4.V4)] for the period 2000â&#147;2003 provided cloud-free spectral reflectance data for the entire region, about 20 million km2  of tropical Africa, covered by 19 MODIS tiles. The region is characterized by a diverse range of moist tropical forest, seasonal and semi-arid woodland, savanna, and wetland forests. Field measurements were then used to calibrate a regression tree model that estimated AGB for each 1 km2  pixel as a function of the spectral information derived from MODIS data. The results were cross-validated using a reserved set of field data, as well as independent lidar measurements from the Geoscience Laser Altimeter System (GLAS). The results showed a strong positive correlation (R2 =  0. 90) between the GLAS height metrics and predicted AGB. Reference: Baccini, A., N. Laporte, S.J., Goetz, M. Sun, H. Don. 2008. A first map of Tropical Africaâs above-ground biomass derived from satellite imagery. Environmental Research Letters 3 â&#147; 045011.]]></abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[20000101]]></begdate>
+          <enddate><![CDATA[20031231]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Final]]></progress>
+      <update><![CDATA[As appropriate]]></update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-20</westbc>
+        <eastbc>40</eastbc>
+        <northbc>2</northbc>
+        <southbc>-20</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt><![CDATA[Parameter_Sensor_Source]]></themekt>
+        <themekey><![CDATA[FORESTS|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[BIOMASS|MODIS NBAR|AQUA &amp; TERRA SATILLITES]]></themekey>
+        <themekey><![CDATA[BIOMASS|HUMAN OBSERVER|FIELD INVESTIGATION]]></themekey>
+        <themekey><![CDATA[BIOMASS|ANALYSIS|COMPUTER MODEL]]></themekey>
+        <themekey><![CDATA[BIOMASS|GLAS LIDAR|ICESAT]]></themekey>
+        <themekey><![CDATA[CANOPY CHARACTERISTICS|GLAS LIDAR|ICESAT]]></themekey>
+        <themekey><![CDATA[CARBON|ANALYSIS|COMPUTER MODEL]]></themekey>
+        <themekey><![CDATA[LAND COVER|LANDSAT ETM+|LANDSAT]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Parameter]]></themekt>
+        <themekey><![CDATA[FORESTS]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Source]]></themekt>
+        <themekey><![CDATA[FIELD INVESTIGATION]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Sensor]]></themekt>
+        <themekey><![CDATA[ANALYSIS]]></themekey>
+      </theme>
+      <place>
+        <placekt><![CDATA[Place Keywords]]></placekt>
+        <placekey><![CDATA[Africa]]></placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[Baccini, A.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; abaccini@whrc.org]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[The Woods Hole Research Center, Falmouth, MA, U.S.A.]]></cntorg>
+          <cntper><![CDATA[Baccini, A.]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1-508-444-1547]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; abaccini@whrc.org]]></cntfax>
+        <cntemail><![CDATA[abaccini@whrc.org]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://www.whrc.org/]]></computer>
+            <accinstr><![CDATA[Public]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Baccini, A., N. Laporte, S.J. Goetz, M. Sun, and H. Dong. 2008. Above-Ground Woody Biomass Map of Africa, 2000-2003. Available on-line at [http://www.whrc.org/mapping/pantropical/carbonmap2000.html] from The Woods Hole Research Center, Falmouth, MA, U.S.A.]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd><![CDATA[20121120 094308]]></metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn><![CDATA[FGDC Content Standard for Digital Geospatial Metadata]]></metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>20000101</begdate>
+    <enddate>20031231</enddate>
+    <Site_Information>
+      <Site><![CDATA[Africa]]></Site>
+      <Westernmost_Longitude><![CDATA[-20]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[40]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[2]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[-20]]></Southernmost_Latitude>
+    </Site_Information>
+    <Keywords><![CDATA[Above-ground biomass]]></Keywords>
+    <Keywords><![CDATA[Africa]]></Keywords>
+    <Keywords><![CDATA[Bidirectional reflectance distribution function]]></Keywords>
+    <Keywords><![CDATA[Biomass]]></Keywords>
+    <Keywords><![CDATA[Carbon]]></Keywords>
+    <Keywords><![CDATA[Canopy cover]]></Keywords>
+    <Keywords><![CDATA[Canopy density]]></Keywords>
+    <Keywords><![CDATA[EOSDIS]]></Keywords>
+    <Keywords><![CDATA[Forest biomass]]></Keywords>
+    <Keywords><![CDATA[Forest inventories]]></Keywords>
+    <Keywords><![CDATA[GLAS]]></Keywords>
+    <Keywords><![CDATA[ICESAT]]></Keywords>
+    <Keywords><![CDATA[Landsat GeoCover imagery]]></Keywords>
+    <Keywords><![CDATA[Lidar]]></Keywords>
+    <Keywords><![CDATA[MODIS]]></Keywords>
+    <Keywords><![CDATA[NBAR]]></Keywords>
+    <Keywords><![CDATA[Regression tree]]></Keywords>
+    <Keywords><![CDATA[Random forest]]></Keywords>
+    <Keywords><![CDATA[REDD]]></Keywords>
+    <Keywords><![CDATA[Tropical forests]]></Keywords>
+    <Keywords><![CDATA[Vegetation Collections]]></Keywords>
+    <Keywords><![CDATA[Vegetation structure]]></Keywords>
+    <Parameter_Description>
+      <Parameter><![CDATA[FORESTS]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[TERRESTRIAL ECOSYSTEMS]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[BIOMASS]]></Parameter>
+      <Sensor><![CDATA[MODIS NBAR]]></Sensor>
+      <Source><![CDATA[AQUA &amp; TERRA SATILLITES]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[BIOMASS]]></Parameter>
+      <Sensor><![CDATA[HUMAN OBSERVER]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[BIOMASS]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[COMPUTER MODEL]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[BIOMASS]]></Parameter>
+      <Sensor><![CDATA[GLAS LIDAR]]></Sensor>
+      <Source><![CDATA[ICESAT]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[CANOPY CHARACTERISTICS]]></Parameter>
+      <Sensor><![CDATA[GLAS LIDAR]]></Sensor>
+      <Source><![CDATA[ICESAT]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[CARBON]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS]]></Sensor>
+      <Source><![CDATA[COMPUTER MODEL]]></Source>
+      <Term><![CDATA[VEGETATION]]></Term>
+      <Topic><![CDATA[BIOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[LAND COVER]]></Parameter>
+      <Sensor><![CDATA[LANDSAT ETM+]]></Sensor>
+      <Source><![CDATA[LANDSAT]]></Source>
+      <Term><![CDATA[LAND USE/LAND COVER]]></Term>
+      <Topic><![CDATA[LAND SURFACE]]></Topic>
+    </Parameter_Description>
+    <Project />
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|FORESTS]]></Navpath>
+    <Navpath><![CDATA[AQUA &amp; TERRA SATILLITES|MODIS NBAR|BIOMASS]]></Navpath>
+    <Navpath><![CDATA[FIELD INVESTIGATION|HUMAN OBSERVER|BIOMASS]]></Navpath>
+    <Navpath><![CDATA[COMPUTER MODEL|ANALYSIS|BIOMASS]]></Navpath>
+    <Navpath><![CDATA[ICESAT|GLAS LIDAR|BIOMASS]]></Navpath>
+    <Navpath><![CDATA[ICESAT|GLAS LIDAR|CANOPY CHARACTERISTICS]]></Navpath>
+    <Navpath><![CDATA[COMPUTER MODEL|ANALYSIS|CARBON]]></Navpath>
+    <Navpath><![CDATA[LANDSAT|LANDSAT ETM+|LAND COVER]]></Navpath>
+    <Principal_Investigator>
+      <Name><![CDATA[Baccini, A.]]></Name>
+      <Email><![CDATA[abaccini@whrc.org]]></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[Laporte, N.]]></Name>
+      <Email><![CDATA[nlaporte@whrc.org]]></Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name><![CDATA[Goetz, S.J.]]></Name>
+      <Email><![CDATA[sgoetz@whrc.org]]></Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL><![CDATA[http://www.whrc.org/mapping/pantropical/carbonmap2000.html]]></URL>
+      <Label><![CDATA[Above-Ground Woody Biomass Map of Africa, 2000-2003]]></Label>
+      <Link_Note><![CDATA[Complete the registration form to obtain data.]]></Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status />
+      <Data_Set_Restrictions />
+      <Data_Set_Location />
+      <Data_Contact_Person>
+        <Email />
+        <Name />
+        <Phone />
+        <Data_Center_URL />
+      </Data_Contact_Person>
+      <Data_Center_URL />
+      <Data_Set_Citation />
+      <Data_Set_Link>
+        <URL />
+        <Label />
+        <Link_Note />
+        <Data_Center_URL />
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version><![CDATA[Version 4.7.5, Revision Date: 04 Apr 2006]]></OME_Software_Version>
+    <OME_DTD_Version><![CDATA[basic02.dtd]]></OME_DTD_Version>
+    <Contact_Person>
+      <Email><![CDATA[abaccini@whrc.org]]></Email>
+      <Name><![CDATA[Baccini, A.]]></Name>
+      <Phone><![CDATA[+1-508-444-1547]]></Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID><![CDATA[Created 20121120 075201 by 128.219.250.41]]></File_ID>
+    <Spatial_Reference_Method><![CDATA[Raster]]></Spatial_Reference_Method>
+    <Spatial_Extent>1320</Spatial_Extent>
+    <Search_Text_Link>
+      <URL />
+      <Label />
+    </Search_Text_Link>
+    <Other_Link>
+      <URL />
+      <Label />
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData><![CDATA[database]]></sourceData>
+</ornl:metadata>

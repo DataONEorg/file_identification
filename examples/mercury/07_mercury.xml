@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ornl:metadata xmlns:ornl="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin><![CDATA[Holben, Brent N.]]></origin>
+        <title><![CDATA[AErosol RObotic NETwork (AERONET) Database]]></title>
+        <onlink><![CDATA[http://daac.ornl.gov/metadata/bluangel_harvest/RGED/VF/aeronet.xml]]></onlink>
+        <alt_onlink><![CDATA[http://daac.ornl.gov/metadata/bluangel_harvest/RGED/VF/aeronet.xml]]></alt_onlink>
+        <onlink />
+        <onlink />
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[The AERONET (AErosol RObotic NETwork) program is an inclusive federation of ground-based remote sensing aerosol networks established by AERONET and PHOTON and greatly expanded by AEROCAN (the Canadian sun-photometer network) and other agency, institute and university partners. The goal is to assess aerosol optical properties and validate satellite retrievals of aerosol optical properties. 
+
+The network imposes standardization of instruments, calibration, and processing. Data from this collaboration provides globally distributed observations of spectral aerosol optical depths, inversion products, and precipitable water in geographically diverse aerosol regimes. 
+
+Three levels of data are available from the AERONET website: Level 1.0 (unscreened), Level 1.5 (cloud-screened), and Level 2.0 (Cloud-screened and quality-assured). (CAUTION: Data presented in the real time data version is unscreened and may not have final calibration reprocessing.)  For each site there is a Principal Investigator (PI), the person responsible for deployment, maintenance and data collection. The PI is entitled to be informed of any use of that site data.                                                     
+
+NOTICE TO NON-AERONET INVESTIGATORS: To maintain the integrity of the data base and fairness to the individuals who have contributed, use of these data for publication requires an offer of authorship to the AERONET PI(s).]]></abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[19930101]]></begdate>
+          <enddate />
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Ongoing]]></progress>
+      <update><![CDATA[As appropriate]]></update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180</westbc>
+        <eastbc>180</eastbc>
+        <northbc>90</northbc>
+        <southbc>-90</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt><![CDATA[Parameter_Sensor_Source]]></themekt>
+        <themekey><![CDATA[AEROSOL EXTINCTION|SUNPHOTOMETER|GROUND-BASED OBSERVATIONS]]></themekey>
+        <themekey><![CDATA[AEROSOL PARTICLE PROPERTIES|SUNPHOTOMETER|GROUND-BASED OBSERVATIONS]]></themekey>
+        <themekey><![CDATA[WATER VAPOR|SUNPHOTOMETER|GROUND-BASED OBSERVATIONS]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Parameter]]></themekt>
+        <themekey><![CDATA[AEROSOL EXTINCTION]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Source]]></themekt>
+        <themekey><![CDATA[GROUND-BASED OBSERVATIONS]]></themekey>
+      </theme>
+      <theme>
+        <themekt><![CDATA[Sensor]]></themekt>
+        <themekey><![CDATA[SUNPHOTOMETER]]></themekey>
+      </theme>
+      <place>
+        <placekt><![CDATA[Place Keywords]]></placekt>
+        <placekey><![CDATA[Global (point)]]></placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[Holben, Brent N.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; brent@aeronet.gsfc.nasa.gov]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[NASA Goddard Space Flight Center, Biospheric Sciences Branch, Greenbelt, Maryland, USA]]></cntorg>
+          <cntper><![CDATA[Holben, Brent N.]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(301)614-6658]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; brent@aeronet.gsfc.nasa.gov]]></cntfax>
+        <cntemail><![CDATA[brent@aeronet.gsfc.nasa.gov]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://ltpwww.gsfc.nasa.gov/bsb/Home.html]]></computer>
+            <accinstr><![CDATA[Public]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Holben, Brent N.  AErosol RObotic NETwork (AERONET) Data.  Available on-line at [http://aeronet.gsfc.nasa.gov/] from the NASA Goddard Space Flight Center, Biospheric Sciences Branch, Greenbelt, Maryland, USA.]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd><![CDATA[20140919 140702]]></metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn><![CDATA[FGDC Content Standard for Digital Geospatial Metadata]]></metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>19930101</begdate>
+    <enddate>2014924</enddate>
+    <Site_Information>
+      <Site><![CDATA[Global (point)]]></Site>
+      <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+    </Site_Information>
+    <Keywords><![CDATA[AERONET]]></Keywords>
+    <Keywords><![CDATA[AEROCAN]]></Keywords>
+    <Keywords><![CDATA[Aerosol optical thickness]]></Keywords>
+    <Keywords><![CDATA[Africa]]></Keywords>
+    <Keywords><![CDATA[Antarctica]]></Keywords>
+    <Keywords><![CDATA[Arctic]]></Keywords>
+    <Keywords><![CDATA[Asia]]></Keywords>
+    <Keywords><![CDATA[Australia]]></Keywords>
+    <Keywords><![CDATA[Climate Collections]]></Keywords>
+    <Keywords><![CDATA[EOSDIS]]></Keywords>
+    <Keywords><![CDATA[Europe]]></Keywords>
+    <Keywords><![CDATA[Middle East]]></Keywords>
+    <Keywords><![CDATA[North America]]></Keywords>
+    <Keywords><![CDATA[Oceania]]></Keywords>
+    <Keywords><![CDATA[PHOTON]]></Keywords>
+    <Keywords><![CDATA[Size distribution]]></Keywords>
+    <Keywords><![CDATA[South America]]></Keywords>
+    <Keywords><![CDATA[Water vapor]]></Keywords>
+    <Parameter_Description>
+      <Parameter><![CDATA[AEROSOL EXTINCTION]]></Parameter>
+      <Sensor><![CDATA[SUNPHOTOMETER]]></Sensor>
+      <Source><![CDATA[GROUND-BASED OBSERVATIONS]]></Source>
+      <Term><![CDATA[AEROSOLS]]></Term>
+      <Topic><![CDATA[ATMOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[AEROSOL PARTICLE PROPERTIES]]></Parameter>
+      <Sensor><![CDATA[SUNPHOTOMETER]]></Sensor>
+      <Source><![CDATA[GROUND-BASED OBSERVATIONS]]></Source>
+      <Term><![CDATA[AEROSOLS]]></Term>
+      <Topic><![CDATA[ATMOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter><![CDATA[WATER VAPOR]]></Parameter>
+      <Sensor><![CDATA[SUNPHOTOMETER]]></Sensor>
+      <Source><![CDATA[GROUND-BASED OBSERVATIONS]]></Source>
+      <Term><![CDATA[ATMOSPHERIC WATER VAPOR]]></Term>
+      <Topic><![CDATA[ATMOSPHERE]]></Topic>
+    </Parameter_Description>
+    <Project><![CDATA[AErosol RObotic NETwork (AERONET)]]></Project>
+    <Navpath><![CDATA[GROUND-BASED OBSERVATIONS|SUNPHOTOMETER|AEROSOL EXTINCTION]]></Navpath>
+    <Navpath><![CDATA[GROUND-BASED OBSERVATIONS|SUNPHOTOMETER|AEROSOL PARTICLE PROPERTIES]]></Navpath>
+    <Navpath><![CDATA[GROUND-BASED OBSERVATIONS|SUNPHOTOMETER|WATER VAPOR]]></Navpath>
+    <Principal_Investigator>
+      <Name><![CDATA[Holben, Brent N.]]></Name>
+      <Email><![CDATA[brent@aeronet.gsfc.nasa.gov]]></Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL><![CDATA[http://aeronet.gsfc.nasa.gov/]]></URL>
+      <Label><![CDATA[AERONET Data]]></Label>
+      <Link_Note><![CDATA[Click on Data to access the AERONET Data Menu Screen. You may select among the different levels of AERONET data: (1) Level 1.0. Real Time AERONET Data (data are unscreened and may not have final calibration applied); (2) Level 1.5. Real Time Cloud Screened AERONET Data (data are automatically cloud cleared but may not have final calibration applied and are not Quality Assured); or (3) Level 2.0. Quality Assured AERONET Data (data are pre and post field calibrated, automatically cloud cleared, and manually inspected).  There is also a new Download Tool which enables users to download AERONET data for any site, time interval, or data type. Several new almucantar retrieval products can be accessed with this tool.]]></Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status />
+      <Data_Set_Restrictions />
+      <Data_Set_Location />
+      <Data_Contact_Person>
+        <Email />
+        <Name />
+        <Phone />
+        <Data_Center_URL />
+      </Data_Contact_Person>
+      <Data_Center_URL />
+      <Data_Set_Citation />
+      <Data_Set_Link>
+        <URL />
+        <Label />
+        <Link_Note />
+        <Data_Center_URL />
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version><![CDATA[Version 4.7.5, Revision Date: 04 Apr 2006]]></OME_Software_Version>
+    <OME_DTD_Version><![CDATA[metadata24.dtd]]></OME_DTD_Version>
+    <Contact_Person>
+      <Email><![CDATA[brent@aeronet.gsfc.nasa.gov]]></Email>
+      <Name><![CDATA[Holben, Brent N.]]></Name>
+      <Phone><![CDATA[+1(301)614-6658]]></Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID><![CDATA[Created 20010309 143508 by 206.246.119.6]]></File_ID>
+    <Spatial_Reference_Method><![CDATA[Point]]></Spatial_Reference_Method>
+    <Spatial_Extent>64800</Spatial_Extent>
+    <Search_Text_Link>
+      <URL />
+      <Label />
+    </Search_Text_Link>
+    <Other_Link>
+      <URL />
+      <Label />
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData><![CDATA[database]]></sourceData>
+</ornl:metadata>
