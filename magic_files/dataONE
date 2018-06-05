@@ -10,27 +10,24 @@
 ###############################################################################
 0 string <?xml
 >&0	regex (eml)-[0-9].[0-9].[0-9]+ eml://ecoinformatics.org/%s
-!:mime	text/xml
+
 
 
 ###############################################################################
 # onedcx (DataONE Dublin Core Extended v1.0)
 ###############################################################################
 >&0	regex (onedcx/v)[0-9].[0-9]+ http://ns.dataone.org/metadata/schema/onedcx/v1.0
-!:mime	text/xml
 
 
 ###############################################################################
 # FGDC-STD-001-1998 (Content Standard for Digital Geospatial Metadata, version 001-1998)
 ###############################################################################
 >&0	regex fgdc FGDC-STD-001-1998
-!:mime	text/xml
 
 ###############################################################################
 # Mercury (Oak Ridge National Lab Mercury Metadata version 1.0)
 ###############################################################################
 >&0	regex (mercury/terms/v)[0-9].[0-9] http://purl.org/ornl/schema/mercury/terms/v1.0
-!:mime	text/xml
 
 ###############################################################################
 # ISOTC211 (Geographic MetaData (GMD) Extensible Markup Language)
@@ -47,7 +44,6 @@
 # ISOTC211 PANGAEA Variant Geographic MetaData (GMD) Extensible Markup Language
 ###############################################################################
 >>&0 regex pangaea.dataset[0-9][0-9][0-9][0-9][0-9][0-9]+  http://www.isotc211.org/2005/gmd-pangaea
-
 !:mime text/xml
 
 
