@@ -1,7 +1,10 @@
 #------------------------------------------------------------------------------
 # $File: DataONE,v 1.0 06/05/2018    Exp $
-# dataONE:  file(1) magic for DataONE scientific file formats
-# https://cn.dataone.org/cn/v2/formats
+#
+# DataONE- files from Dave Vieglais <dave.vieglais@gmail.com> &
+#                     Pratik Shrivastava <pratikshrivastava23@gmail.com>
+#
+# file formats:   https://cn.dataone.org/cn/v2/formats
 #------------------------------------------------------------------------------
 
 
