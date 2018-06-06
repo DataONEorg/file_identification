@@ -100,7 +100,7 @@ The file 3.4 version and above will contain the latest changes but for using the
   * make install
   * make installcheck - no errors
 
-### On Mac :
+### On Mac:
 
 On Mac, the replacing and compiling of the libmagic file may be tedious. Hence, you may use the below hack for using the dataone magic file on Mac with earlier version of file.
 1. Copy the compiled [magic.mgc](https://github.com/DataONEorg/file_identification/blob/master/magic_files/magic.mgc) file to local system.
