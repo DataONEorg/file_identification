@@ -1,20 +1,19 @@
 # Enabling identification of specific metadata formats with command line tools
 
 * [Purpose](#purpose):
-  * [File Command](#file-command)
-  * [Libmagic](#Libmagic)
+  * [File Command](#File-and-Libmagic)
   * [DataONE File Formats](#dataone-file-formats)
 
 * [Creating and Using custom magic file](Creating-and-Using-custom-magic-file)
   * [Magic File format](#magic-file-format)
-  * [dataone magic file](#dataone-magic-file)
+  * [DataONE magic file](#dataone-magic-file)
   * [Compiling magic files](#compiling-magic-files)
-  * [Using custom magic files:](#using-custom-magic-files:)
+  * [Using custom magic files](#using-custom-magic-files)
 
 * [Installing and Using dataone magic file](#Installing-and-Using-dataone-magic-file:)
   * [On Linux](#linux)
   * [On Mac](#Mac)
-* [Unittest](#Unittest)
+* [Python unittest](#python-unittest)
 * [References](#References)
 
 
@@ -24,7 +23,7 @@
 ## Purpose
   The goal of this project is to extend the capabilities of the Linux (or equivalents on OS X and Windows) file command to allow automatic identification of common science metadata and data formats.
 
-  ### File & Libmagic:
+  ### File and Libmagic:
   File is part of most Unix/Linux distributions. The `file` identifies the type of the file based on the format signature and not based on file extension. The format signature in case of the file are called as magic numbers which are stored in the magic directory.
   The locations of these files are as:
 
@@ -64,7 +63,7 @@ The magic files consist of multiple lines where each line in the file specifies 
 
   For more details about the  magic source format can be found in [man pages](http://manpages.ubuntu.com/manpages/precise/en/man5/magic.5.html).
 
-### dataone magic file
+### DataONE magic file
 
 The [dataone.mgc](https://github.com/DataONEorg/file_identification/blob/master/magic_files/dataONE) file is created for testing 13 different scientific file formats using string and regex . This is a compiled version containing only the magic numbers for the DataONE file formats. Below is a snapshot of the file:
 
