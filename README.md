@@ -10,9 +10,9 @@
   * [Compiling magic files](#compiling-magic-files)
   * [Using custom magic files](#using-custom-magic-files)
 
-* [Installing and Using dataone magic file](#installing-and-using-dataone-magic-file:)
-  * [On Linux](#linux)
-  * [On Mac](#Mac)
+* [Installing and Using dataone magic file](#installing-and-using-dataone-magic-file)
+  * [On Linux](#on-linux)
+  * [On Mac](#on-mac)
 * [Python unittest](#python-unittest)
 * [References](#References)
 
