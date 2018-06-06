@@ -1,7 +1,7 @@
 # Enabling identification of specific metadata formats with command line tools
 
 * [Purpose](#purpose):
-  * [File Command](#File-and-Libmagic)
+  * [File Command](#file-and-libmagic)
   * [DataONE File Formats](#dataone-file-formats)
 
 * [Creating and Using custom magic file](Creating-and-Using-custom-magic-file)
@@ -10,7 +10,7 @@
   * [Compiling magic files](#compiling-magic-files)
   * [Using custom magic files](#using-custom-magic-files)
 
-* [Installing and Using dataone magic file](#Installing-and-Using-dataone-magic-file:)
+* [Installing and Using dataone magic file](#installing-and-using-dataone-magic-file:)
   * [On Linux](#linux)
   * [On Mac](#Mac)
 * [Python unittest](#python-unittest)
