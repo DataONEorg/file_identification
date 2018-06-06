@@ -124,11 +124,11 @@ On Mac, the replacing and compiling of the libmagic file may be tedious. Hence, 
 A unittest is also developed for testing the custom magic file for identifying the correct file types from the examples provided.
 This test can be executed after cloning the repository and installing the `filemagic` using the below command.
 
-***$ pip install filemagic ***
-***$ python -m unittest discover -v***
+**$ pip install filemagic **
+**$ python -m unittest discover -v**
+
 The output of the unittest is as below. The test will fail for FGDC-STD-001-1999 as we are still working on that file format.
 ```
-
 test_dryad (test.test_fileExt.TestFileExt) ... ok
 test_eml_200 (test.test_fileExt.TestFileExt) ... ok
 test_eml_201 (test.test_fileExt.TestFileExt) ... ok
