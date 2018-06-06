@@ -5,10 +5,10 @@
   * [Libmagic](#Libmagic)
   * [DataONE File Formats](#dataone-file-formats)
 
-* [Creating Custom Magic File]()
+* [Creating and Using custom magic file](Creating-and-Using-custom-magic-file)
   * [Magic File format](#magic-file-format)
   * [dataone magic file](#dataone-magic-file)
-  * [Compiling magic files](compiling-magic-files)
+  * [Compiling magic files](#compiling-magic-files)
   * [Using custom magic files:](#using-custom-magic-files:)
 
 * [Installing and Using dataone magic file](#Installing-and-Using-dataone-magic-file:)
