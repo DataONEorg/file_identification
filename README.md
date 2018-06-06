@@ -85,7 +85,7 @@ In the first line the, a string containing the xml tag is searched, if it matche
 file -m dataone.mgc example/eml-200/*
 ```
 
-## Installing and Using magic file:
+## Installing and Using dataone magic file:
 
 ### On Linux:
 The file 3.4 version and above will contain the latest changes but for using the dataone magic file with earlier versions on Linux system, kindly follow the below steps:
