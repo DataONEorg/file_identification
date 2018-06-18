@@ -2,11 +2,11 @@
 import magic
 import os
 def getFileExt(fileName):
-    paths = [os.path.abspath('magic_files/dataONE.mgc'), ]
+    paths = [os.path.abspath('magic_files/dataone.mgc'), ]
     flags = magic.MAGIC_MIME_TYPE | magic.MAGIC_MIME_ENCODING | magic.MAGIC_CONTINUE
     flags=0
     with magic.Magic(paths=paths, flags=flags) as m:
-        fileType = m.id_filename(fileName)#
+        fileType = m.id_filename(fileName)
 
     return fileType
 
