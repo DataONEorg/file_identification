@@ -3,6 +3,7 @@
 * [Purpose](#purpose):
   * [File Command](#file-and-libmagic)
   * [Apace Tika](#apache-tika)
+  * [Apache server for content detection](#Apache server for content detection)
   * [DataONE File Formats](#dataone-file-formats)
 
 * [Creating and Using custom magic file](Creating-and-Using-custom-magic-file)
@@ -33,7 +34,23 @@
 
   ### [Apache Tika](https://github.com/DataONEorg/file_identification/tree/master/Apache_tika):
   Apache Tika also provides the functionality for detecting the mimetypes of a file. This readme describes how to enable Tika for detecting new mimetypes by creating an xml file.
-  
+
+
+  ### [Apache server for content detection]
+
+  The Apache server also detects the contents for the file it serves. It uses the /etc/mime.types file for the content detection. The TypeConfig directive for the server can be over-ridden to different files using the httpd.conf file.
+
+  The directive ***MIMEMagicFile filename*** can be used to use the magic numbers for detection just like the `file ` command.
+
+  The `MIMEMagicFile /etc/apache2/magic` directive was set for identifying the new DataONE format. However, the magic file for the apache server lacks in the functionality of regex. The file can use the limited type for matching the data and doesn't have the functionality of using regex, which is important for identifying the DataONE file format.
+
+  Below are the points which didn't lead to successful implementation of DataONE file format detection.
+  - Can't use regex with the magic file. Hence, the file format is not easy for identifying.
+  - The string search can be used for locating the specific data at specific bytes offset, but this will not have the complete functionality. The file can have additional tags or information in the starting or metadata, hence its not a reliable approach.
+
+
+
+
 
 The file uses a compiled version of the magic numbers named as magic.mgc file, and we can also override it using a "-m" option with a custom magic file.
 ``` shell

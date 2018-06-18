@@ -5,11 +5,11 @@
 * [Purpose](#purpose):
 * [Apache Tika](#apache-tika)
 * [Installing and Executing Tika](#installing-and-executing-tika)
-  * [Building Tika using maven](#Building-tika-using-maven)
+  * [Building Tika using maven](#building-tika-using-maven)
   * [Executing Tika CLI](#executing-tika-cli)
 * [Creation of Custom-mimetypes](#creation-of-custom-mimetypes)
-  * [Custom-mimetypes.xml](#custom-mimetypes.xml)
-  * [Compiling the custom-mimetypes.xml file](#compiling-the-custom-mimetypes.xml-file)
+  * [Custom Mimetypes XML file](#custom-mimetypes-xml-file)
+  * [Compiling the custom mimetypes](#compiling-the-custom-mimetypes)
 * [Using Custom Mimetypes for File Detection](#using-custom-mimetypes-for-file-detection)
 * [Installing and Using dataone magic file](#installing-and-using-dataone-magic-file)
 
@@ -67,11 +67,11 @@ For ex:
   text/x-web-markdown
   ```
 
-## [Creation of Custom-mimetypes](#creation-of-custom-mimetypes)
+## Creation of Custom-mimetypes
 
 Tika provides the ability to users for creating their own mimetypes for the new file formats. The default mimetypes of tika are stored in an xml at [`org/apache/tika/mime/tika-mimetypes.xml`](https://github.com/apache/tika/blob/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml)
 
-### Custom-mimetypes.xml
+### Custom Mimetypes XML file:
 The custom mimetypes for new file formats needs to be defined in the custom-mimetypes.xml file.It is stored in the package ***"org.apache.tika.mime"*** The custom-mimetypes.xml file allows the users to use the  `<glob>` and `<magic>` tags for identification of the files. The `<glob>` pattern uses the file extension i.e. the characters after the '.' in the filename for identifying and assigning the mime types. The `<magic>` tags works just like the magic numbers of the `file command `. Below is the snippet of the [custom-mimetypes.xml](https://github.com/DataONEorg/file_identification/blob/master/Apache_tika/org/apache/tika/mime/custom-mimetypes.xml)
 
 
@@ -88,12 +88,12 @@ The custom mimetypes for new file formats needs to be defined in the custom-mime
 <mime-info>
 
 ```
-### Compiling the custom-mimetypes.xml file.
+### Compiling the custom mimetypes:
 The [custom-mimetypes.xml](ttps://github.com/DataONEorg/file_identification/blob/master/Apache_tika/org/apache/tika/mime/custom-mimetypes.xml) file needs to be compiled as jar and included in the class path for using with Tika.
 The below command generates the [custom-mimetypes.jar](https://github.com/DataONEorg/file_identification/blob/master/Apache_tika/custom-mimetypes.jar)
   `jar cf custom-mimetypes.jar org/apache/tika/mime/custom-mimetypes.xml`
 
-## Using Custom Mimetypes for File Detection
+## Using Custom Mimetypes for File Detection:
 
 Once we have the custom-mimetypes.jar file, we can include it in the classpath as below and can use it for detecting the mimetypes.
 
