@@ -4,7 +4,7 @@
 
 * [Purpose](#purpose):
 * [Apache Tika](#apache-tika)
-* [Installing Executing Tika](#creating-and-using-custom-magic-file)
+* [Installing and Executing Tika](#installing-and-executing-tika)
   * [Building Tika using maven](#Building-tika-using-maven)
   * [Executing Tika CLI](#executing-tika-cli)
 * [Creation of Custom-mimetypes](#creation-of-custom-mimetypes)
@@ -19,17 +19,28 @@
 ------------------
 
 
-## Purpose
+## Purpose:
 
 This readme describe how we can use Apache Tika, for determining the different DataONE file formats by reading the metadata for the files.
 
 This is in continuation with the magic file developed for the `file` command for identifying the DataONE file formats.
 
 
-## Apache Tika
+## [Apache Tika](https://tika.apache.org/index.html):
+The Apache Tika™ toolkit detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF). All of these file types can be parsed through a single interface, making Tika useful for search engine indexing, content analysis, translation, and much more
+
+* [Content Detection](https://tika.apache.org/1.1/detection.html) with Apache Tika
+* https://www.tutorialspoint.com/tika/tika_architecture.htm
+* http://brewformulas.org/Tika
+
+#### Extraction supported by Tika:
+1. Document
+2. Content
+3. Language
+4. Metadata
 
 
-## Installing Executing Tika
+## Installing and Executing Tika:
 The source and jar file for the apache tika can be downloaded using the below location for Ubuntu system.
 - [apache tika-1.18  src](http://www.apache.org/dyn/closer.cgi/tika/tika-1.18-src.zip)
 - [tika-app_1.18.jar ](http://www.apache.org/dyn/closer.cgi/tika/tika-app-1.18.jar)
@@ -79,20 +90,16 @@ The custom mimetypes for new file formats needs to be defined in the custom-mime
 ```
 ### Compiling the custom-mimetypes.xml file.
 The [custom-mimetypes.xml](ttps://github.com/DataONEorg/file_identification/blob/master/Apache_tika/org/apache/tika/mime/custom-mimetypes.xml) file needs to be compiled as jar and included in the class path for using with Tika.
-The below command generates the [custom-mimetypes.jar]()
+The below command generates the [custom-mimetypes.jar](https://github.com/DataONEorg/file_identification/blob/master/Apache_tika/custom-mimetypes.jar)
   `jar cf custom-mimetypes.jar org/apache/tika/mime/custom-mimetypes.xml`
 
 ## Using Custom Mimetypes for File Detection
 
-` java -cp tika-app-1.18.jar: org.apache.tika.cli.TikaCLI -d ../examples/*/*`
+Once we have the custom-mimetypes.jar file, we can include it in the classpath as below and can use it for detecting the mimetypes.
 
 
+```shell
+$ java -cp tika-app-1.18.jar:custom-mimetypes.jar org.apache.tika.cli.TikaCLI -d ../examples/eml-211/00_eml-211.xml
 
-
-## References:
-  * https://github.com/file/file
-  * http://openpreservation.org/blog/2012/08/09/magic-editing-and-creation-primer
-  * https://linux.die.net/man/1/file
-  * https://filemagic.readthedocs.io/en/latest/guide.html
-  * http://pythontesting.net/framework/unittest/unittest-introduction/
-  * http://www.patricksoftwareblog.com/python-unit-testing-structuring-your-project/
+text/xml; formatid="eml\:\/\/ecoinformatics.org\/eml-2.1.1"
+```

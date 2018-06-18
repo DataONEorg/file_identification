@@ -2,6 +2,7 @@
 
 * [Purpose](#purpose):
   * [File Command](#file-and-libmagic)
+  * [Apace Tika](#apache-tika)
   * [DataONE File Formats](#dataone-file-formats)
 
 * [Creating and Using custom magic file](Creating-and-Using-custom-magic-file)
@@ -30,6 +31,9 @@
   * /usr/share/file
   * /etc/magic:/usr/share/misc/
 
+  ### [Apache Tika](https://github.com/DataONEorg/file_identification/tree/master/Apache_tika):
+  Apache Tika also provides the functionality for detecting the mimetypes of a file. This readme describes how to enable Tika for detecting new mimetypes by creating an xml file.
+  
 
 The file uses a compiled version of the magic numbers named as magic.mgc file, and we can also override it using a "-m" option with a custom magic file.
 ``` shell
