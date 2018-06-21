@@ -298,3 +298,154 @@ examples:
     pid: doi:10.5063/AA/adler.3.11
   - filename: 09_eml-200.xml
     pid: doi:10.5063/AA/adler.3.12
+- folder: text_csv
+  formatId: text/csv
+  identifiers:
+  - filename: 00_text_csv
+    pid: 015388d6-9afb-4561-bde7-c9145f54724a
+  - filename: 01_text_csv
+    pid: 018f2025-c8e4-4c15-a459-622fae244dde
+  - filename: 02_text_csv
+    pid: 01ae511d-185a-47da-a511-6ce7bcb9bade
+  - filename: 03_text_csv
+    pid: 03d8b8eb-c620-4e1a-abcd-ec949608a78f
+  - filename: 04_text_csv
+    pid: 068c4184-1147-4091-a76f-75207ce8b251
+  - filename: 05_text_csv
+    pid: 06aba52f-e2b3-42f0-b420-02339fa876fb
+  - filename: 06_text_csv
+    pid: 07fac2a9-edb4-4456-afda-d8a8fe0954c7
+  - filename: 07_text_csv
+    pid: 092b0686-d27b-4b2f-a3b4-f7702df7b106
+  - filename: 08_text_csv
+    pid: 0970d99b-d004-4039-8e01-140860ef38d0
+  - filename: 09_text_csv
+    pid: 0ac5573f-b0c0-4cba-b064-c07d48664578
+- folder: text_plain
+  formatId: text/plain
+  identifiers:
+  - filename: 00_text_plain
+    pid: 008830c8-a3bf-4bed-847d-493ad426984b-20160615-sajddh-tray12-222-12-Post-1-Rla_summary_Calc_last.csv
+  - filename: 01_text_plain
+    pid: 0199027a-dcd7-48e3-9420-20663b7b5e79-20160610-sajddh-tray9-121-9-Enr-1-CR3000_2_RawData.dat
+  - filename: 02_text_plain
+    pid: 0212b150-2871-45b8-a2b9-679d65ab0bad-20160620-sajddh-tray16_9-121-16-Enr-3-CR3000_2_RawData.dat
+  - filename: 03_text_plain
+    pid: 02f8789b-8586-4e36-bc5d-3d7a5cb50dd6-20160612-sajddh-tray1_2-222-2-Pre-3-Rla_summary_Calc_last.csv
+  - filename: 04_text_plain
+    pid: 0339b825-05b3-472a-b51e-5070933c3e62-HM_Baro_8_1_13.csv
+  - filename: 05_text_plain
+    pid: 0365f29e-b3fe-4f30-a9f4-2690af0af5c7-20160609-sajddh-tray6_7-121-6-Enr-2-CR3000_2_RawData.dat
+  - filename: 06_text_plain
+    pid: 039d22fe-f607-4de4-802e-9429d9576b7d-20160608-sajddh-tray1_3-121-3-Enr-1-CR3000_2_RawData.dat
+  - filename: 07_text_plain
+    pid: 042c4d13-89bc-4443-8f18-0e82cc987860-20160614-sajddh-tray10-222-10-Pre-2-Rla_summary_Calc_last.csv
+  - filename: 08_text_plain
+    pid: 04429e80-be6e-461b-8e6b-0a2bbc546e2b-20160616-sajddh-tray9_11-121-11-Enr-3-Rla_summary_Calc_last.csv
+  - filename: 09_text_plain
+    pid: 066f6379-6416-442d-803b-5b4247b3e1f7-20160608-sajddh-tray1_3-222-1-Post-2-CR3000_2_RawData.dat
+- folder: text_xml
+  formatId: text/csv
+  identifiers:
+  - filename: 00_text_xml
+    pid: 015388d6-9afb-4561-bde7-c9145f54724a
+  - filename: 01_text_xml
+    pid: 018f2025-c8e4-4c15-a459-622fae244dde
+  - filename: 02_text_xml
+    pid: 01ae511d-185a-47da-a511-6ce7bcb9bade
+  - filename: 03_text_xml
+    pid: 03d8b8eb-c620-4e1a-abcd-ec949608a78f
+  - filename: 04_text_xml
+    pid: 068c4184-1147-4091-a76f-75207ce8b251
+  - filename: 05_text_xml
+    pid: 06aba52f-e2b3-42f0-b420-02339fa876fb
+  - filename: 06_text_xml
+    pid: 07fac2a9-edb4-4456-afda-d8a8fe0954c7
+  - filename: 07_text_xml
+    pid: 092b0686-d27b-4b2f-a3b4-f7702df7b106
+  - filename: 08_text_xml
+    pid: 0970d99b-d004-4039-8e01-140860ef38d0
+  - filename: 09_text_xml
+    pid: 0ac5573f-b0c0-4cba-b064-c07d48664578
+- folder: netcdf4
+  formatId: netCDF-4
+  identifiers:
+  - filename: 00_netcdf4
+    pid: urn:uuid:00049d4b-739a-4e90-bdc3-1d44a4e77f9f
+  - filename: 01_netcdf4
+    pid: urn:uuid:0005d3a3-8848-4968-9a15-5bfc49fb823a
+  - filename: 02_netcdf4
+    pid: urn:uuid:000b212c-37a8-40ef-9f52-8ec705893f61
+  - filename: 03_netcdf4
+    pid: urn:uuid:000b812e-3546-4dc4-bcf7-9afbd69a768b
+  - filename: 04_netcdf4
+    pid: urn:uuid:000bd8ad-f63b-4e42-98d7-8f68ec2c3f4d
+  - filename: 05_netcdf4
+    pid: urn:uuid:000da06e-1959-4150-b675-9bcbf239ba38
+  - filename: 06_netcdf4
+    pid: urn:uuid:000f6675-c98c-4e74-b3a7-586e97479c29
+  - filename: 07_netcdf4
+    pid: urn:uuid:001119d2-81fb-41e8-8a6e-58dfa078ea26
+  - filename: 08_netcdf4
+    pid: urn:uuid:0017fce4-c972-4689-bb54-7c8fd6833bf6
+  - filename: 09_netcdf4
+    pid: urn:uuid:001b7fe8-0c68-4876-bacc-9dce5ec22eb7
+- folder: netcdf3
+  formatId: netCDF-3
+  identifiers:
+  - filename: 00_netcdf3
+    pid: arctic-data.13831.1
+  - filename: 01_netcdf3
+    pid: arctic-data.13832.1
+  - filename: 02_netcdf3
+    pid: arctic-data.13833.1
+  - filename: 03_netcdf3
+    pid: arctic-data.13834.1
+  - filename: 04_netcdf3
+    pid: urn:uuid:0005dd63-6191-4e75-bf52-01b90940e46e
+  - filename: 05_netcdf3
+    pid: urn:uuid:0009a115-3820-43da-9669-061e4f034981
+  - filename: 06_netcdf3
+    pid: urn:uuid:00117ffa-2f56-451f-8cbb-e2fd70a1c46c
+  - filename: 07_netcdf3
+    pid: urn:uuid:00123670-c9ba-421c-afb2-7500dfc0061a
+  - filename: 08_netcdf3
+    pid: urn:uuid:0016859a-6d21-4c2c-8371-6bf74b681acb
+  - filename: 09_netcdf3
+    pid: urn:uuid:001c6c6f-01c2-4730-b200-69695028aadd
+- folder: cf-14
+  formatId: CF-1.4
+  identifiers:
+  - filename: 00_cf-14
+    pid: arctic-data.13955.1
+  - filename: 01_cf-14
+    pid: arctic-data.13962.1
+  - filename: 02_cf-14
+    pid: arctic-data.13968.1
+  - filename: 03_cf-14
+    pid: urn:uuid:aabbcd00-02f0-4fdf-ad87-1e968f2745e5
+  - filename: 04_cf-14
+    pid: urn:uuid:c5962160-dab6-4f4d-88ed-b03b45a0a96f
+- folder: x_bzip2
+  formatId: application/x-bzip2
+  identifiers: []
+- folder: x_fasta
+  formatId: application/x-fasta
+  identifiers:
+  - filename: 00_x_fasta
+    pid: arctic-data.14327.1
+  - filename: 01_x_fasta
+    pid: arctic-data.14330.1
+  - filename: 02_x_fasta
+    pid: arctic-data.9460.1
+  - filename: 03_x_fasta
+    pid: arctic-data.9461.1
+  - filename: 04_x_fasta
+    pid: arctic-data.9462.1
+  - filename: 05_x_fasta
+    pid: arctic-data.9463.1
+- folder: x_rar_compressed
+  formatId: application/x-rar-compressed
+  identifiers:
+  - filename: 00_x_rar_compressed
+    pid: gdaldegan.11.3

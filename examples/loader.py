@@ -17,7 +17,7 @@ CN_BASEURL = "https://cn.dataone.org/cn/v2"
 def getDocument(fn_dest, pid):
   '''
   '''
-  url = CN_BASEURL + "/object/" + quote(pid)
+  url = CN_BASEURL + "/resolve/" + quote(pid)
   logging.debug("Downloading: %s", url)
   request = requests.get(url)
   if request.status_code == 200:
@@ -36,7 +36,11 @@ def getIdentifiers(catalog):
   '''
   for example in catalog['examples']:
     formatid = example["formatId"]
+    #if formatid != "http://www.openarchives.org/ore/terms":
+    #  break
     folder = example["folder"]
+    if not os.path.exists(folder):
+      os.makedirs(folder, exist_ok=True)
     logging.debug("Getting identifiers for formatId %s", formatid)
     if formatid.startswith("-"):
       formatid = "\\" + formatid
@@ -49,7 +53,7 @@ def getIdentifiers(catalog):
         logging.info("pid: %s", pid)
         pid = pid.strip()
         if len(pid) > 2:
-          filename = "{:02d}_{}.xml".format(counter, folder)
+          filename = "{:02d}_{}".format(counter, folder)
           fn_dest = os.path.join(folder, filename)
           if getDocument(fn_dest, pid):
             entry = {"pid": pid,
@@ -57,6 +61,8 @@ def getIdentifiers(catalog):
             identifiers.append(entry)
             counter +=1
         if counter >= NUM_DOCS:
+          break
+        if counter > 30:
           break
       example["identifiers"] = identifiers
     except subprocess.CalledProcessError as e:
@@ -72,7 +78,7 @@ def getExamples(catalog):
     formatid = example["formatId"]
     folder = example["folder"]
     if not os.path.exists(folder):
-      os.mkdir(folder)
+      os.makedirs(folder, exist_ok=True)
     counter = 0
     for identifier in example["identifiers"]:
       filename = "{:02d}_{}.xml".format(counter, folder)
@@ -107,7 +113,7 @@ def main():
   with open(catalog_name,"w") as yaml_file:
     yaml.dump(catalog, yaml_file, default_flow_style=False)
   # load the XML metadata documents
-  #getExamples(catalog)
+  # getExamples(catalog)
 
 
 if __name__ == "__main__":
