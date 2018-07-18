@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <eml:eml packageId="USA_NPN.4.5" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
-		<access authSystem="knb" order="allowFirst" scope="document">
+	<access authSystem="knb" order="allowFirst" scope="document">
 		<allow>
-			<eml:principal>public</eml:principal>
+			<principal>public</principal>
 			<permission>read</permission>
 		</allow>
 	</access>
@@ -11,7 +11,7 @@
 		<creator id="1364408538107" scope="document">
 			<organizationName>USA National Phenology Network (USA-NPN)</organizationName>
 			<address scope="document">
-				<eml:deliveryPoint>National Coordinating Office</eml:deliveryPoint>
+				<deliveryPoint>National Coordinating Office</deliveryPoint>
 				<deliveryPoint>1955 E. Sixth St.</deliveryPoint>
 				<city>Tucson</city>
 				<administrativeArea>AZ</administrativeArea>
