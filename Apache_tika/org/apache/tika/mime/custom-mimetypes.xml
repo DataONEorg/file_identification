@@ -3,19 +3,19 @@
  <mime-type type="text/xml;formatid=eml://ecoinformatics.org/eml-2.0.0">
   <comment>Example file type </comment>
     <magic priority="60">
-      <match value="eml://ecoinformatics.org/eml-2.0.0" type="string" offset="50:4096"/>
+      <match value="eml://ecoinformatics.org/eml-2.0.0" type="string" offset="50:1000"/>
     </magic>
   </mime-type>
  <mime-type type="text/xml;formatid=eml://ecoinformatics.org/eml-2.0.1">
   <comment>Example file type </comment>
     <magic priority="60">
-      <match value="eml://ecoinformatics.org/eml-2.0.1" type="string" offset="50:4096"/>
+      <match value="eml://ecoinformatics.org/eml-2.0.1" type="string" offset="50:1000"/>
     </magic>
   </mime-type>
  <mime-type type="text/xml;formatid=eml://ecoinformatics.org/eml-2.1.0">
   <comment>Example file type </comment>
     <magic priority="60">
-      <match value="eml://ecoinformatics.org/eml-2.1.0" type="string" offset="50:4096"/>
+      <match value="eml://ecoinformatics.org/eml-2.1.0" type="string" offset="50:1000"/>
     </magic>
   </mime-type>
  <mime-type type='text/xml;formatid=eml://ecoinformatics.org/eml-2.1.1'>
@@ -23,28 +23,28 @@
     <!-- more translated comment elements -->
     <magic priority="75">
 <!-- 		<match value="&lt;?xml" type="string" offset="0"/> -->
-			<match value="eml://ecoinformatics.org/eml-2.1.1" type="string" offset="20:4096"/>
+			<match value="eml://ecoinformatics.org/eml-2.1.1" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
  <mime-type type='text/xml;formatid=FGDC-STD-001-1998'>
     <comment>FGDC-STD-001-1998 (Content Standard for Digital Geospatial Metadata, version 001-1998)</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="fgdc-std-001" type="string" offset="20:4096"/>
+			<match value="fgdc-std-001" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
   <mime-type type='text/xml;formatid=http://www.isotc211.org/2005/gmd'>
     <comment>ISOTC211 (Geographic MetaData (GMD) Extensible Markup Language)</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="CharacterString>eng;USA" type="string" offset="20:4096"/>
+			<match value="CharacterString>eng;USA" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
   <mime-type type='text/xml;formatid=http://www.isotc211.org/2005/gmd-noaa'>
     <comment>ISOTC211 (NOAA Variant Geographic MetaData (GMD) Extensible Markup Language)</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="gov.noaa.nodc" type="string" offset="20:4096"/>
+			<match value="gov.noaa.nodc" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
 
@@ -52,7 +52,7 @@
     <comment>ISOTC211 PANGAEA Variant Geographic MetaData (GMD) Extensible Markup Language</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="pangaea.dat" type="string" offset="20:4096"/>
+			<match value="pangaea.dat" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
 
@@ -60,7 +60,7 @@
     <comment> (DataONE Dublin Core Extended v1.0)</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="onedcx" type="string" offset="20:4096"/>
+			<match value="onedcx" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
 
@@ -68,14 +68,14 @@
     <comment> Object Reuse and Exchange Vocabulary</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="openarchives" type="string" offset="20:4096"/>
+			<match value="openarchives" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
    <mime-type type='text/xml;formatid="http://purl.org/ornl/schema/mercury/terms/v1.0"'>
     <comment> Object Reuse and Exchange Vocabulary</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="mercury/terms/v1.0" type="string" offset="20:4096"/>
+			<match value="mercury/terms/v1.0" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
 
@@ -83,7 +83,7 @@
     <comment> Dryad Metadata Application Profile Version 3.1</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="dryad-bibo/v3.1" type="string" offset="20:4096"/>
+			<match value="dryad-bibo/v3.1" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
 
