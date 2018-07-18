@@ -3,6 +3,7 @@
 * [Purpose](#purpose):
   * [File Command](#file-and-libmagic)
   * [Apace Tika](#apache-tika)
+    * [README](https://github.com/DataONEorg/file_identification/tree/master/Apache_tika)
   * [Apache server for file content detection](#apache-server-for-file-content-detection)
   * [DataONE File Formats](#dataone-file-formats)
 
