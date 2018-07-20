@@ -60,7 +60,7 @@
     <comment> (DataONE Dublin Core Extended v1.0)</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="onedcx" type="string" offset="50:1000"/>
+			<match value="metadata/schema/onedcx/" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
 
@@ -68,7 +68,7 @@
     <comment> Object Reuse and Exchange Vocabulary</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="openarchives" type="string" offset="50:1000"/>
+			<match value="openarchives.org/ore" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
    <mime-type type='text/xml;formatid="http://purl.org/ornl/schema/mercury/terms/v1.0"'>
