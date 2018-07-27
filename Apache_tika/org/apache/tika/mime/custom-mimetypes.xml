@@ -23,7 +23,7 @@
     <!-- more translated comment elements -->
     <magic priority="75">
 <!-- 		<match value="&lt;?xml" type="string" offset="0"/> -->
-			<match value="eml://ecoinformatics.org/eml-2.1.1" type="string" offset="50:1000"/>
+<match value="eml://ecoinformatics.org/eml-2.1.1" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
  <mime-type type='text/xml;formatid=FGDC-STD-001-1998'>
@@ -37,14 +37,14 @@
     <comment>ISOTC211 (Geographic MetaData (GMD) Extensible Markup Language)</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="CharacterString>eng;USA" type="string" offset="50:1000"/>
+	<match value="CharacterString>eng;USA" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
   <mime-type type='text/xml;formatid=http://www.isotc211.org/2005/gmd-noaa'>
     <comment>ISOTC211 (NOAA Variant Geographic MetaData (GMD) Extensible Markup Language)</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="gov.noaa.nodc" type="string" offset="50:1000"/>
+	<match value="gov.noaa.nodc" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
 
@@ -60,7 +60,7 @@
     <comment> (DataONE Dublin Core Extended v1.0)</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="metadata/schema/onedcx/" type="string" offset="50:1000"/>
+	<match value="metadata/schema/onedcx/" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
 
@@ -68,7 +68,7 @@
     <comment> Object Reuse and Exchange Vocabulary</comment>
     <!-- more translated comment elements -->
     <magic priority="75">
-			<match value="openarchives.org/ore" type="string" offset="50:1000"/>
+	<match value="openarchives.org/ore" type="string" offset="50:1000"/>
     </magic>
  </mime-type>
    <mime-type type='text/xml;formatid="http://purl.org/ornl/schema/mercury/terms/v1.0"'>
